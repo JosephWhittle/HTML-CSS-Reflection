@@ -15,23 +15,18 @@ header .flex-container {
   display: inline-flex;
 }
 
-logo img {
-  max-width: 100%;
-}
-
-logo .mobile-phone-icon {
-  display: inline-block;
-}
-
-logo .mobile-phone-icon {
-  display: inline-block;
-}
-
 .burger-button > div {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+
+.carousel img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*fonts*/

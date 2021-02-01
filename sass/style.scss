@@ -24,16 +24,15 @@ header .flex-container {
 }
 
 logo img {
-    max-width: 100%;
-    
+
 }
 
 logo .mobile-phone-icon {
-    display:inline-block;
+
 }
 
 logo .mobile-phone-icon {
-    display:inline-block;
+
 }
 
 .burger-button > div {
@@ -43,7 +42,11 @@ logo .mobile-phone-icon {
     margin: 6px 0;
 }
 
-
+.carousel img {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*fonts*/
 
