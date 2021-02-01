@@ -18,29 +18,40 @@
 
 <body>
   <!--nav bar-->
-  <header class="site-header">
+  <header>
     <div class="header">
-
-      <!---The main logo-->
-      <div class="logo">
-        <a href="."><img src="/images/NM-LOGO.png" alt="Netmatters"></a>
-      </div>
-
-      <!---The call button-->
-      <div class="mobile-phone-icon">
-        <i class="material-icons">phone_in_talk</i>
-      </div>
-
-      <!--Search bar-->
-      <input type="text" placeholder="Search..." name="search">
-      <div class="side-menu-button">
-        <button type="button">MENU</button>
+      <div class="flex-container">
+  
+        <!---The main logo-->
+        <div class="logo">
+          <a href="."><img src="/images/NM-LOGO.png" alt="Netmatters"></a>
+        </div>
+  
+        <!---The call button-->
+        <div class="mobile-phone-icon">
+          <i class="material-icons">phone_in_talk</i>
+        </div>
+  
+        <!---The burger button-->
+        <div class="burger-button">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+  
+        <!--Search bar-->
+        <input type="text" placeholder="Search..." name="search">
+        <div class="side-menu-button">
+          <button type="button">MENU</button>
+        </div>
       </div>
     </div>
+
+    <nav></nav> <!--There is a nav bar that only shows on desktop, this is here for that so I dont forget-->
   </header>
 
   <!--Put a carousel below (just a banner image for now)-->
-  <div class="main-body">
+  <main>
     <div class="carousel">
       <a href="."><img src="/images/home-lQs1.jpg" alt="Cyber Security"></a>
       <div class="banner-title">
@@ -122,7 +133,7 @@
         more information on how we use your data.
       </span>
     </div>
-  </div>
+  </main>
 
   <!--Footer with the contact us seciton and any other importion, includind media links-->
   <footer>

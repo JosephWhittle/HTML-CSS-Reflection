@@ -7,13 +7,41 @@
 
 
 /*base styles*/
-.header {
-    box-sizing: border-box;
-    width: auto;
+
+body { /* Essentially the entire website */
 
 }
 
 
+header { /* Container for the heading section */  
+
+}
+
+header .flex-container {
+    display: inline-flex;
+
+
+}
+
+logo img {
+    max-width: 100%;
+    
+}
+
+logo .mobile-phone-icon {
+    display:inline-block;
+}
+
+logo .mobile-phone-icon {
+    display:inline-block;
+}
+
+.burger-button > div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
 
 
 
