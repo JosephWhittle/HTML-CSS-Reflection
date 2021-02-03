@@ -8,19 +8,40 @@ body {
   font-size: 1rem;
   letter-spacing: .4px;
   color: #666;
+  background: gray;
 }
 
 header {
   /* Container for the heading section */
+  width: 100%;
+  background: aqua;
 }
 
 header .flex-container {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  width: 100%;
+  height: auto;
 }
 
-.burger-button > div {
+logo img {
+  width: 100%;
+  size: 100%;
+}
+
+.flex-container .mobile-phone-icon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.flex-container .burger-button-outer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+/*Burger butting styling*/
+.burger-button-inner > div {
   width: 35px;
   height: 5px;
   background-color: black;

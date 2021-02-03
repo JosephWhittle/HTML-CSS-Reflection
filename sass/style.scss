@@ -14,6 +14,7 @@ body { /* Essentially the entire website */
     font-size: 1rem;
     letter-spacing: .4px;
     color: #666;
+    background: gray;
 
 }
 
@@ -32,28 +33,39 @@ p {
 
 
 header { /* Container for the heading section */  
+    width: 100%;
+    background: aqua;
+    
 
 }
 
 header .flex-container {
     display: inline-flex;
+    width: 100%;
+    height: auto;
 
 
 }
 
 logo img {
+    width: 100%;
+    size: 100%;
 
 }
 
-logo .mobile-phone-icon {
+.flex-container .mobile-phone-icon {
+    align-self: flex-end;
 
 }
 
-logo .mobile-phone-icon {
+
+.flex-container .burger-button-outer {
+    align-self: flex-end;
 
 }
 
-.burger-button > div {
+/*Burger butting styling*/
+.burger-button-inner > div {
     width: 35px;
     height: 5px;
     background-color: black;
