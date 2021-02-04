@@ -1,6 +1,10 @@
 /*varibles*/
 /*reset*/
 /*base styles*/
+html {
+  font-size: 16px;
+}
+
 body {
   /* Essentially the entire website */
   margin: 0;
@@ -9,6 +13,8 @@ body {
   letter-spacing: .4px;
   color: #666;
   background: gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -48,11 +54,8 @@ logo img {
   margin: 6px 0;
 }
 
-.carousel img {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
+.carousel a {
+  width: 100%;
 }
 
 /*fonts*/

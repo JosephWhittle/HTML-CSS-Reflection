@@ -8,6 +8,10 @@
 
 /*base styles*/
 
+html {
+    font-size:16px;
+}
+
 body { /* Essentially the entire website */
     margin: 0;
     font-family: Poppins,sans-serif;
@@ -15,6 +19,14 @@ body { /* Essentially the entire website */
     letter-spacing: .4px;
     color: #666;
     background: gray;
+    box-sizing: border-box;
+
+}
+
+header { /* Container for the heading section */  
+    width: 100%;
+    background: aqua;
+    
 
 }
 
@@ -32,12 +44,6 @@ p {
 }
 
 
-header { /* Container for the heading section */  
-    width: 100%;
-    background: aqua;
-    
-
-}
 
 header .flex-container {
     display: inline-flex;
@@ -72,10 +78,13 @@ logo img {
     margin: 6px 0;
 }
 
+.carousel a {
+width: 100%;
+}
+
+
 .carousel img {
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 /*fonts*/
