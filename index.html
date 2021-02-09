@@ -4,58 +4,70 @@
 <!--Head section-->
 
 <head>
+  <!-- basic -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <!-- site metas -->
+  <title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
+  <meta name="keywords" content="">
+  <meta name="description"
+    content="Our expertise lies in Bespoke Software Development, Digital Marketing, IT Support, Web Design, Telecoms and Cyber Security.">
+  <meta name="author" content="">
+  <!-- style css -->
   <link rel="stylesheet" href="sass/style.css">
+  <!-- Favicon(For browser default) -->
   <link rel="shortcut icon" type="png" href="/images/NM-ICO-FAV.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--This will need to be renamed "favicon.png.ico" as the browser looks for this by default-->
-  <title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
-  <meta name="description" property="description"
-    content="Our expertise lies in Bespoke Software Development, Digital Marketing, IT Support, Web Design, Telecoms and Cyber Security.">
 </head>
+
+
 
 
 <body>
   <!--nav bar-->
   <header>
-    <div class="header">
-      <div class="flex-container">
+    <div class="header-vertical-padder">
+      <div class="header-horizontal-padder">
+        <div class="flex-container-head">
 
-        <!---The main logo-->
-        <div class="logo">
-          <a href="."><img src="/images/NM-LOGO.png" alt="Netmatters"></a>
-        </div>
-
-        <!---The call button-->
-        <div class="mobile-phone-icon">
-          <i class="material-icons">phone_in_talk</i>
-        </div>
-
-        <!---The burger button-->
-        <button type="button" class="burger-button-outer">
-          <div class="burger-button-inner">
-            <div></div>
-            <div></div>
-            <div></div>
+          <!---The main logo-->
+          <div class="logo-container">
+            <a href="."></a><img alt="Netmatters" src="/images/NM-LOGO.png"></a>
           </div>
-          <p>MENU</p>
-        </button>
+
+          <!---The call button-->
+          <div class="mobile-phone-icon-container">
+            <i class="material-icons md-36">phone_in_talk</i>
+          </div>
+
+          <!---The burger button-->
+          <div class="burger-icon-container">
+            <button type="button" class = "burger-button">
+              <div class="burger-button-inner">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <p>MENU</p>
+            </button>
+          </div>
+        </div>
+
+
+        <!--Search bar, Needs the css to make the button go onside the search bar-->
+        <div>
+          <form class="search-bar" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+          </form>
+        </div>
+
+
+
+        <nav></nav>
       </div>
-
-
-      <!--Search bar, Needs the css to make the button go onside the search bar-->
-      <div>
-        <form class="search-bar" action="action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search">PUT AN ICON HERE</i></button>
-        </form>
-      </div>
-
-
-
-      <nav></nav>
     </div>
     <!--There is a nav bar that only shows on desktop, this is here for that so I dont forget-->
   </header>

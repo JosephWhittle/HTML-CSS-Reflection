@@ -1,71 +1,100 @@
 /*varibles*/
 /*reset*/
-/*base styles*/
-body {
-  /* Essentially the entire website */
+* {
   margin: 0;
   padding: 0;
-  font-family: Poppins,sans-serif;
-  font-size: 1rem;
-  letter-spacing: .4px;
-  color: #666;
-  background: gray;
 }
 
-.header {
-  /* Container for the heading section */
+/*base styles*/
+html {
+  font-size: 16px;
+}
+
+body {
   width: 100%;
-  height: 201px;
-  background: aqua;
+  height: auto;
 }
 
-/* Flex box for the title area */
-header .flex-container {
+.header-vertical-padder {
+  padding: 20px 0;
+}
+
+.header-horizontal-padder {
+  padding: 0 15px;
+}
+
+.flex-container-head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
   width: 100%;
+}
+
+.logo-container {
+  /*SET THIS, NOT THE IMAGE BELOW*/
   height: auto;
-  overflow: hidden;
+  width: auto;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
-logo img {
-  width: 100%;
+.logo-container img {
   height: auto;
+  width: auto;
 }
 
-.flex-container .mobile-phone-icon {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+.mobile-phone-icon-container {
+  height: 32px;
+  width: 32.41px;
+  padding-right: 45px;
+  padding-left: 10px;
 }
 
-.flex-container .burger-button-outer {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+.burger-icon-container {
+  height: 56px;
+  width: 63.03px;
 }
 
-/*Burger butting styling*/
+.burger-button {
+  height: 56px;
+  width: 63.03px;
+}
+
 .burger-button-inner > div {
   width: 35px;
   height: 5px;
   background-color: black;
-  margin: 6px 0;
+  margin: 6px auto;
 }
 
-/* carousel elements */
-.carousel {
-  position: relative;
-  height: 532px;
+.burger-button p {
+  margin: auto;
 }
 
-.carousel .image-container {
-  height: 498px;
-  width: 100px;
+/*Icon stylings*/
+.material-icons.md-18 {
+  font-size: 18px;
 }
 
-.carousel img {
-  width: 100%;
-  height: auto;
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
 }
 
 /*fonts*/

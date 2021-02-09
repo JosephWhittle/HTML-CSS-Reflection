@@ -4,97 +4,85 @@
 
 /*reset*/
 
+* {
+    margin: 0;
+    padding: 0;
+    }
 
 
 /*base styles*/
-
 html {
-
+    font-size: 16px;
 }
 
-body { /* Essentially the entire website */
-    margin: 0;
-    padding: 0;
-    font-family: Poppins,sans-serif;
-    font-size: 1rem;
-    letter-spacing: .4px;
-    color: #666;
-    background: gray;
-
-
-}
-
-.header { /* Container for the heading section */  
+body{
     width: 100%;
-    height: 201px;
-    background: aqua;
-
-    
-
+    height: auto;
 }
 
-h1, h2, h3 {
+.header-vertical-padder {
+    padding: 20px 0;
 
 }
-
-a {
-
+.header-horizontal-padder {
+    padding: 0 15px;
 }
 
-p {
-
-
-}
-
-
-/* Flex box for the title area */
-header .flex-container {
+.flex-container-head {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
     width: 100%;
+
+}
+.logo-container {
+    /*SET THIS, NOT THE IMAGE BELOW*/
     height: auto;
-    overflow: hidden;
+    width: auto;
+    flex-grow: 1;
 }
-
-logo img {
-    width: 100%;
+.logo-container img {
     height: auto;
-}
-
-.flex-container .mobile-phone-icon {
-    align-self: flex-end;
+    width: auto;
 
 }
 
-
-.flex-container .burger-button-outer {
-    align-self: flex-end;
+.mobile-phone-icon-container {
+    height: 32px;
+    width: 32.41px;
+    padding-right: 45px;
+    padding-left:10px;
 }
 
-/*Burger butting styling*/
+
+.burger-icon-container {
+    height: 56px;
+    width: 63.03px;
+}
+
+.burger-button {
+    height: 56px;
+    width: 63.03px;
+}
+
 .burger-button-inner > div {
     width: 35px;
     height: 5px;
     background-color: black;
-    margin: 6px 0;
+    margin: 6px auto;
 }
 
-/* carousel elements */
-.carousel {
-    position: relative;
-    height: 532px;
+.burger-button p {
+    margin: auto;
 }
 
-.carousel .image-container {
-    height: 498px;
-    width: 100px;
+/*Icon stylings*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
 
-}
-
-.carousel img {
-    width: 100%;
-    height: auto;
-
-}
 
 /*fonts*/
 
