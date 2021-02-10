@@ -18,7 +18,7 @@ html {
 body{
     width: 100%;
     height: auto;
-    overflow-wrap: ;
+    
 }
 
 .header-vertical-padder {
@@ -38,14 +38,21 @@ body{
 
 }
 .logo-container {
-    height: auto;
+    height: 100%;
     width: auto;
-    flex: 1 1 20em    
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+
 }
 
 .logo-container img {
-    height: auto;
-    width: auto;
+    max-width: 100%;
+
+    transform-origin: bottom left;
 }
 
 .mobile-phone-icon-container {
