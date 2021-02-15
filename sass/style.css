@@ -133,6 +133,11 @@ body {
   padding: 5px 40px 15px 5px;
 }
 
+.main-content {
+  width: 100%;
+  height: auto;
+}
+
 .carousel {
   height: 565px;
   width: 100%;
@@ -141,11 +146,30 @@ body {
 .image-container {
   height: 100%;
   width: 100%;
+  background-image: url("/images/home-lQs1.jpg");
 }
 
 .carousel img {
   max-height: 100%;
   width: auto;
+}
+
+.middle-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-item {
+  border: 10px solid grey;
+  margin: 30px 30px 30px 30px;
+  width: 100%;
+  height: 150px;
 }
 
 /*Icon stylings*/

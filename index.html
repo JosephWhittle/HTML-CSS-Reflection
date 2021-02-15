@@ -44,10 +44,10 @@
             <i class="material-icons md-36">phone_in_talk</i>
           </div>
 
-          
+
           <!---The burger button-->
           <div class="burger-icon-container">
-            <button type="button" class = "burger-button">
+            <button type="button" class="burger-button">
               <div class="burger-button-inner">
                 <div></div>
                 <div></div>
@@ -65,7 +65,7 @@
             <input type="text" placeholder="Search.." name="search">
             <button type="submit" class="submit-button">
               <i class="material-icons md-36">search</i>
-            </button>  
+            </button>
           </form>
         </div>
         <nav></nav>
@@ -74,92 +74,105 @@
     <!--There is a nav bar that only shows on desktop, this is here for that so I dont forget-->
   </header>
 
+
+
   <!--Put a carousel below (just a banner image for now)-->
   <main>
-    <div class="carousel">
-      <div class="image-container">
-        <a href=".">
-          <img src="/images/home-lQs1.jpg" alt="Cyber Security">
-        </a>
-      </div>
-      <div class="banner-title">
-        <h1>Cyber Security</h1>
-      </div>
-      <div class="banner-description">
-        <p>
-          Bring your business together
-        </p>
-        <p>
-          with solutions that grow with you.
-        </p>
-      </div>
-      <i class="material-icons">fiber_manual_record</i>
-      <div>
-        <button type="button">MENU</button>
-      </div>
-    </div>
-
-
-    <!--Insert flex box below--- 3 on first row, 4 on next row-->
-    <div class="flex-container">
-      <div class="flex-item-left">Article box</div>
-      <div class="flex-item-middle">Article box</div>
-      <div class="flex-item-right">Article box</div>
-      <div class="flex-item-left">Article box</div>
-      <div class="flex-item-middle">Article box</div>
-      <div class="flex-item-middle">Article box</div>
-      <div class="flex-item-right">Article box</div>
-    </div>
-
-    <div class="culture-container">
-      <section class="culture-block">
-        <h1>NETMATTERS</h1>
-        <p>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.
-        </p>
-        <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing
-          leads and further grow their sales.</p>
-        <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management
-          systems, workflow and IT solutions through to creative website development and integrated digital campaigning.
-        </p>
-        <!--The button needs to have an icon on it as well-->
-        <button type="button">OUR CULTURE</button>
-      </section>
-    </div>
-
-
-
-    <!--Latest tab-->
-    <div class="container">
-      <h1>Latest</h1>
-      <article>
-        <div class="flex-container">
-          <div class="flex-item-left">Flex item/box</div>
-          <div class="flex-item-middle">Flex item/box</div>
-          <div class="flex-item-middle">Flex item/box</div>
+    <div class="main-content">
+      <div class="carousel">
+        <div class="image-container">
+          <div class="banner-title">
+            <h1>Cyber Security</h1>
+          </div>
+          <div class="banner-description">
+            <p>
+              Bring your business together
+            </p>
+            <p>
+              with solutions that grow with you.
+            </p>
+          </div>
+          <i class="material-icons">fiber_manual_record</i>
+          <div>
+            <button type="button">MENU</button>
+          </div>
         </div>
-      </article>
-    </div>
+      </div>
 
 
-    <!--Newsletter sign up bit-->
-    <div class="newsletter-signup">
-      <h2>Email newsletter signup</h2>
+      <!--Insert flex box below--- 3 on first row, 4 on next row-->
+      <div class="middle-flex-container">
+        <div class="content-item">
 
-      <!--Input boxes-->
-      <label for="name">Your Name *</label>
-      <input type="text" id="name">
+          <div class="banner-title">
+            <h1>Cyber Security</h1>
+          </div>
+          <div class="banner-description">
+            <p>
+              Bring your business together
+            </p>
+            <p>
+              with solutions that grow with you.
+            </p>
+          </div>
 
-      <label for="email">Your Email *</label>
-      <input type="text" id="name">
 
-      <!--Tickbox-->
-      <input type="checkbox" name="marketing-toggle" id="marketing-toggle">
-      <span>
-        Please tick this box if you wish to receive marketing information from us. Please see our <a
-          href="https://www.netmatters.co.uk/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy
-          Policy</a>for
-        more information on how we use your data.
-      </span>
+        </div>
+      </div>
+
+      <div class="culture-container">
+        <section class="culture-block">
+          <h1>NETMATTERS</h1>
+          <p>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham,
+            Norfolk.
+          </p>
+          <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture
+            existing
+            leads and further grow their sales.</p>
+          <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management
+            systems, workflow and IT solutions through to creative website development and integrated digital
+            campaigning.
+          </p>
+          <!--The button needs to have an icon on it as well-->
+          <button type="button">OUR CULTURE</button>
+        </section>
+      </div>
+
+
+
+      <!--Latest tab-->
+      <div class="container">
+        <h1>Latest</h1>
+        <article>
+          <div class="flex-container">
+            <div class="flex-item-left">Flex item/box</div>
+            <div class="flex-item-middle">Flex item/box</div>
+            <div class="flex-item-middle">Flex item/box</div>
+          </div>
+        </article>
+      </div>
+
+
+      <!--Newsletter sign up bit-->
+      <div class="newsletter-signup">
+        <h2>Email newsletter signup</h2>
+
+        <!--Input boxes-->
+        <label for="name">Your Name *</label>
+        <input type="text" id="name">
+
+        <label for="email">Your Email *</label>
+        <input type="text" id="name">
+
+        <!--Tickbox-->
+        <input type="checkbox" name="marketing-toggle" id="marketing-toggle">
+        <span>
+          Please tick this box if you wish to receive marketing information from us. Please see our <a
+            href="https://www.netmatters.co.uk/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy
+            Policy</a>for
+          more information on how we use your data.
+        </span>
+      </div>
     </div>
   </main>
 
