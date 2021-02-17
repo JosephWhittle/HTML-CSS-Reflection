@@ -79,45 +79,63 @@ body{
 .burger-button {
     height: 56px;
     width: 63.03px;
+    background-color: #333645;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    position: absolute;
+    right:5px;
 }
 
+.burger-button:focus {
+    border: none;
+    outline: none;
+}
+
+
 .burger-button-inner > div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
+    width: 33px;
+    height: 3px;
+    background-color: white;
     margin: 6px auto;
 }
 
 .burger-button p {
     margin: auto;
+    color: white;
+    font-size: 0.75rem;
 }
 
 .search-bar-container
 {
     width: 100%;
     height: 47px;
-    margin-top: 11px;
+    box-sizing: border-box;
 }
 
 .search-bar {
     width: 100%;
     height: 100%;
-    display:flex;
-    flex-direction:row;
+    margin: 0 auto;
+
 }
 
 .submit-button {
-    border:1px solid ;
-    color:white;
-    border: 2px black;
-    border: 1px solid black;
+    background: none;
+    border: none;
+    position:absolute;
 }
 
 
 .search-bar input[type=text] {
   width: 100%;
-  flex-grow:2;
-  padding: 5px 40px 15px 5px;
+  height: 100%;
+  background: rgba(0,0,0,.1);
+  padding: 5px 40px 5px 15px;
+
+  /*
+  border: 2px solid rgba(0,0,0,.1);
+  */
   
 }
 
