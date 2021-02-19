@@ -148,12 +148,25 @@ body{
 .carousel {
     height: 565px;
     width: 100%;
+
+    h1 {
+         color: #fff;
+    }
+    p {
+        color: #fff;
+    }
+    i {
+        color: #fff;
+    }
+
 }
+
+
 
 .image-container {
     height: 100%;
     width: 100%;
-    background-image:url("/images/home-lQs1.jpg");
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/home-lQs1.jpg");
 }
 
 .carousel img {
@@ -222,6 +235,14 @@ body{
 
 
 /*fonts*/
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/fonts/Poppins.zip);
+}
+
+
+
 
 
 

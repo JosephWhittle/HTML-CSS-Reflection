@@ -155,10 +155,23 @@ body {
   width: 100%;
 }
 
+.carousel h1 {
+  color: #fff;
+}
+
+.carousel p {
+  color: #fff;
+}
+
+.carousel i {
+  color: #fff;
+}
+
 .image-container {
   height: 100%;
   width: 100%;
-  background-image: url("/images/home-lQs1.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(rgba(0, 0, 0, 0.171))), url("/images/home-lQs1.jpg");
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/home-lQs1.jpg");
 }
 
 .carousel img {
@@ -229,6 +242,11 @@ body {
 }
 
 /*fonts*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(/fonts/Poppins.zip);
+}
+
 /*mobile styles*/
 /*Tablet styles*/
 /*Desktop styles*/
