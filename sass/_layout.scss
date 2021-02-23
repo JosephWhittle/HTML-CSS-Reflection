@@ -1,24 +1,15 @@
 /*
 Layout: contains all the CSS that handles the layout, 
 such as the container and any grid systems.
+    OR
+How the components relate to each other
 */
 
 
+/* containers */
 
 
-
-
-
-/*varibles*/
-
-
-
-/*reset*/
-
-* {
-    margin: 0;
-    padding: 0;
-    }
+/* grids */
 
 
 /*base styles*/
@@ -29,6 +20,7 @@ html {
 body{
     width: 100%;
     height: auto;
+    font-family: 'poppins-regular' ,sans-serif;
     
 }
 
@@ -159,18 +151,48 @@ body{
 .carousel {
     height: 565px;
     width: 100%;
+    text-align: center;
 
     h1 {
-         color:green;
+        color:white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        padding-top: 22%;
+        font-weight: 400;
+        margin-bottom: 28px;
     }
     p {
         color: #fff;
+        font-size:1.25rem;
+        
     }
     i {
         color: #fff;
+        font-style: 2rem;
+        padding-bottom: 28px;
+    }
+
+    .carousel-button {
+
+        margin-top: 30px;
+        margin-bottom: 40px;
+        height: auto;
+        line-height: 35px;
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 1.063rem;
+        border-radius: 3px;
+        white-space: normal;
+        color: #fff;
+        background-color: #f62459;
+        border-color: #f62459;
+        line-height: 50px;
+
     }
 
 }
+
+
 
 
 
@@ -179,6 +201,8 @@ body{
     width: 100%;
     background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/home-lQs1.jpg");
 }
+
+
 
 .carousel img {
     max-height: 100%;
@@ -236,21 +260,6 @@ body{
 
 
 
-
-
-/*Icon stylings*/
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
-
-/*fonts*/
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(/fonts/Poppins.zip);
-}
 
 
 

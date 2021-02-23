@@ -1,4 +1,46 @@
 /* Base: contained within this file are all your resets,
  variables, mixins, and any utility classes. 
 
- */
+*/
+
+
+ 
+/* resets */
+
+ * {
+    margin: 0;
+    padding: 0;
+    }
+
+/* base styles */
+
+
+
+/* varibles */
+
+
+
+ 
+/* mixins */
+
+
+/* utility */
+
+
+
+/* typography */
+@font-face {
+    font-family: "poppins-regular";
+    src: url("/fonts/Poppins-Regular.ttf");
+}
+
+
+
+
+/*Icon stylings*/
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
