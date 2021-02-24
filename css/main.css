@@ -176,16 +176,22 @@ body {
 .carousel {
   height: 565px;
   width: 100%;
+}
+
+.carousel .text-area {
+  margin: auto;
+  height: max-content;
+  max-width: max-content;
   text-align: center;
+  padding-top: 25%;
 }
 
 .carousel h1 {
   color: white;
   font-size: 3rem;
   text-transform: uppercase;
-  padding-top: 22%;
   font-weight: 400;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 }
 
 .carousel p {
@@ -193,15 +199,18 @@ body {
   font-size: 1.25rem;
 }
 
-.carousel i {
+.carousel #dot {
   color: #fff;
   font-style: 2rem;
-  padding-bottom: 28px;
+  margin-top: 50px;
+}
+
+.carousel #arrow {
+  font-weight: 80px;
 }
 
 .carousel .carousel-button {
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 80px;
   height: auto;
   line-height: 35px;
   padding: 5px 15px;
@@ -213,6 +222,8 @@ body {
   background-color: #f62459;
   border-color: #f62459;
   line-height: 50px;
+  border: none;
+  border: 2px solid red;
 }
 
 .image-container {
