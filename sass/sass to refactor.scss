@@ -9,7 +9,7 @@ How the components relate to each other
 /* containers */
 
 
-/* grids */
+/* grids/ */
 
 
 /*base styles*/
@@ -158,7 +158,7 @@ body{
         max-width: max-content;
 
         text-align: center;  
-        padding-top: 25%;     
+        padding-top: 110px;     
     }
 
     h1 {
@@ -188,6 +188,7 @@ body{
 
     .carousel-button {
         margin-top: 80px;
+        padding:10px 25px 10px 15px;
 
         height: auto;
         line-height: 35px;
@@ -233,10 +234,64 @@ body{
 }
 
 .content-item {
-    border: 10px solid grey;
-    margin: 30px 30px 30px 30px;
+    border: 1px solid #ccc;
+    margin: 15px 15px 15px 15px;
+    padding: 40px;
     width: 100%;
-    height: 150px;
+    height: fit-content;
+    text-align: center;  
+    color: #333645;
+    
+
+
+
+    h1 {
+        font-size: 1.125rem;
+        position: relative;
+        margin: 0 0 11px;
+        font-weight: 400;
+    }
+
+    .single-divider > div {
+        width: 33px;
+        height: 3px;
+        background-color: black;
+        margin: 6px auto;
+    }
+
+
+    .dot {
+        height: 50px;
+        width: 50px;
+        background-color: #67809f;
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: 17px;
+
+        #dot {
+            line-height: 50px;
+            color: white;
+        }
+      }
+
+      p {
+        font-size: .8125rem;
+        font-weight: 400;
+        margin: 13px;
+      }
+
+      button {
+        color: #fff;
+        background-color: #67809f;
+        border-color: #67809f;
+        border: none;
+        text-transform: uppercase;
+        font-size: 1.063rem;
+        border-radius: 3px;
+        padding: 15px 30px 15px 30px;
+        font-size: 1.063rem;
+      }
+
 }
 
 .culture-container {

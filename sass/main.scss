@@ -2,6 +2,6 @@
 Main: it should ONLY contain the imports for the above files.
 */
 
-@import '_base';
-@import '_layout';
-@import '_components';
+@import 'base/index';
+@import 'layout/index';
+@import 'components/index';
