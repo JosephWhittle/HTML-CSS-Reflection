@@ -1,46 +1,42 @@
-// Descriptive color variables, REPLACE EVERYTHING BELOW WITH YOUR OWN STUFF, ITS FROM THE EXAMPLE.
 
-$white          : #fff;
-$black          : #000;
-$grey           : #878787;
-$regent-st-blue : #add8e6;
-$river-bed      : #48525c;
-$yellow-orange  : #ffa949;
 
-// Functional color variables
+// Descriptive color variables
+$white           :#fff;
+$black           :#000;
+$tuna            :#333645;
+$hoki            :#67809f;
+$HavelockBlue    :#4183d7;
+$Shamrock        :#2ecc71;
+$Valencia        :#d64541;
+$Wisteria        :#926fb1;
+$RadicalRed      :#f62459;
 
-$color-prim         : $yellow-orange;
-$color-sec          : $river-bed;
 
-$color-text-light   : $white;
-$color-text-base    : $grey;
-$color-text-dark    : $river-bed;
+// Functional color variables  - Describe everything it will be applied to in a nice concise way.
+$color-background-bespoke             :$hoki;
+$color-background-itsupport           :$HavelockBlue;
+$color-background-digitalmarketing    :$Shamrock;
+$color-background-telecomsservices    :$Valencia;
+$color-background-webdesign           :$Wisteria;
+$color-background-cybersecurity       :$RadicalRed;
+$color-background-developertraining   :$Wisteria;
 
-$color-border-light : lighten($grey, 35%);
-$color-border-dark  : $yellow-orange;
+$color-text-main                      :$tuna;
+$color-text-alt                       :$white;
+$color-text-latest                    :$tuna;
 
-$color-link-default : $yellow-orange;
-$color-link-visited : $regent-st-blue;
 
-$color-shadow       : rgba($black,.8);
-$color-body         : $white;
-
-// Font stacks
-
-$stack-sans-serif : Helvetica, Arial, sans-serif;
-$stack-helvetica  : 'Helvetica Neue', $stack-sans-serif;
-$stack-abolition  : 'Abolition Regular', $stack-sans-serif;
-
-// Border radius
-
-$br: 10px;
 
 // Asset paths
 
-$path-img  : '../img';
+$path-img  : '../images';
 $path-font : '../fonts';
 
-// Media query breakpoints
 
-$brk-narrow : '(max-width: 768px)';
-$brk-wide   : '(max-width: 1024px)';
+// Media query breakpoints
+$brk-small : '(min-width: 50px)';
+$brk-medium   : '(min-width: 768px)';
+$brk-large   : '(min-width: 992px)';
+
+
+

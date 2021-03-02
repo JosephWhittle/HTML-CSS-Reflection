@@ -1,24 +1,11 @@
 // Web fonts, the below mixins are examples and will need to be replaced. but the examples are good for learning sake.
 
-@mixin font-face($family, $file) {
-  @font-face {
-    font-family: $family;
-    src: url('#{$path-font}/#{$file}-webfont.eot');
-    src: url('#{$path-font}/#{$file}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('#{$path-font}/#{$file}-webfont.woff') format('woff'),
-         url('#{$path-font}/#{$file}-webfont.ttf') format('truetype');
-  }
-}
+
+
+
+
 
 // Text
-
-@mixin text($size, $l-height: null, $weight: null, $color: null) {
-  font-size: $size;
-  line-height: $l-height;
-  font-weight: $weight;
-  color: $color;
-}
-
 
 
 
