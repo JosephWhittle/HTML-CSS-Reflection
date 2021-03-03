@@ -1,0 +1,67 @@
+//Reusable utility esk
+.horizontal-padder {
+    padding: 0 15px;
+}
+
+
+
+// Main content container (This oculd probably be made resuable)
+.main-content {
+    width: 100%;
+    height: auto;
+}
+
+
+
+//image container for the carousel
+.image-container {
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/home-lQs1.jpg");
+}
+
+
+//layout container for the middle tile section
+.middle-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+//container for the culture section
+.culture-container {
+    width: 100%;
+    height: auto;
+    background: #333645;
+}
+
+
+//continer for the latest section
+.latest-container {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+.latest-content-flex {
+    display: flex;
+}
+
+.latest-container-item {
+
+}
+
+
+//Newsletter sign up section
+.newsletter-signup-container {
+
+    background: #ddd;
+}
+
+
+
+
+
+
+

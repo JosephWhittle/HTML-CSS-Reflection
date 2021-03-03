@@ -1,0 +1,67 @@
+
+
+//Anything related to the carousel
+
+.carousel {
+    height: 565px;
+    width: 100%;
+
+    .text-area {
+        margin: auto;
+        height:max-content;
+        max-width: max-content;
+
+        text-align: center;  
+        padding-top: 110px;     
+    }
+
+    h1 {
+        color:white;
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: #fff;
+        font-size:1.25rem;
+    }
+
+    #dot
+    {
+        color: #fff;
+        font-style: 2rem;
+        margin-top: 50px;
+
+    }
+    #arrow {
+        font-size:36px;
+        text-align: center;
+        vertical-align: middle;
+        padding-bottom: 5px;
+    }
+
+    .carousel-button {
+        margin-top: 80px;
+        height: auto;
+
+        padding: 5px 15px;
+        text-transform: uppercase;
+        font-size: 1.063rem;
+        border-radius: 3px;
+        white-space: normal;
+        color: #fff;
+        background-color: #f62459;
+        border-color: #f62459;
+        line-height: 50px;
+        border: none;
+        border: 2px solid red;
+    }
+}
+
+.carousel img {
+    max-height: 100%;
+    width: auto;
+}
+

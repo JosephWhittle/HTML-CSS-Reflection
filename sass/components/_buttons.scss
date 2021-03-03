@@ -1,0 +1,29 @@
+
+//Button base class for all buttons. (equal to all small buttons)
+.btn {
+    color: #fff;
+    background-color: #67809f;
+    border-color: #67809f;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    padding: 15px 30px 15px 30px;
+    font-size: 1.063rem;
+}
+
+
+
+//Additonal class to add to a button to make like the carousel button.
+.btn-big {
+    margin-top: 80px;
+    padding: 5px 15px;
+    height: auto;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    white-space: normal;
+    color: #fff;
+    line-height: 50px;
+    border: none;
+}
