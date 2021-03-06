@@ -26,6 +26,7 @@ body{
     width: 100%;
     height: auto;
     font-family: 'poppins-regular' ,sans-serif;
+    font-weight: 400;
 }
 
 
@@ -39,18 +40,28 @@ h1 {
 h2 {
     font-size: 1.125rem;
     color: $color-text-blue;
-
 }
 
 h3 {
     font-size: 1rem;
     color: $color-text-purple;
+}
 
+h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 26px;
 }
 
 
 
 
+footer {
+    background-color: #333645;
+    color: #fff;
+    padding: 47px 0 43px;
+}
 
 
  

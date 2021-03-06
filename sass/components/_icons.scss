@@ -1,8 +1,33 @@
 
-
-
 /*Icon stylings sizes*/
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+
+//Eventually your little icons you have after the button content 
+//need to be added easily using a utility class as they are
+//repetitive atm
+
+//icon centering (specifically the arrows)
+.arrow {
+    font-size:36px;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+
+
+
+.social-media-icon {
+    margin-top: 30px;
+    display: block;
+    background-color: rgba(0,0,0,.25);
+    font-size: 1.75rem;
+    line-height: 3.438rem;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}

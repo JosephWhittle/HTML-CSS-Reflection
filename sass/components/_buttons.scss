@@ -2,13 +2,13 @@
 //Button base class for all buttons. (equal to all small buttons)
 .btn {
     color: #fff;
-    background-color: #67809f;
-    border-color: #67809f;
+
     border: none;
     text-transform: uppercase;
     font-size: 1.063rem;
     border-radius: 3px;
     padding: 15px 30px 15px 30px;
+    
     font-size: 1.063rem;
 }
 
@@ -27,3 +27,4 @@
     line-height: 50px;
     border: none;
 }
+

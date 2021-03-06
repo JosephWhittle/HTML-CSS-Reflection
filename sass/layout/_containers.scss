@@ -3,6 +3,12 @@
     padding: 0 15px;
 }
 
+.text-container {
+    padding: 30px;
+}
+
+
+
 
 
 // Main content container (This oculd probably be made resuable)
@@ -11,8 +17,6 @@
     height: auto;
 }
 
-
-
 //image container for the carousel
 .image-container {
     height: 100%;
@@ -20,6 +24,12 @@
     background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/home-lQs1.jpg");
 }
 
+//image container for latest section
+.image-container-latest
+{
+    height: 100%;
+    width: 100%;
+}
 
 //layout container for the middle tile section
 .middle-flex-container {
@@ -31,9 +41,10 @@
 
 //container for the culture section
 .culture-container {
-    width: 100%;
+
     height: auto;
     background: #333645;
+    padding: 50px 15px 50px 15px;
 }
 
 
@@ -44,13 +55,19 @@
     background: white;
 }
 
+.latest-content-container {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
 .latest-content-flex {
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
 }
 
-.latest-container-item {
-
-}
 
 
 //Newsletter sign up section
@@ -60,6 +77,10 @@
 }
 
 
+.footer-container {
+    padding: 30px;
+
+}
 
 
 

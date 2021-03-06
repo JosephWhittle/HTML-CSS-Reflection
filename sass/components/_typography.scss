@@ -1,10 +1,17 @@
 /* Web Fonts -------------------- 
 everything font related, literally like line height, font size, ect ect ect*/
 
-
-
-
 @font-face {
     font-family: "poppins-regular";
     src: url("/fonts/Poppins-Regular.ttf");
+}
+
+
+
+//some random things that are kinda typographical
+.single-divider > div {
+    width: 33px;
+    height: 3px;
+    background-color: black;
+    margin: 6px auto;
 }
