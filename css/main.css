@@ -51,6 +51,7 @@ h4 {
   text-transform: uppercase;
   font-size: 1rem;
   margin-bottom: 26px;
+  font-weight: 400;
 }
 
 footer {
@@ -389,10 +390,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   background: #ddd;
 }
 
-.footer-container {
-  padding: 30px;
-}
-
 .header-vertical-padder {
   padding: 20px 0;
 }
@@ -501,5 +498,29 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 .footer-container {
-  padding: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container ul li {
+  font-size: .8125rem;
+  line-height: 1.375rem;
+}
+
+.footer-container .social-container-small {
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-container .social-container-small img {
+  width: 40px;
 }

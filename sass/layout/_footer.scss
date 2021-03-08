@@ -1,3 +1,34 @@
+
+//Main container 
 .footer-container {
-    padding: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            font-size: .8125rem;
+            line-height: 1.375rem;
+        }
+    }
+
+
+    .social-container-small {
+        width: 50%;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+
+        img {
+            width: 40px;
+        }
+    }
 }
+
+
+
