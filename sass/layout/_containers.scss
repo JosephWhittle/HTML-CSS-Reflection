@@ -24,7 +24,7 @@
 .image-container {
     height: 100%;
     width: 100%;
-    background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/home-lQs1.jpg");
+    background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/carousel/home-lQs1.jpg");
 }
 
 //image container for latest section
@@ -81,6 +81,10 @@
     background: #ddd;
 }
 
+//Accredidations section
+.accredidations {
+    padding: 50px 0;
+}
 
 
 

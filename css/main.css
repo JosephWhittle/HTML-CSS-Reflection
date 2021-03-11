@@ -342,6 +342,20 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 32px;
 }
 
+@media screen and (max-width: 768px) {
+  .accredidations {
+    display: none;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.row-2 {
+  display: flex;
+}
+
 .horizontal-padder {
   padding: 0 15px;
 }
@@ -358,7 +372,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 .image-container {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/home-lQs1.jpg");
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/carousel/home-lQs1.jpg");
 }
 
 .image-container-latest {
@@ -399,6 +413,10 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .newsletter-signup-container {
   background: #ddd;
+}
+
+.accredidations {
+  padding: 50px 0;
 }
 
 .header-vertical-padder {
