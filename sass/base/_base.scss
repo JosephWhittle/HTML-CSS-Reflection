@@ -2,7 +2,7 @@
 reset file, some typographic rules, and probably a stylesheet defining
  some standard styles for commonly used HTML elements
 
- this includes useful basic all purposse sets. like a tags, headings 
+ this includes useful basic all purpose sets. like a tags, headings 
 
 */
 
@@ -19,18 +19,18 @@ reset file, some typographic rules, and probably a stylesheet defining
 
 html {
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-/* base styles */
+/* base styles  */
 body{
     width: 100%;
     height: auto;
     font-family: 'poppins-regular' ,sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 
-
-/* Set the below to the same as in the old style file, but try and keep it broad */
 h1 {
     text-transform: uppercase;
     font-size: 3rem;
@@ -55,6 +55,11 @@ h4 {
     font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -70,7 +75,23 @@ footer {
 
 
 
+// These can be anything like the following: 
 
+//Then for when the middle viewport size is applied, the large will make the tile go big, while the small will 
+//keep the other ones small
+
+.col-large-6 {
+
+}
+
+.col-sm-6 {
+
+}
+
+.col-md-6 {
+
+
+}
 
 
 

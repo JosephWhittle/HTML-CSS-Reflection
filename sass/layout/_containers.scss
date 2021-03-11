@@ -1,3 +1,6 @@
+
+
+
 //Reusable utility esk
 .horizontal-padder {
     padding: 0 15px;
@@ -55,12 +58,14 @@
     background: white;
 }
 
+//container for the content of the latest section
 .latest-content-container {
     padding-top: 50px;
     padding-bottom: 20px;
 
 }
 
+//flex properties for the latest content
 .latest-content-flex {
     display: flex;
     flex-wrap: wrap;

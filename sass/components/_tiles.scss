@@ -1,6 +1,8 @@
 
-//First card section
 
+
+
+//First card section
 .content-item-1 {
     border: 1px solid #ccc;
     margin: 15px 15px 15px 15px;
@@ -8,6 +10,7 @@
     width: 100%;
     height: fit-content;
     text-align: center;  
+    //add the media below so that it is the same as the above but essentially switches between them
 
 
     .dot {
@@ -37,15 +40,14 @@
 
 
 
-//latest card section
+//latest news tiles
 .content-item-2 {
-
     border: 1px solid #ccc;
     margin: 15px 15px 15px 15px;
     width: 100%;
     height: fit-content;
 
-    
+
     .image-container-latest {
         img {
             width: 100%;
@@ -53,13 +55,11 @@
             object-fit: cover;
         }
     }
-
     p {
         font-size: .8125rem;
         font-weight: 400;
         margin: 13px;
       }
-
       .user {
         border-top: 1px solid #ccc;
         margin-top: 30px;
@@ -78,12 +78,7 @@
 
 
 
-
-
-
-
-
-//colour varient classes
+//colour varient classes specifically for the tiles
 .bckgrnd-hoki {
     background-color: $hoki;
 }

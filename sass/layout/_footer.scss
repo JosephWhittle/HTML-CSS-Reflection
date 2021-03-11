@@ -16,21 +16,27 @@
     }
 
 
-    .social-container-small {
-        width: 50%;
-        position: relative;
-        min-height: 1px;
-        padding-left: 15px;
-        padding-right: 15px;
-        background-color: rgba(0,0,0,.25);
-        text-align: center;
-        margin: 30px;
+    //Container for the footer elements
+    .container-social-extra {
+        display: flex;
+        flex-wrap: wrap;
+        
 
+
+    }
+
+    //The container for the social media icons at the bottom of the page
+    // (Below needs a container as the width should be 50% )
+    .social-container-small {
+        text-align: center;
+        background-color: rgba(0,0,0,.25);
+        box-sizing: border-box;
+        width: 40%;
+        margin: 15px;
 
         img {
             width: 40px;
             padding: 10px;
-
         }
     }
 }

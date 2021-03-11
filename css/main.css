@@ -5,7 +5,7 @@ Main: it should ONLY contain the imports for the above files.
 reset file, some typographic rules, and probably a stylesheet defining
  some standard styles for commonly used HTML elements
 
- this includes useful basic all purposse sets. like a tags, headings 
+ this includes useful basic all purpose sets. like a tags, headings 
 
 */
 /* resets */
@@ -19,17 +19,18 @@ reset file, some typographic rules, and probably a stylesheet defining
 
 html {
   font-size: 16px;
+  box-sizing: border-box;
 }
 
-/* base styles */
+/* base styles  */
 body {
   width: 100%;
   height: auto;
   font-family: 'poppins-regular' ,sans-serif;
   font-weight: 400;
+  font-size: 1rem;
 }
 
-/* Set the below to the same as in the old style file, but try and keep it broad */
 h1 {
   text-transform: uppercase;
   font-size: 3rem;
@@ -52,6 +53,11 @@ h4 {
   font-size: 1rem;
   margin-bottom: 26px;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 footer {
@@ -298,6 +304,11 @@ everything font related, literally like line height, font size, ect ect ect*/
   padding: 50px 30px 50px 30px;
 }
 
+.newsletter-signup-container a {
+  color: #333645;
+  text-decoration: underline;
+}
+
 .newsletter-signup-container h2 {
   font-size: 2rem;
   font-weight: 400;
@@ -513,15 +524,17 @@ everything font related, literally like line height, font size, ect ect ect*/
   line-height: 1.375rem;
 }
 
+.footer-container .container-social-extra {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer-container .social-container-small {
-  width: 50%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: rgba(0, 0, 0, 0.25);
   text-align: center;
-  margin: 30px;
+  background-color: rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 40%;
+  margin: 15px;
 }
 
 .footer-container .social-container-small img {
