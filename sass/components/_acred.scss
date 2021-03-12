@@ -1,9 +1,6 @@
 
 
-
-
 //accreditations section
-
 //Media to show the accreditation
 @media screen and (max-width: 768px) {
     .accredidations {
@@ -13,19 +10,15 @@
 
 
 
+//The below currently applies to both the acreds and the company logos,
+// this needs to be split as they will have some styling differences.
 .row {
     display: flex;
-    .acred-item {
-
-    }
-
-}
-
-.row-2 {
-    display: flex;
+    flex-direction: row;
 
     .acred-item {
-        
-    }
+        img {
 
+        }
+    }
 }

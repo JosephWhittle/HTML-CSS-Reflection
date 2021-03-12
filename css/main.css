@@ -350,10 +350,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .row {
   display: flex;
-}
-
-.row-2 {
-  display: flex;
+  flex-direction: row;
 }
 
 .horizontal-padder {
