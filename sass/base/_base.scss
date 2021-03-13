@@ -1,11 +1,3 @@
-/*
-reset file, some typographic rules, and probably a stylesheet defining
- some standard styles for commonly used HTML elements
-
- this includes useful basic all purpose sets. like a tags, headings 
-
-*/
-
 
  
 /* resets */
@@ -21,6 +13,11 @@ html {
     font-size: 16px;
     box-sizing: border-box;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 /* base styles  */
 body{
@@ -55,11 +52,6 @@ h4 {
     font-weight: 400;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 
 
 
@@ -71,15 +63,15 @@ footer {
 
 
  
+
+
 /* utility */
 
 
 
 // These can be anything like the following: 
-
 //Then for when the middle viewport size is applied, the large will make the tile go big, while the small will 
 //keep the other ones small
-
 .col-large-6 {
 
 }

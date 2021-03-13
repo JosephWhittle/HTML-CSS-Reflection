@@ -2,16 +2,13 @@
 //Button base class for all buttons. (equal to all small buttons)
 .btn {
     color: #fff;
-
     border: none;
     text-transform: uppercase;
     font-size: 1.063rem;
     border-radius: 3px;
     padding: 15px 30px 15px 30px;
-    
     font-size: 1.063rem;
 }
-
 
 
 //Additonal class to add to a button to make like the carousel button.
@@ -28,3 +25,31 @@
     border: none;
 }
 
+
+//Burger button styling in nav bar
+.burger-button {
+    height: 100%;
+    width: 100%;
+    background-color: #333645;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.burger-button:focus {
+    border: none;
+    outline: none;
+}
+
+.burger-button-inner > div {
+    width: 33px;
+    height: 3px;
+    background-color: white;
+    margin: 6px auto;
+}
+
+.burger-button p {
+    margin: auto;
+    color: white;
+    font-size: 0.75rem;
+}

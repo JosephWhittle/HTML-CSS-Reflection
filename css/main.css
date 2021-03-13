@@ -1,13 +1,6 @@
 /*
 Main: it should ONLY contain the imports for the above files.
 */
-/*
-reset file, some typographic rules, and probably a stylesheet defining
- some standard styles for commonly used HTML elements
-
- this includes useful basic all purpose sets. like a tags, headings 
-
-*/
 /* resets */
 * {
   margin: 0;
@@ -20,6 +13,10 @@ reset file, some typographic rules, and probably a stylesheet defining
 html {
   font-size: 16px;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* base styles  */
@@ -53,11 +50,6 @@ h4 {
   font-size: 1rem;
   margin-bottom: 26px;
   font-weight: 400;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 footer {
@@ -104,6 +96,33 @@ everything font related, literally like line height, font size, ect ect ect*/
   border: none;
 }
 
+.burger-button {
+  height: 100%;
+  width: 100%;
+  background-color: #333645;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.burger-button:focus {
+  border: none;
+  outline: none;
+}
+
+.burger-button-inner > div {
+  width: 33px;
+  height: 3px;
+  background-color: white;
+  margin: 6px auto;
+}
+
+.burger-button p {
+  margin: auto;
+  color: white;
+  font-size: 0.75rem;
+}
+
 /*Icon stylings sizes*/
 .material-icons.md-18 {
   font-size: 18px;
@@ -137,6 +156,49 @@ everything font related, literally like line height, font size, ect ect ect*/
   color: #fff;
   text-align: center;
   text-decoration: none;
+}
+
+.search-bar input[type=text] {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  padding: 5px 40px 5px 15px;
+}
+
+.submit-button {
+  background: none;
+  border: none;
+  color: #333645;
+  outline: none;
+  float: right;
+  position: absolute;
+  right: 25px;
+  padding-top: 6px;
+}
+
+.search-bar-md input[type=text] {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  padding: 5px 40px 5px 15px;
+}
+
+.submit-button-md {
+  outline: none;
+  padding: 7px 20px 3px;
+  height: 56px;
+  font-size: 1.063rem;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  vertical-align: bottom;
+  background-color: #999aa2;
+  color: #fff;
+  position: absolute;
 }
 
 .carousel {
@@ -247,6 +309,14 @@ everything font related, literally like line height, font size, ect ect ect*/
   font-weight: bold;
 }
 
+@media screen and (min-width: 768px) {
+  .col-split {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+  }
+}
+
 .bckgrnd-hoki {
   background-color: #67809f;
 }
@@ -353,17 +423,71 @@ everything font related, literally like line height, font size, ect ect ect*/
   flex-direction: row;
 }
 
+.row .acred-item {
+  padding: 0 20px;
+}
+
+.row .acred-item img {
+  height: auto;
+  width: 100%;
+}
+
 .horizontal-padder {
   padding: 0 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .horizontal-padder {
+    width: 750px;
+    margin: 0 auto;
+  }
 }
 
 .text-container {
   padding: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
 .main-content {
   width: 100%;
   height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar-container {
+    display: none;
+  }
+}
+
+.search-bar-container {
+  width: 100%;
+  height: 47px;
+  padding-top: 10px;
+}
+
+.search-bar {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .search-bar-container-md {
+    display: none;
+  }
+}
+
+.search-bar-container-md {
+  width: 60%;
+  height: 56px;
+}
+
+.search-bar-md {
+  height: 100%;
 }
 
 .image-container {
@@ -375,6 +499,16 @@ everything font related, literally like line height, font size, ect ect ect*/
 .image-container-latest {
   height: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .middle-flex-container {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .middle-flex-container {
@@ -390,10 +524,23 @@ everything font related, literally like line height, font size, ect ect ect*/
   padding: 50px 15px 50px 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .culture-container .culture-block {
+    padding: 0 115px;
+  }
+}
+
 .latest-container {
   width: 100%;
   height: auto;
   background: white;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-container {
+    width: 750px;
+    margin: 0 auto;
+  }
 }
 
 .latest-content-container {
@@ -412,8 +559,25 @@ everything font related, literally like line height, font size, ect ect ect*/
   background: #ddd;
 }
 
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+  .footer-container .container {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+  }
+}
+
 .accredidations {
-  padding: 50px 0;
+  margin: 50px 40px;
 }
 
 .header-vertical-padder {
@@ -451,6 +615,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   align-self: baseline;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-phone-icon-container {
+    display: none;
+  }
+}
+
 .mobile-phone-icon-container {
   height: 32px;
   width: 32.41px;
@@ -462,65 +632,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 63.03px;
   min-width: 63.03px;
   min-height: 56px;
-}
-
-.burger-button {
-  height: 100%;
-  width: 100%;
-  background-color: #333645;
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-}
-
-.burger-button:focus {
-  border: none;
-  outline: none;
-}
-
-.burger-button-inner > div {
-  width: 33px;
-  height: 3px;
-  background-color: white;
-  margin: 6px auto;
-}
-
-.burger-button p {
-  margin: auto;
-  color: white;
-  font-size: 0.75rem;
-}
-
-.search-bar-container {
-  width: 100%;
-  height: 47px;
-  padding-top: 10px;
-}
-
-.search-bar {
-  width: 100%;
-  height: 100%;
-}
-
-.search-bar input[type=text] {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.1);
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  outline: 1px solid rgba(255, 255, 255, 0.2);
-  box-sizing: border-box;
-  padding: 5px 40px 5px 15px;
-}
-
-.submit-button {
-  background: none;
-  border: none;
-  color: #333645;
-  outline: none;
-  float: right;
-  position: absolute;
-  right: 25px;
-  padding-top: 6px;
 }
 
 .footer-container {

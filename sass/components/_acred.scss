@@ -17,8 +17,10 @@
     flex-direction: row;
 
     .acred-item {
+        padding: 0 20px;
         img {
-
+            height: auto;
+            width: 100%;
         }
     }
 }

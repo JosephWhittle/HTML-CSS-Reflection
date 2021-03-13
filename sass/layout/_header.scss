@@ -17,8 +17,6 @@
     overflow: hidden;
 }
 
-
-        
 //flex container for the head
 .flex-container-head { 
     display: flex;  
@@ -39,84 +37,29 @@
 }
 
 
-//
+//The main top left logo IMAGE (not container, just the image)
 .logo-container img {
     max-width: 100%;
     align-self: baseline;
 }
 
+//the mobile icon
+@media screen and (min-width: 768px) {
+    .mobile-phone-icon-container {
+        display: none;
+    }
+    
+}
 .mobile-phone-icon-container {
     height: 32px;
     width: 32.41px;
     padding-right: 45px;
 }
 
-
+//the burger icon
 .burger-icon-container {
     height: 56px;
     width: 63.03px;
     min-width: 63.03px;
     min-height: 56px;
-}
-
-.burger-button {
-    height: 100%;
-    width: 100%;
-    background-color: #333645;
-    border: none;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.burger-button:focus {
-    border: none;
-    outline: none;
-}
-
-
-.burger-button-inner > div {
-    width: 33px;
-    height: 3px;
-    background-color: white;
-    margin: 6px auto;
-}
-
-.burger-button p {
-    margin: auto;
-    color: white;
-    font-size: 0.75rem;
-}
-
-.search-bar-container
-{
-    width: 100%;
-    height: 47px;
-    padding-top: 10px;
-}
-
-.search-bar {
-    width: 100%;
-    height: 100%;
-}
-
-.search-bar input[type=text] {
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,.1);
-  border: 2px solid rgba(0,0,0,.1);
-  outline: 1px solid hsla(0,0%,100%,.2);
-  box-sizing: border-box;
-  padding: 5px 40px 5px 15px;
-}
-
-
-.submit-button {
-    background: none;
-    border: none;
-    color: #333645;
-    outline: none;
-    float: right;
-    position: absolute;
-    right: 25px;
-    padding-top: 6px;
 }

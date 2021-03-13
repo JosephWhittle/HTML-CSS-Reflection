@@ -1,8 +1,5 @@
 
 
-
-
-//First card section
 .content-item-1 {
     border: 1px solid #ccc;
     margin: 15px 15px 15px 15px;
@@ -73,7 +70,22 @@
         .user-title {
             font-weight: bold;
         }
-      }
+    }
+
+
+ //need a utility class that only acitvates when the media is acticvated
+ //AS with that other class you did it too, the width 45% is an issue,
+ // as the margins for the continer/guttering are causing problems,
+ //you know how to fix this you just dont have time atm
+@media screen and (min-width: 768px) { 
+    .col-split {
+        width: 45%;
+        float: left;
+        box-sizing: border-box;
+    }
+}
+.col-split{
+}
 
 
 

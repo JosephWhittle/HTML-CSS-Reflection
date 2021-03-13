@@ -1,24 +1,76 @@
 
-
-
 //Reusable utility esk
 .horizontal-padder {
     padding: 0 15px;
+
+}
+@media  screen and (min-width:768px) 
+{
+    .horizontal-padder
+    {
+        width: 750px;
+        margin: 0 auto;
+
+    }
 }
 
 .text-container {
     padding: 30px;
 }
 
+//attach to any element to conveniently hide it when the screen is big enough
+.hide-mobile {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
 
 
 
+
+
+
+//More individual containers
 
 // Main content container (This oculd probably be made resuable)
 .main-content {
     width: 100%;
     height: auto;
 }
+
+//the search bar containers
+@media screen and (min-width: 768px) {
+    .search-bar-container {
+      display: none;
+    }
+}
+.search-bar-container
+{
+    width: 100%;
+    height: 47px;
+    padding-top: 10px;
+}
+.search-bar {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .search-bar-container-md {
+        display: none;
+    }
+}
+.search-bar-container-md
+{
+    width :60%;
+    height: 56px;
+}
+.search-bar-md {
+    height: 100%;
+}
+
+
 
 //image container for the carousel
 .image-container {
@@ -35,6 +87,17 @@
 }
 
 //layout container for the middle tile section
+@media screen and (min-width: 768px) {
+    .middle-flex-container {
+        max-width: 750px;
+        margin-right: auto;    
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
 .middle-flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +111,13 @@
     height: auto;
     background: #333645;
     padding: 50px 15px 50px 15px;
+
+    @media screen and (min-width:768px) {
+        .culture-block {
+            padding: 0 115px;
+        }
+        
+    }
 }
 
 
@@ -56,6 +126,14 @@
     width: 100%;
     height: auto;
     background: white;
+}
+
+@media screen and (min-width: 768px) {
+    .latest-container {
+        width: 750px;
+        margin: 0 auto;
+
+    }
 }
 
 //container for the content of the latest section
@@ -73,17 +151,40 @@
     height: auto;
 }
 
-
-
 //Newsletter sign up section
 .newsletter-signup-container {
 
     background: #ddd;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:768px) {
+
+    .footer-container
+    {
+        flex-direction: row;
+        .container {
+            width: 50%;
+            box-sizing: border-box;
+            float: left;
+    
+        }
+    }
+
+}
+
+
+
+
+
 //Accredidations section
 .accredidations {
-    padding: 50px 0;
+    margin: 50px 40px;
 }
 
 
