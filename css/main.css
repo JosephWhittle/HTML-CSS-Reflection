@@ -251,6 +251,8 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 100%;
   height: fit-content;
   text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .content-item-1 .dot {
