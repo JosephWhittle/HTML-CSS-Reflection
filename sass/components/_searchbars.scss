@@ -29,11 +29,14 @@
 
 .search-bar-md input[type=text] {
   height: 100%;
+  width: 100%;
   background: rgba(0,0,0,.1);
   border: 2px solid rgba(0,0,0,.1);
   outline: 1px solid hsla(0,0%,100%,.2);
   box-sizing: border-box;
   padding: 5px 40px 5px 15px;
+  background-color: white;
+
   }
   
   

@@ -63,11 +63,13 @@
 }
 .search-bar-container-md
 {
-    width :60%;
     height: 56px;
+    padding-left: 15px;
+    
 }
 .search-bar-md {
     height: 100%;
+    width: 174px;
 }
 
 
@@ -84,6 +86,7 @@
 {
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 //layout container for the middle tile section
@@ -126,11 +129,12 @@
     width: 100%;
     height: auto;
     background: white;
+    box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
 }
 
 @media screen and (min-width: 768px) {
     .latest-container {
-        width: 750px;
+        width: 100%;
         margin: 0 auto;
 
     }
@@ -138,9 +142,14 @@
 
 //container for the content of the latest section
 .latest-content-container {
-    padding-top: 50px;
-    padding-bottom: 20px;
 
+    width: 100%;
+    height: auto;
+
+    @media screen and (min-width: 768px) {
+        width: 750px;
+        margin: 0 auto;
+    }
 }
 
 //flex properties for the latest content
@@ -184,7 +193,11 @@
 
 //Accredidations section
 .accredidations {
-    margin: 50px 40px;
+    box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
+    
+    img {
+        padding: 50px 0;
+    }
 }
 
 

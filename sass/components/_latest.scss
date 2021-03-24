@@ -3,8 +3,9 @@
 
 .latest-title {
 
-    width: 100%;
-    height: 104px;
+    height: auto;
+    padding: 0 15px;
+    margin: auto;
 
     h2 {
         display: block;
@@ -15,9 +16,36 @@
         font-weight: 600;
         position: relative;
     }
+
+    @media screen and (min-width: 768px) {
+        //in here the entire area needs to be inside the 
+        //div that centers
+        width: 750px;
+    }
 }
 
 
+.latest-content-container .text-container {
+    a {
+        color: #926fb1;
+        font-size: 1rem;;
+    }
+}
+
+
+.single-divider-large {
+    width: 72px;
+    height: 5px;
+    background-color: #333645;
+        
+}
+
+
+
+
+
+
+//      box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
 
 //this will contain the rest of the styling for the latest section
 //everything to do with latest this isnt layout orientated.

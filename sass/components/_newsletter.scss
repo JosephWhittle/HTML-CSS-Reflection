@@ -3,9 +3,15 @@
 //newsletter section
 .newsletter-signup-container {
 
+
     form {
         padding: 50px 30px 50px 30px;
-        
+
+
+        @media screen and (min-width:768px) {
+            width: 750px;
+            margin: 0 auto;
+        }
     }
 
     a {
