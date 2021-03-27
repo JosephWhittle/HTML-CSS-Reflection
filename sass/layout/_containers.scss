@@ -3,16 +3,18 @@
 .horizontal-padder {
     padding: 0 15px;
 
-}
-@media  screen and (min-width:768px) 
-{
-    .horizontal-padder
+    @media  screen and (min-width:768px) 
     {
-        width: 750px;
-        margin: 0 auto;
-
+    width: 750px;
+    margin: 0 auto;
     }
+
+    @media screen and (min-width:992px) {
+        width: 970px;
+    }
+
 }
+
 
 .text-container {
     padding: 30px;
@@ -44,33 +46,73 @@
       display: none;
     }
 }
+
 .search-bar-container
 {
     width: 100%;
     height: 47px;
     padding-top: 10px;
 }
-.search-bar {
-    width: 100%;
-    height: 100%;
-}
 
 
-@media screen and (max-width: 768px) {
-    .search-bar-container-md {
-        display: none;
-    }
-}
+
+//The middle sized search bar
 .search-bar-container-md
 {
     height: 56px;
-    padding-left: 15px;
-    
+    width: 237px;
+
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 992px) {
+        width: auto;
+        padding-left: 20px;
+
+        input[type=text] {
+            display: none;
+        }
+
+        .submit-button-md::after {
+            input[type=text] {
+                display: none;
+            }
+        }
+    }    
 }
+
+
 .search-bar-md {
     height: 100%;
     width: 174px;
+
+    @media screen and (min-width: 992px) {
+        width: auto;
+    }
 }
+
+// The main nav area with the lists
+.main-navigation {
+    width: 100%;
+    background-color: #333645;
+}
+
+
+.nav-container {
+    width: 970px;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -194,9 +236,11 @@
 //Accredidations section
 .accredidations {
     box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
-    
-    img {
-        padding: 50px 0;
+    padding: 50px 0;
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 

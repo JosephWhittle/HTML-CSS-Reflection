@@ -3,7 +3,13 @@
 //newsletter section
 .newsletter-signup-container {
 
+    margin-right: auto;
+    margin-left: auto;
 
+
+
+    //Move on for now, ASK IN THE DISCORD TOMORROW< THIS CAN WAIT, YOU NEED TO GET TO JUMPING FROM TASK TO TASK AND THEN ASKING FOR HELP
+    // WHEN YOU CANT MOVE FORWARD
     form {
         padding: 50px 30px 50px 30px;
 
@@ -11,6 +17,9 @@
         @media screen and (min-width:768px) {
             width: 750px;
             margin: 0 auto;
+            box-sizing: border-box;
+
+
         }
     }
 
@@ -39,10 +48,6 @@
          margin-top: 30px;
      }
 
-     span {
-         display: inline-block;
-         margin-top: 20px;
-     }
 
      input[type=checkbox] { 
         border-radius: 3px;
@@ -56,6 +61,3 @@
 
 
 
-
-//this will contain the rest of the styling for the latest section
-//everything to do with latest this isnt layout orientated.

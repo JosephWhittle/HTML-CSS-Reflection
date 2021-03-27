@@ -15,12 +15,24 @@
 .row {
     display: flex;
     flex-direction: row;
+    width: 750px;
+    margin: 0 auto;
+
 
     .acred-item {
+        flex-grow: 1;
         padding: 0 20px;
+        flex-grow: 1;
+
         img {
             height: auto;
             width: 100%;
         }
     }
+}
+
+
+.google-partners-badge {
+    box-shadow: 2px 2px 5px grey;
+
 }

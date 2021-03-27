@@ -29,11 +29,6 @@
     align-items: center;  
     height: 70px;
     width: 100%;
-
-
-    @media screen and (min-width: 768px) {
-        width: 750px;
-    }
 }
 
 //flex logo container
@@ -52,19 +47,23 @@
     align-self: baseline;
 }
 
-//the mobile icon
-@media screen and (min-width: 768px) {
-    .mobile-phone-icon-container {
-        display: none;
-    }
-    
+
+.search-bar {
+    width: 100%;
+    height: 100%;
 }
+
+//the mobile icon
 .mobile-phone-icon-container {
     height: 32px;
     width: 32.41px;
     padding-right: 45px;
     display: inline;
     margin-left: 20px;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }
 
 //the burger icon
@@ -73,4 +72,12 @@
     width: 63.03px;
     min-width: 63.03px;
     min-height: 56px;
+    padding-left: 20px;
+}
+
+.desktop-header-container {
+    width: 150px;
+    height: 56px;
+    padding-left: 20px;
+
 }

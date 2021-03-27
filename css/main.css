@@ -109,6 +109,33 @@ everything font related, literally like line height, font size, ect ect ect*/
   font-weight: 600;
 }
 
+.btn-wide {
+  height: 56px;
+  line-height: 46px;
+  font-size: 1.125rem;
+  float: left;
+  color: #fff;
+  background-color: #4183d7;
+  border-color: #4183d7;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: normal;
+}
+
+.btn-desktop {
+  height: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  white-space: normal;
+  color: #fff;
+  line-height: 50px;
+  border: none;
+  background: #999aa2;
+}
+
 .burger-button {
   height: 100%;
   width: 100%;
@@ -196,8 +223,8 @@ everything font related, literally like line height, font size, ect ect ect*/
   height: 100%;
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  outline: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid #cccccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
   padding: 5px 40px 5px 15px;
   background-color: white;
@@ -205,15 +232,19 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .submit-button-md {
   outline: none;
-  padding: 7px 20px 3px;
-  height: 56px;
-  font-size: 1.063rem;
-  border-radius: 0 3px 3px 0;
-  border: none;
-  vertical-align: bottom;
-  background-color: #999aa2;
   color: #fff;
   position: absolute;
+  height: 56px;
+  background-color: #999aa2;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  padding: 7px 15px 4px;
+}
+
+@media screen and (min-width: 992px) {
+  .submit-button-md {
+    position: relative;
+  }
 }
 
 .carousel {
@@ -411,6 +442,11 @@ everything font related, literally like line height, font size, ect ect ect*/
   color: #333645;
 }
 
+.newsletter-signup-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .newsletter-signup-container form {
   padding: 50px 30px 50px 30px;
 }
@@ -419,6 +455,7 @@ everything font related, literally like line height, font size, ect ect ect*/
   .newsletter-signup-container form {
     width: 750px;
     margin: 0 auto;
+    box-sizing: border-box;
   }
 }
 
@@ -448,11 +485,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   margin-top: 30px;
 }
 
-.newsletter-signup-container span {
-  display: inline-block;
-  margin-top: 20px;
-}
-
 .newsletter-signup-container input[type=checkbox] {
   border-radius: 3px;
   border: 3px solid #333645;
@@ -469,15 +501,23 @@ everything font related, literally like line height, font size, ect ect ect*/
 .row {
   display: flex;
   flex-direction: row;
+  width: 750px;
+  margin: 0 auto;
 }
 
 .row .acred-item {
+  flex-grow: 1;
   padding: 0 20px;
+  flex-grow: 1;
 }
 
 .row .acred-item img {
   height: auto;
   width: 100%;
+}
+
+.google-partners-badge {
+  box-shadow: 2px 2px 5px grey;
 }
 
 .horizontal-padder {
@@ -488,6 +528,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   .horizontal-padder {
     width: 750px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .horizontal-padder {
+    width: 970px;
   }
 }
 
@@ -518,9 +564,9 @@ everything font related, literally like line height, font size, ect ect ect*/
   padding-top: 10px;
 }
 
-.search-bar {
-  width: 100%;
-  height: 100%;
+.search-bar-container-md {
+  height: 56px;
+  width: 237px;
 }
 
 @media screen and (max-width: 768px) {
@@ -529,14 +575,37 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-.search-bar-container-md {
-  height: 56px;
-  padding-left: 15px;
+@media screen and (min-width: 992px) {
+  .search-bar-container-md {
+    width: auto;
+    padding-left: 20px;
+  }
+  .search-bar-container-md input[type=text] {
+    display: none;
+  }
+  .search-bar-container-md .submit-button-md::after input[type=text] {
+    display: none;
+  }
 }
 
 .search-bar-md {
   height: 100%;
   width: 174px;
+}
+
+@media screen and (min-width: 992px) {
+  .search-bar-md {
+    width: auto;
+  }
+}
+
+.main-navigation {
+  width: 100%;
+  background-color: #333645;
+}
+
+.nav-container {
+  width: 970px;
 }
 
 .image-container {
@@ -636,10 +705,12 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .accredidations {
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  padding: 50px 0;
 }
 
-.accredidations img {
-  padding: 50px 0;
+.accredidations .container {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-vertical-padder {
@@ -671,12 +742,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .flex-container-head {
-    width: 750px;
-  }
-}
-
 .flex-container-logo {
   height: 100%;
   width: 100%;
@@ -690,10 +755,9 @@ everything font related, literally like line height, font size, ect ect ect*/
   align-self: baseline;
 }
 
-@media screen and (min-width: 768px) {
-  .mobile-phone-icon-container {
-    display: none;
-  }
+.search-bar {
+  width: 100%;
+  height: 100%;
 }
 
 .mobile-phone-icon-container {
@@ -704,11 +768,24 @@ everything font related, literally like line height, font size, ect ect ect*/
   margin-left: 20px;
 }
 
+@media screen and (min-width: 768px) {
+  .mobile-phone-icon-container {
+    display: none;
+  }
+}
+
 .burger-icon-container {
   height: 56px;
   width: 63.03px;
   min-width: 63.03px;
   min-height: 56px;
+  padding-left: 20px;
+}
+
+.desktop-header-container {
+  width: 150px;
+  height: 56px;
+  padding-left: 20px;
 }
 
 .footer-container {

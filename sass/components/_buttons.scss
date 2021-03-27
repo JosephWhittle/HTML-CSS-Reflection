@@ -40,19 +40,33 @@
 }
 
 
+.btn-wide {
+    height: 56px;
+    line-height: 46px;
+    font-size: 1.125rem;
+    float: left;
+    color: #fff;
+    background-color: #4183d7;
+    border-color: #4183d7;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    white-space: normal;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-desktop {
+    height: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.063rem;
+    border-radius: 3px;
+    white-space: normal;
+    color:$color-text-white;
+    line-height: 50px;
+    border: none;
+    background: #999aa2;
+}
 
 
 

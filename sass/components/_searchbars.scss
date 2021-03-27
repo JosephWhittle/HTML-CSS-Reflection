@@ -31,8 +31,8 @@
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,.1);
-  border: 2px solid rgba(0,0,0,.1);
-  outline: 1px solid hsla(0,0%,100%,.2);
+  border: 1px solid rgb(204, 204, 204);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
   box-sizing: border-box;
   padding: 5px 40px 5px 15px;
   background-color: white;
@@ -41,14 +41,17 @@
   
   
   .submit-button-md {
+
     outline: none;
-    padding: 7px 20px 3px;
-    height: 56px;
-    font-size: 1.063rem;
-    border-radius: 0 3px 3px 0;
-    border: none;
-    vertical-align: bottom;
-    background-color: #999aa2;
     color: #fff;
     position: absolute;
+    height: 56px;
+    background-color: #999aa2;
+    border-radius: 0 3px 3px 0;
+    border: none;
+    padding:7px 15px 4px;
+
+    @media screen and (min-width: 992px) {
+      position: relative;
+    }
   }
