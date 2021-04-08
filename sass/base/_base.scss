@@ -65,24 +65,28 @@ footer {
 
 /* utility */
 
-
-
 // These can be anything like the following: 
 //Then for when the middle viewport size is applied, the large will make the tile go big, while the small will 
 //keep the other ones small
-.col-large-6 {
+
+
+//attach to any element to conveniently hide it as stated size
+.hide-mobile {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.hide-tablet {
+    @media screen and (min-width: 768px), (max-width:992px) {
+        display: none;
+    }
 
 }
 
-.col-sm-6 {
-
+.hide-desktop {
+    @media screen and (min-width: 992px) {
+        display: none;
+    }
+    
 }
-
-.col-md-6 {
-
-
-}
-
-
-
-

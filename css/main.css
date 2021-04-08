@@ -60,6 +60,24 @@ footer {
 }
 
 /* utility */
+@media screen and (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px), (max-width: 992px) {
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
 /* Web Fonts -------------------- 
 everything font related, literally like line height, font size, ect ect ect*/
 @font-face {
@@ -74,6 +92,86 @@ everything font related, literally like line height, font size, ect ect ect*/
   margin: 6px auto;
 }
 
+.text-small {
+  font-size: x-small;
+}
+
+.color-hoki {
+  color: #67809f;
+}
+
+.color-havelockblue {
+  color: #4183d7;
+}
+
+.color-shamrock {
+  color: #2ecc71;
+}
+
+.color-valenia {
+  color: #d64541;
+}
+
+.color-wisteria {
+  color: #926fb1;
+}
+
+.color-radicalred {
+  color: #f62459;
+}
+
+.bckgrnd-hoki {
+  background-color: #67809f;
+}
+
+.bckgrnd-havelockblue {
+  background-color: #4183d7;
+}
+
+.bckgrnd-shamrock {
+  background-color: #2ecc71;
+}
+
+.bckgrnd-valenia {
+  background-color: #d64541;
+}
+
+.bckgrnd-wisteria {
+  background-color: #926fb1;
+}
+
+.bckgrnd-radicalred {
+  background-color: #f62459;
+}
+
+.hover-hoki:hover {
+  background-color: #67809f;
+}
+
+.hover-hoki:hover i {
+  color: white;
+}
+
+.hover-havelockblue:hover {
+  background-color: #4183d7;
+}
+
+.hover-shamrock:hover {
+  background-color: #2ecc71;
+}
+
+.hover-valenia:hover {
+  background-color: #d64541;
+}
+
+.hover-wisteria:hover {
+  background-color: #926fb1;
+}
+
+.hover-radicalred:hover {
+  background-color: #f62459;
+}
+
 .btn {
   color: #fff;
   border: none;
@@ -85,7 +183,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 .btn-big {
-  margin-top: 80px;
+  margin-top: 50px;
   padding: 5px 15px;
   height: auto;
   text-transform: uppercase;
@@ -133,7 +231,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   color: #fff;
   line-height: 50px;
   border: none;
-  background: #999aa2;
 }
 
 .burger-button {
@@ -243,7 +340,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 @media screen and (min-width: 992px) {
   .submit-button-md {
-    position: relative;
+    position: absolute;
   }
 }
 
@@ -258,6 +355,18 @@ everything font related, literally like line height, font size, ect ect ect*/
   max-width: max-content;
   text-align: center;
   padding-top: 110px;
+}
+
+@media screen and (min-width: 992px) {
+  .carousel .text-area {
+    margin: auto;
+    height: auto;
+    max-width: unset;
+    text-align: left;
+    padding-top: 110px;
+    padding-left: 33px;
+    width: 992px;
+  }
 }
 
 .carousel h1 {
@@ -288,6 +397,12 @@ everything font related, literally like line height, font size, ect ect ect*/
 @media screen and (min-width: 768px) {
   .carousel {
     height: 625px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel {
+    height: 870px;
   }
 }
 
@@ -363,36 +478,20 @@ everything font related, literally like line height, font size, ect ect ect*/
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
-  .col-split {
+@media screen and (min-width: 768px), (max-width: 992px) {
+  .col-split-md {
     width: 45%;
     float: left;
     box-sizing: border-box;
   }
 }
 
-.bckgrnd-hoki {
-  background-color: #67809f;
-}
-
-.bckgrnd-havelockblue {
-  background-color: #4183d7;
-}
-
-.bckgrnd-shamrock {
-  background-color: #2ecc71;
-}
-
-.bckgrnd-valenia {
-  background-color: #d64541;
-}
-
-.bckgrnd-wisteria {
-  background-color: #926fb1;
-}
-
-.bckgrnd-radicalred {
-  background-color: #f62459;
+@media screen and (min-width: 992px) {
+  .col-split-sm {
+    width: 28.33333333%;
+    float: left;
+    box-sizing: border-box;
+  }
 }
 
 .latest-title {
@@ -537,14 +636,14 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-.text-container {
-  padding: 30px;
+@media screen and (min-width: 1260px) {
+  .horizontal-padder {
+    width: 1200px;
+  }
 }
 
-@media screen and (min-width: 768px) {
-  .hide-mobile {
-    display: none;
-  }
+.text-container {
+  padding: 30px;
 }
 
 .main-content {
@@ -567,6 +666,8 @@ everything font related, literally like line height, font size, ect ect ect*/
 .search-bar-container-md {
   height: 56px;
   width: 237px;
+  padding-left: 20px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
@@ -575,7 +676,7 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1260px) {
   .search-bar-container-md {
     width: auto;
     padding-left: 20px;
@@ -583,8 +684,11 @@ everything font related, literally like line height, font size, ect ect ect*/
   .search-bar-container-md input[type=text] {
     display: none;
   }
-  .search-bar-container-md .submit-button-md::after input[type=text] {
-    display: none;
+}
+
+@media screen and (min-width: 1260px) {
+  .search-bar-container-md {
+    width: 330px;
   }
 }
 
@@ -595,7 +699,13 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 @media screen and (min-width: 992px) {
   .search-bar-md {
-    width: auto;
+    width: 66px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .search-bar-md {
+    width: 240px;
   }
 }
 
@@ -604,8 +714,68 @@ everything font related, literally like line height, font size, ect ect ect*/
   background-color: #333645;
 }
 
+@media screen and (max-width: 992px) {
+  .main-navigation {
+    display: none;
+  }
+}
+
 .nav-container {
   width: 970px;
+  margin: 0 auto;
+}
+
+.nav-container .main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.nav-container .main-nav-list > li {
+  text-align: center;
+  flex: 1;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.nav-container .main-nav-list > a {
+  position: relative;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1;
+  padding: 19px 0 18px 0;
+}
+
+.nav-container .main-nav-list i {
+  margin: 20px;
+}
+
+.nav-container .main-nav-list .pop-up-nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding-left: 25%;
+}
+
+.nav-container .main-nav-list .pop-up-nav > li {
+  list-style: none;
+  float: left;
+}
+
+.nav-container .main-nav-list .pop-up-nav > li ::after {
+  content: "-";
+  padding-left: 20px;
+}
+
+.nav-container .main-nav-list .pop-up-nav > li a {
+  line-height: 2.813rem;
 }
 
 .image-container {
@@ -620,6 +790,13 @@ everything font related, literally like line height, font size, ect ect ect*/
   position: relative;
 }
 
+.middle-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (min-width: 768px) {
   .middle-flex-container {
     max-width: 750px;
@@ -630,11 +807,10 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-.middle-flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: auto;
+@media screen and (min-width: 992px) {
+  .middle-flex-container {
+    max-width: 970px;
+  }
 }
 
 .culture-container {
@@ -646,6 +822,12 @@ everything font related, literally like line height, font size, ect ect ect*/
 @media screen and (min-width: 768px) {
   .culture-container .culture-block {
     padding: 0 115px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .culture-container {
+    background-image: url("/images/NetmattersLogos/brandedNMlogo.png");
   }
 }
 
@@ -675,6 +857,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
+@media screen and (min-width: 992px) {
+  .latest-content-container {
+    width: 920px;
+  }
+}
+
 .latest-content-flex {
   display: flex;
   flex-wrap: wrap;
@@ -684,6 +872,10 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .newsletter-signup-container {
   background: #ddd;
+}
+
+.newsletter-signup-container .form-area {
+  display: inline;
 }
 
 .footer-container {
@@ -786,6 +978,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 150px;
   height: 56px;
   padding-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .desktop-header-container {
+    display: none;
+  }
 }
 
 .footer-container {

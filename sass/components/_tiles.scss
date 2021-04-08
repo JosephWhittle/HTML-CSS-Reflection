@@ -80,38 +80,28 @@
  //AS with that other class you did it too, the width 45% is an issue,
  // as the margins for the continer/guttering are causing problems,
  //you know how to fix this you just dont have time atm
-@media screen and (min-width: 768px) { 
-    .col-split {
+
+//medium represents half the space
+@media screen and (min-width: 768px), (max-width: 992px) { 
+    .col-split-md {
         width: 45%;
         float: left;
         box-sizing: border-box;
     }
 }
-.col-split{
+
+
+//Small represents third sizes
+@media screen and (min-width:992px) {
+    .col-split-sm {
+        width: 28.33333333%;    
+        float: left;
+        box-sizing: border-box;
+    }
+
 }
 
 
-
-
-//colour varient classes specifically for the tiles
-.bckgrnd-hoki {
-    background-color: $hoki;
-}
-.bckgrnd-havelockblue {
-    background-color: $HavelockBlue;
-}
-.bckgrnd-shamrock {
-    background-color: $Shamrock;
-}
-.bckgrnd-valenia {
-    background-color: $Valencia;
-}
-.bckgrnd-wisteria {
-    background-color: $Wisteria;
-}
-.bckgrnd-radicalred {
-    background-color: $RadicalRed;
-}
 
 
 

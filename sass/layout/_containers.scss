@@ -13,6 +13,12 @@
         width: 970px;
     }
 
+    //the random ass super wide viewport
+    @media screen and (min-width:1260px) {
+        width: 1200px;
+
+    }
+
 }
 
 
@@ -20,12 +26,8 @@
     padding: 30px;
 }
 
-//attach to any element to conveniently hide it when the screen is big enough
-.hide-mobile {
-    @media screen and (min-width: 768px) {
-        display: none;
-    }
-}
+
+
 
 
 
@@ -61,26 +63,25 @@
 {
     height: 56px;
     width: 237px;
-
+    padding-left: 20px;
+    box-sizing: border-box;
 
     @media screen and (max-width: 768px) {
         display: none;
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: 992px) and (max-width: 1260px) {
         width: auto;
         padding-left: 20px;
 
         input[type=text] {
             display: none;
         }
-
-        .submit-button-md::after {
-            input[type=text] {
-                display: none;
-            }
-        }
     }    
+
+    @media screen and (min-width: 1260px) {
+        width: 330px;
+    }
 }
 
 
@@ -88,22 +89,103 @@
     height: 100%;
     width: 174px;
 
+
     @media screen and (min-width: 992px) {
-        width: auto;
+        width: 66px;
+    }
+    
+    @media screen and (min-width: 1260px) {
+        width: 240px;
     }
 }
 
 // The main nav area with the lists
+
 .main-navigation {
     width: 100%;
     background-color: #333645;
+
+    @media screen and (max-width: 992px) {
+        display: none;
+        
+    }
+
+    //margin out the navigation bar so that its still contained within the header area
+    //
 }
 
 
 .nav-container {
     width: 970px;
+    margin: 0 auto;
+
+    .main-nav-list {
+        
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        border-left: 1px solid hsla(0,0%,100%,.1);
+        border-right: 1px solid rgba(0,0,0,.25);
+
+
+        > li {
+            text-align: center;
+            flex: 1;
+            border-right: 1px solid hsla(0,0%,100%,.1);
+            border-left: 1px solid rgba(0,0,0,.25);
+
+
+        }
+
+            
+        > a {
+            position: relative;
+            display: block;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1.125rem;
+            text-decoration: none;
+            line-height: 1;    
+            padding: 19px 0 18px 0;    
+        }
+
+    
+        i  { 
+            margin: 20px;
+        }    
+
+
+        //the sub list that shows when the highlighted button is highlighted
+        .pop-up-nav {
+            position: absolute;
+            width: 100%;
+            left:0;
+            right:0;
+            padding-left: 25%;
+
+
+            > li {
+                list-style: none;
+                float: left;
+
+                ::after {
+                    content: "-";
+                    padding-left: 20px;
+                }
+
+                a {
+                    line-height: 2.813rem;
+                }
+            }
+        }
+    }
 
 }
+
+
+
+
 
 
 
@@ -121,6 +203,7 @@
     height: 100%;
     width: 100%;
     background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/carousel/home-lQs1.jpg");
+
 }
 
 //image container for latest section
@@ -131,24 +214,31 @@
     position: relative;
 }
 
+
+
 //layout container for the middle tile section
-@media screen and (min-width: 768px) {
-    .middle-flex-container {
+.middle-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+
+    @media screen and (min-width: 768px) {
         max-width: 750px;
         margin-right: auto;    
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    @media screen and (min-width: 992px) {
+        max-width: 970px;
+    }
 }
 
 
-.middle-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-}
+
 
 //container for the culture section
 .culture-container {
@@ -161,7 +251,10 @@
         .culture-block {
             padding: 0 115px;
         }
-        
+    }
+
+    @media screen and (min-width:992px) {
+        background-image: url("/images/NetmattersLogos/brandedNMlogo.png");
     }
 }
 
@@ -192,6 +285,11 @@
         width: 750px;
         margin: 0 auto;
     }
+
+    
+    @media screen and (min-width:992px) {
+        width: 920px;
+    }
 }
 
 //flex properties for the latest content
@@ -206,6 +304,12 @@
 .newsletter-signup-container {
 
     background: #ddd;
+
+
+    .form-area {
+        display: inline;
+        
+    }
 }
 
 .footer-container {

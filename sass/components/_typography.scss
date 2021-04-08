@@ -15,3 +15,82 @@ everything font related, literally like line height, font size, ect ect ect*/
     background-color: black;
     margin: 6px auto;
 }
+
+
+
+
+.text-small {
+    font-size: x-small;
+}
+
+
+
+//colour varient for main color
+.color-hoki {
+    color: $hoki;
+}
+.color-havelockblue {
+    color: $HavelockBlue;
+}
+.color-shamrock {
+    color: $Shamrock;
+}
+.color-valenia {
+    color: $Valencia;
+}
+.color-wisteria {
+    color: $Wisteria;
+}
+.color-radicalred {
+    color: $RadicalRed;
+}
+
+
+
+//colour varient for backgrounds
+.bckgrnd-hoki {
+    background-color: $hoki;
+
+
+}
+.bckgrnd-havelockblue {
+    background-color: $HavelockBlue;
+}
+.bckgrnd-shamrock {
+    background-color: $Shamrock;
+}
+.bckgrnd-valenia {
+    background-color: $Valencia;
+}
+.bckgrnd-wisteria {
+    background-color: $Wisteria;
+}
+.bckgrnd-radicalred {
+    background-color: $RadicalRed;
+}
+
+
+//various hover varients specifically for the vav bar as 
+//the icons need to have a switch as well
+
+.hover-hoki:hover {
+    background-color: $hoki;
+    i {
+        color: white;
+    }
+}
+.hover-havelockblue:hover {
+    background-color: $HavelockBlue;
+}
+.hover-shamrock:hover {
+    background-color: $Shamrock;
+}
+.hover-valenia:hover {
+    background-color: $Valencia;
+}
+.hover-wisteria:hover {
+    background-color: $Wisteria;
+}
+.hover-radicalred:hover {
+    background-color: $RadicalRed;
+}
