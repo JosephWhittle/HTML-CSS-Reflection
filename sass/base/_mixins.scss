@@ -14,4 +14,43 @@
 
 
 
+@mixin pop-up-nav-sides {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10000px;
+    z-index: -1;
+}
 
+
+
+
+@mixin tile-hover-switch {
+        //The icon
+        .dot {
+            background-color: white;
+            i {
+                color: purple;
+            }
+        }
+    
+        //the heading
+        h2 {
+            color: white;
+        }
+    
+        p {
+            color: white;
+        }
+    
+        //the divider
+        .single-divider div {
+            background-color: white;
+        }
+    
+        button {
+            background-color: white;
+        }
+}

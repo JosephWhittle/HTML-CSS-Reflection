@@ -81,16 +81,94 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 .hover-havelockblue:hover {
     background-color: $HavelockBlue;
+    i {
+        color: white;
+    }
 }
 .hover-shamrock:hover {
     background-color: $Shamrock;
+    i {
+        color: white;
+    }
 }
-.hover-valenia:hover {
+.hover-valencia:hover {
     background-color: $Valencia;
+    i {
+        color: white;
+    }
 }
 .hover-wisteria:hover {
     background-color: $Wisteria;
+    i {
+        color: white;
+    }
 }
 .hover-radicalred:hover {
     background-color: $RadicalRed;
+    i {
+        color: white;
+    }
+}
+
+
+
+//Hover switch colour changes (def a better way to so this but its chill)
+.hover-switch-icons-hoki:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $hoki;
+    }    
+    button {
+        color: $hoki;
+    }
+}
+
+.hover-switch-icons-havelockblue:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $HavelockBlue;
+    }    
+    button {
+        color: $HavelockBlue;
+    }
+}
+
+.hover-switch-icons-shamrock:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $Shamrock;
+    }    
+    button {
+        color: $Shamrock;
+    }
+}
+
+.hover-switch-icons-valenia:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $Valencia;
+    }    
+    button {
+        color: $Valencia;
+    }
+}
+
+.hover-switch-icons-wisteria:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $Wisteria;
+    }    
+    button {
+        color: $Wisteria;
+    }
+}
+
+.hover-switch-icons-radicalred:hover {
+    @include tile-hover-switch;
+    .dot #tile-icon {
+        color: $RadicalRed;
+    }    
+    button {
+        color: $RadicalRed;
+    }
 }

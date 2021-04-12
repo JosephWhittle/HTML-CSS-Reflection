@@ -155,6 +155,8 @@
             margin: 20px;
         }    
 
+        
+
 
         //the sub list that shows when the highlighted button is highlighted
         .pop-up-nav {
@@ -162,16 +164,34 @@
             width: 100%;
             left:0;
             right:0;
-            padding-left: 25%;
+
+            max-width:max-content;
+            margin-right: auto;
+            margin-left: auto;
+
+            z-index: 2;
+
+
+            //default, then acivated when hovered
+            display: none;
+
 
 
             > li {
                 list-style: none;
                 float: left;
+                z-index: 2;
 
-                ::after {
+                &:not(:last-child):after {
                     content: "-";
                     padding-left: 20px;
+                    padding-right: 20px;
+                    color: white;
+                }
+   
+                
+                ::before {
+                    padding-right: 20px;
                 }
 
                 a {
@@ -179,19 +199,100 @@
                 }
             }
         }
+
     }
 
+
+    //The pop up functionality acivated by the big buttons
+    .pop-up-nav-switcher:hover {
+        .pop-up-nav {
+            display: block;
+        }
+    }
+
+
+
+
+    //instead of attaching it to the main class, add 6 seperate
+    //classes to each one, adding 6 individual afters/befores,
+    //then put the afters n befores to each class kinda like below
+
+
+    //The following adds the coloured sections to each side of the pop up nav bar
 }
 
+.nav-side-fill-web .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #79539a;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #79539a;
+    }
+} 
+
+.nav-side-fill-it .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #286abd;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #286abd;
+    }
+}   
+
+.nav-side-fill-telecoms .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #bc2c28;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #bc2c28;
+    }
+}   
+
+.nav-side-fill-bespoke .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #526781;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #526781;
+    }
+}   
+
+.nav-side-fill-digital .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #25a25a;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #25a25a;
+    }
+} 
 
 
-
-
-
-
-
-
-
+.nav-side-fill-cyber .pop-up-nav {
+    &::after {
+        @include pop-up-nav-sides;
+        background-color: #de093f;
+    }
+    &::before {
+        @include pop-up-nav-sides;
+        right: 100%;
+        background-color: #de093f;
+    }
+}   
 
 
 
@@ -203,7 +304,7 @@
     height: 100%;
     width: 100%;
     background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/carousel/home-lQs1.jpg");
-
+    z-index: 0;
 }
 
 //image container for latest section
@@ -234,6 +335,11 @@
 
     @media screen and (min-width: 992px) {
         max-width: 970px;
+    }
+
+    @media screen and (min-width:1260px) {
+        max-width: 1200px;
+        
     }
 }
 
@@ -302,13 +408,13 @@
 
 //Newsletter sign up section
 .newsletter-signup-container {
-
     background: #ddd;
-
-
     .form-area {
         display: inline;
-        
+        @media screen and (min-width:992px) {
+            width: 48%;
+            display: inline-block;
+        }   
     }
 }
 
@@ -319,7 +425,6 @@
 }
 
 @media screen and (min-width:768px) {
-
     .footer-container
     {
         flex-direction: row;
@@ -327,11 +432,26 @@
             width: 50%;
             box-sizing: border-box;
             float: left;
-    
         }
     }
-
 }
+
+@media screen and (min-width:1260px) {
+    .footer-container
+    {
+        width: 1200px;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        .container {
+            width: 25%;
+            box-sizing: border-box;
+            float: left;
+
+        }
+    }
+}
+
 
 
 

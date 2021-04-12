@@ -32,6 +32,25 @@
 }
 
 
+
+//The colour switcher for the logos
+.acred-switcher {
+    :last-child {
+        display: none;
+    }
+
+    &:hover :last-child {
+        display: inline-block;
+
+    }
+    &:hover :first-child {
+        display: none;
+    }
+
+}
+
+//styling becuase the google logo on the real site
+//is inserted by some js n that n I cant find the exact one
 .google-partners-badge {
     box-shadow: 2px 2px 5px grey;
 

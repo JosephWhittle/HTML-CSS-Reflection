@@ -156,20 +156,232 @@ everything font related, literally like line height, font size, ect ect ect*/
   background-color: #4183d7;
 }
 
+.hover-havelockblue:hover i {
+  color: white;
+}
+
 .hover-shamrock:hover {
   background-color: #2ecc71;
 }
 
-.hover-valenia:hover {
+.hover-shamrock:hover i {
+  color: white;
+}
+
+.hover-valencia:hover {
   background-color: #d64541;
+}
+
+.hover-valencia:hover i {
+  color: white;
 }
 
 .hover-wisteria:hover {
   background-color: #926fb1;
 }
 
+.hover-wisteria:hover i {
+  color: white;
+}
+
 .hover-radicalred:hover {
   background-color: #f62459;
+}
+
+.hover-radicalred:hover i {
+  color: white;
+}
+
+.hover-switch-icons-hoki:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-hoki:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-hoki:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-hoki:hover p {
+  color: white;
+}
+
+.hover-switch-icons-hoki:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-hoki:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-hoki:hover .dot #tile-icon {
+  color: #67809f;
+}
+
+.hover-switch-icons-hoki:hover button {
+  color: #67809f;
+}
+
+.hover-switch-icons-havelockblue:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-havelockblue:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-havelockblue:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-havelockblue:hover p {
+  color: white;
+}
+
+.hover-switch-icons-havelockblue:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-havelockblue:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-havelockblue:hover .dot #tile-icon {
+  color: #4183d7;
+}
+
+.hover-switch-icons-havelockblue:hover button {
+  color: #4183d7;
+}
+
+.hover-switch-icons-shamrock:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-shamrock:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-shamrock:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-shamrock:hover p {
+  color: white;
+}
+
+.hover-switch-icons-shamrock:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-shamrock:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-shamrock:hover .dot #tile-icon {
+  color: #2ecc71;
+}
+
+.hover-switch-icons-shamrock:hover button {
+  color: #2ecc71;
+}
+
+.hover-switch-icons-valenia:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-valenia:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-valenia:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-valenia:hover p {
+  color: white;
+}
+
+.hover-switch-icons-valenia:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-valenia:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-valenia:hover .dot #tile-icon {
+  color: #d64541;
+}
+
+.hover-switch-icons-valenia:hover button {
+  color: #d64541;
+}
+
+.hover-switch-icons-wisteria:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-wisteria:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-wisteria:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-wisteria:hover p {
+  color: white;
+}
+
+.hover-switch-icons-wisteria:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-wisteria:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-wisteria:hover .dot #tile-icon {
+  color: #926fb1;
+}
+
+.hover-switch-icons-wisteria:hover button {
+  color: #926fb1;
+}
+
+.hover-switch-icons-radicalred:hover .dot {
+  background-color: white;
+}
+
+.hover-switch-icons-radicalred:hover .dot i {
+  color: purple;
+}
+
+.hover-switch-icons-radicalred:hover h2 {
+  color: white;
+}
+
+.hover-switch-icons-radicalred:hover p {
+  color: white;
+}
+
+.hover-switch-icons-radicalred:hover .single-divider div {
+  background-color: white;
+}
+
+.hover-switch-icons-radicalred:hover button {
+  background-color: white;
+}
+
+.hover-switch-icons-radicalred:hover .dot #tile-icon {
+  color: #f62459;
+}
+
+.hover-switch-icons-radicalred:hover button {
+  color: #f62459;
 }
 
 .btn {
@@ -494,6 +706,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
+@media screen and (min-width: 1260px) {
+  .col-split-lg {
+    width: 22%;
+  }
+}
+
 .latest-title {
   height: auto;
   padding: 0 15px;
@@ -558,6 +776,12 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
+@media screen and (min-width: 992px) {
+  .newsletter-signup-container form {
+    width: 970px;
+  }
+}
+
 .newsletter-signup-container a {
   color: #333645;
   text-decoration: underline;
@@ -613,6 +837,18 @@ everything font related, literally like line height, font size, ect ect ect*/
 .row .acred-item img {
   height: auto;
   width: 100%;
+}
+
+.acred-switcher :last-child {
+  display: none;
+}
+
+.acred-switcher:hover :last-child {
+  display: inline-block;
+}
+
+.acred-switcher:hover :first-child {
+  display: none;
 }
 
 .google-partners-badge {
@@ -761,27 +997,181 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 100%;
   left: 0;
   right: 0;
-  padding-left: 25%;
+  max-width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
+  display: none;
 }
 
 .nav-container .main-nav-list .pop-up-nav > li {
   list-style: none;
   float: left;
+  z-index: 2;
 }
 
-.nav-container .main-nav-list .pop-up-nav > li ::after {
+.nav-container .main-nav-list .pop-up-nav > li:not(:last-child):after {
   content: "-";
   padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.nav-container .main-nav-list .pop-up-nav > li ::before {
+  padding-right: 20px;
 }
 
 .nav-container .main-nav-list .pop-up-nav > li a {
   line-height: 2.813rem;
 }
 
+.nav-container .pop-up-nav-switcher:hover .pop-up-nav {
+  display: block;
+}
+
+.nav-side-fill-web .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #79539a;
+}
+
+.nav-side-fill-web .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #79539a;
+}
+
+.nav-side-fill-it .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #286abd;
+}
+
+.nav-side-fill-it .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #286abd;
+}
+
+.nav-side-fill-telecoms .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #bc2c28;
+}
+
+.nav-side-fill-telecoms .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #bc2c28;
+}
+
+.nav-side-fill-bespoke .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #526781;
+}
+
+.nav-side-fill-bespoke .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #526781;
+}
+
+.nav-side-fill-digital .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #25a25a;
+}
+
+.nav-side-fill-digital .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #25a25a;
+}
+
+.nav-side-fill-cyber .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #de093f;
+}
+
+.nav-side-fill-cyber .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #de093f;
+}
+
 .image-container {
   height: 100%;
   width: 100%;
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/carousel/home-lQs1.jpg");
+  z-index: 0;
 }
 
 .image-container-latest {
@@ -810,6 +1200,12 @@ everything font related, literally like line height, font size, ect ect ect*/
 @media screen and (min-width: 992px) {
   .middle-flex-container {
     max-width: 970px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .middle-flex-container {
+    max-width: 1200px;
   }
 }
 
@@ -878,6 +1274,13 @@ everything font related, literally like line height, font size, ect ect ect*/
   display: inline;
 }
 
+@media screen and (min-width: 992px) {
+  .newsletter-signup-container .form-area {
+    width: 48%;
+    display: inline-block;
+  }
+}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -890,6 +1293,20 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
   .footer-container .container {
     width: 50%;
+    box-sizing: border-box;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .footer-container {
+    width: 1200px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-container .container {
+    width: 25%;
     box-sizing: border-box;
     float: left;
   }
