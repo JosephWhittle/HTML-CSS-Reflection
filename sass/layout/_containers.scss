@@ -1,12 +1,16 @@
 
 //Reusable utility esk
+
+
+//Padder (Pads left/right, and auto centers)
 .horizontal-padder {
     padding: 0 15px;
+    margin: 0 auto;
 
     @media  screen and (min-width:768px) 
     {
     width: 750px;
-    margin: 0 auto;
+    
     }
 
     @media screen and (min-width:992px) {
@@ -25,9 +29,6 @@
 .text-container {
     padding: 30px;
 }
-
-
-
 
 
 
@@ -103,11 +104,11 @@
 
 .main-navigation {
     width: 100%;
+    height: 99px;
     background-color: #333645;
 
     @media screen and (max-width: 992px) {
         display: none;
-        
     }
 
     //margin out the navigation bar so that its still contained within the header area
@@ -152,7 +153,7 @@
 
     
         i  { 
-            margin: 20px;
+            margin-top: 10px;
         }    
 
         
@@ -336,6 +337,7 @@
     @media screen and (min-width: 992px) {
         max-width: 970px;
     }
+
 
     @media screen and (min-width:1260px) {
         max-width: 1200px;
