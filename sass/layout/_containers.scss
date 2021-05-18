@@ -26,7 +26,7 @@
 }
 
 
-.text-container {
+.text-container-news-tiles {
     padding: 30px;
 }
 
@@ -65,7 +65,7 @@
     height: 56px;
     width: 237px;
     padding-left: 20px;
-    box-sizing: border-box;
+
 
     @media screen and (max-width: 768px) {
         display: none;
@@ -73,7 +73,6 @@
 
     @media screen and (min-width: 992px) and (max-width: 1260px) {
         width: auto;
-        padding-left: 20px;
 
         input[type=text] {
             display: none;
@@ -81,7 +80,7 @@
     }    
 
     @media screen and (min-width: 1260px) {
-        width: 330px;
+        width: 306px;
     }
 }
 
@@ -118,6 +117,7 @@
 
 .nav-container {
     width: 970px;
+    height: 100%;
     margin: 0 auto;
 
     .main-nav-list {
@@ -128,15 +128,38 @@
         flex-direction: row;
         border-left: 1px solid hsla(0,0%,100%,.1);
         border-right: 1px solid rgba(0,0,0,.25);
+        height: 100%;
 
-
+        //The list elements of the nav bar
         > li {
             text-align: center;
             flex: 1;
             border-right: 1px solid hsla(0,0%,100%,.1);
-            border-left: 1px solid rgba(0,0,0,.25);
+            border-left: 1px solid rgba(0,0,0,.25); 
 
+            //this is bad nesting, lazyyy
+            > span {
+                display: block;
+                height: 100%;
 
+                span {
+                    display: block;
+                    text-transform: uppercase;
+                }
+                
+                span:first-of-type {
+                    padding-top: 19px;
+                    padding-bottom: 2px;
+                }
+                span:last-of-type {
+                    font-size: 1.125rem;
+                    line-height: 1.125rem;
+                }
+                .text-small {
+                    font-size: 0.625rem;
+                    line-height: 0.625rem;
+                }
+            }
         }
 
             
@@ -147,16 +170,8 @@
             text-transform: uppercase;
             font-size: 1.125rem;
             text-decoration: none;
-            line-height: 1;    
-            padding: 19px 0 18px 0;    
-        }
-
-    
-        i  { 
-            margin-top: 10px;
-        }    
-
-        
+            line-height: 1;  
+        }        
 
 
         //the sub list that shows when the highlighted button is highlighted
@@ -175,7 +190,6 @@
 
             //default, then acivated when hovered
             display: none;
-
 
 
             > li {
@@ -197,6 +211,7 @@
 
                 a {
                     line-height: 2.813rem;
+
                 }
             }
         }
@@ -210,6 +225,7 @@
             display: block;
         }
     }
+
 
 
 
@@ -305,6 +321,9 @@
     height: 100%;
     width: 100%;
     background-image:linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.171)),url("/images/carousel/home-lQs1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     z-index: 0;
 }
 

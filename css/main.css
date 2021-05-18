@@ -554,9 +554,9 @@ everything font related, literally like line height, font size, ect ect ect*/
   padding: 7px 15px 4px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1260px) {
   .submit-button-md {
-    position: absolute;
+    border-radius: 3px;
   }
 }
 
@@ -882,7 +882,7 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-.text-container {
+.text-container-news-tiles {
   padding: 30px;
 }
 
@@ -907,7 +907,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   height: 56px;
   width: 237px;
   padding-left: 20px;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
@@ -919,7 +918,6 @@ everything font related, literally like line height, font size, ect ect ect*/
 @media screen and (min-width: 992px) and (max-width: 1260px) {
   .search-bar-container-md {
     width: auto;
-    padding-left: 20px;
   }
   .search-bar-container-md input[type=text] {
     display: none;
@@ -928,7 +926,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 @media screen and (min-width: 1260px) {
   .search-bar-container-md {
-    width: 330px;
+    width: 306px;
   }
 }
 
@@ -963,6 +961,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .nav-container {
   width: 970px;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -973,6 +972,7 @@ everything font related, literally like line height, font size, ect ect ect*/
   flex-direction: row;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(0, 0, 0, 0.25);
+  height: 100%;
 }
 
 .nav-container .main-nav-list > li {
@@ -980,6 +980,31 @@ everything font related, literally like line height, font size, ect ect ect*/
   flex: 1;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.nav-container .main-nav-list > li > span {
+  display: block;
+  height: 100%;
+}
+
+.nav-container .main-nav-list > li > span span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.nav-container .main-nav-list > li > span span:first-of-type {
+  padding-top: 19px;
+  padding-bottom: 2px;
+}
+
+.nav-container .main-nav-list > li > span span:last-of-type {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+.nav-container .main-nav-list > li > span .text-small {
+  font-size: 0.625rem;
+  line-height: 0.625rem;
 }
 
 .nav-container .main-nav-list > a {
@@ -990,11 +1015,6 @@ everything font related, literally like line height, font size, ect ect ect*/
   font-size: 1.125rem;
   text-decoration: none;
   line-height: 1;
-  padding: 19px 0 18px 0;
-}
-
-.nav-container .main-nav-list i {
-  margin-top: 10px;
 }
 
 .nav-container .main-nav-list .pop-up-nav {
@@ -1176,6 +1196,9 @@ everything font related, literally like line height, font size, ect ect ect*/
   height: 100%;
   width: 100%;
   background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/carousel/home-lQs1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   z-index: 0;
 }
 
