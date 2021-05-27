@@ -9,21 +9,14 @@
 
 
     .text-area {
-        margin: auto;
-        height:max-content;
-        max-width: max-content;
-
         text-align: center;  
-        padding-top: 110px;  
+        padding-bottom: 7%;
         
         @media screen and (min-width:992px) {
             margin: auto;
             height:auto;
             max-width:unset;
             text-align: left;  
-            padding-top: 110px;  
-            padding-left: 33px;
-            width: 992px;
         }
     }
 
@@ -40,12 +33,10 @@
         font-size:1.25rem;
     }
 
-    #dot
+    #dot-outer
     {
-        color: #fff;
-        font-style: 2rem;
-        margin-top: 50px;
-
+        color: hsl(0, 0%, 50%);
+        font-size: 14px;
     }
 
     .carousel-button {

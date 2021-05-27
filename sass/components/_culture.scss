@@ -1,17 +1,48 @@
 
 
 .culture-container {
+
+
+    .text-block {
+        @include padding-small-viewport;
+        
+        @media screen and (min-width:1260px) {
+            width: 50%;   
+        }
+    }
+
     h1 {
         font-size: 2.25rem;
+        line-height: 2.25rem;
+        font-weight: 400;
+        margin-bottom: 25px;
     }
     
     p {
         line-height: 1.875rem;
         margin-bottom: 25px;
         color: $white;
+        letter-spacing: .4px;
     }
+
 
     button {
         color: $tuna;
+        padding: 5px 15px;
+        line-height: 35px;
     }
+
+
+    i {
+        margin-left: 10px;
+    }
+
+    //**The padding above is a temp fix, for a stupid problem**
+    //THE CONTAINER HEIGHT/WIDTH is BUILT FROM THE CONTENTS
+    // SO BUILD THE CONTENTS CORRECTLY AND IT SHOULD BE THE
+    //THE RIGHT HEIGHT
+
+    //THE COL-LG-6 is what the text wrap/block is having applied
+    //to it, so look at how that works and then applu
+    // styles using that
 }

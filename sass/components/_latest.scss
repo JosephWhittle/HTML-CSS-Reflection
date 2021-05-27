@@ -1,51 +1,21 @@
 //The latest section
-
-
 .latest-title {
-
-    height: auto;
-    padding: 0 15px;
-    margin: auto;
-
     h2 {
-        display: block;
-        padding: 40px 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
         color: #333645;
         text-transform: uppercase;
         font-size: 1.25rem;
         font-weight: 600;
-        position: relative;
-    }
-
-    @media screen and (min-width: 768px) {
-        //in here the entire area needs to be inside the 
-        //div that centers
-        width: 750px;
+        @include padding-small-viewport;
+        margin-bottom: -6px;
+        line-height: 1.5rem;
     }
 }
-
-
-.latest-content-container .text-container {
-    a {
-        color: #926fb1;
-        font-size: 1rem;;
-    }
-}
-
 
 .single-divider-large {
     width: 72px;
     height: 5px;
     background-color: #333645;
-        
+    @include margin-small-viewport;        
 }
-
-
-
-
-
-
-//      box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
-
-//this will contain the rest of the styling for the latest section
-//everything to do with latest this isnt layout orientated.

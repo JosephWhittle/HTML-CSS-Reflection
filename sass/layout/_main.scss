@@ -1,7 +1,28 @@
 
-//Main container 
 
 
+//Padder (Pads left/right, and auto centers)
+.horizontal-padder {
+
+    //The padding below might need to be added
+    padding: 0 15px;
+    margin: 0 auto;
+
+    @media  screen and (min-width:768px) {
+    width: 750px;
+    }
+
+    @media screen and (min-width:992px) {
+        width: 970px;
+    }
+
+    @media screen and (min-width:1260px) {
+        width: 1200px !important;
+    }
+}
 
 
-
+.small-padder {
+    margin-left: 15px;
+    margin-right: 15px;
+}

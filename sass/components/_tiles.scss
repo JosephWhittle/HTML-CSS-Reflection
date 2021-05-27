@@ -2,39 +2,48 @@
 
 .content-item-1 {
     border: 1px solid #ccc;
-    margin: 15px 15px 15px 15px;
-    padding: 40px;
     width: 100%;
     height: fit-content;
     text-align: center; 
     border-radius: 3px; 
     box-shadow: 0 3px 35px rgba($color: #000000, $alpha: 0.1);
+    box-sizing: border-box;
+    padding: 30px;
+    margin-top: 30px;
     
-    //add the media below so that it is the same as the above but essentially switches between them
-
-
     .dot {
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         border-radius: 50%;
         display: inline-block;
         margin-bottom: 17px;
 
         #tile-icon {
-            line-height: 50px;
+            line-height: 60px;
             color: white;
         }
       }
 
       h2 {
         font-weight: 250;
+        line-height: 1.1;
       }
 
+      .single-divider {
+          div {
+              margin-bottom: 11px;
+              margin-top: 14px;
+          }
+      }
 
       p {
         font-size: .8125rem;
         font-weight: 400;
-        margin: 13px;
+        margin-bottom: 13px;
+      }
+
+      br {
+          display: none;
       }
 }
 
@@ -43,10 +52,10 @@
 //latest news tiles
 .content-item-2 {
     border: 1px solid #ccc;
-    margin: 15px 15px 15px 15px;
     width: 100%;
     height: fit-content;
-
+    box-sizing: border-box;
+    margin-top: 30px;
 
     .image-container-latest {
         img {
@@ -76,38 +85,76 @@
     }
 
 
- //need a utility class that only acitvates when the media is acticvated
- //AS with that other class you did it too, the width 45% is an issue,
- // as the margins for the continer/guttering are causing problems,
- //you know how to fix this you just dont have time atm
 
-//medium represents half the space
-@media screen and (min-width: 768px), (max-width: 992px) { 
-    .col-split-md {
-        width: 45%;
-        float: left;
-        box-sizing: border-box;
+
+
+
+    
+//Tile size changes with various functionality
+//with the following syntax: "tile-*viewport*-*size-setting*
+@media screen and (min-width:768px) {
+    //full width but contrained on small screens
+    .tile-small-full-width {
+        width: 720px;
     }
+    //half width on small screen
+    .tile-small-half-width {
+        width: 345px;  
+    }    
 }
 
-
-//Small represents third sizes
 @media screen and (min-width:992px) {
-    .col-split-sm {
-        width: 28.33333333%;    
-        float: left;
-        box-sizing: border-box;
+    //splits into thirds on medium screens
+    .tile-medium-thirds {
+        width:293px;
     }
 
+    .tile-medium-halfs {
+        width: 455px;
+    }
 }
 
 @media screen and (min-width:1260px) {
-    .col-split-lg {
-        width: 22%;
+    //splits into quatres 
+    .tile-large-quarters {
+        width: 270px;
 
+    }
+
+    .tile-large-thirds {
+        width:370px;
     }
 }
 
+
+
+//Filler system is below - The size refers to the
+//viewport is it applied to, not the size of the line
+
+.line-fill-small {
+    @media screen and (min-width:768px) {
+        br {
+            display: initial;
+        }         
+    }
+
+}
+
+.line-fill-medium { 
+    @media screen and (min-width:992px) {   
+        br {
+            display: initial;
+        }   
+    }
+}
+
+.line-fill-large {
+    @media screen and (min-width:1260px) {   
+        br {
+            display: initial;
+        }   
+    }
+}
 
 
 

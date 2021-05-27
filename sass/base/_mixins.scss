@@ -1,18 +1,3 @@
-// Web fonts, the below mixins are examples and will need to be replaced. but the examples are good for learning sake.
-
-
-
-
-
-
-// Text
-
-
-
-
-
-
-
 
 @mixin pop-up-nav-sides {
     content: "";
@@ -23,8 +8,6 @@
     width: 10000px;
     z-index: -1;
 }
-
-
 
 
 @mixin tile-hover-switch {
@@ -53,4 +36,23 @@
         button {
             background-color: white;
         }
+}
+
+
+
+//Some mixings becuase the netmatters has sooo many
+//random paddings and margins i keep having to take
+//and add them my god
+@mixin padding-small-viewport {
+    @media screen and (min-width:768px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@mixin margin-small-viewport {
+    @media screen and (min-width:768px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }

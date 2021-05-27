@@ -17,8 +17,6 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 
-
-
 .text-small {
     font-size: x-small;
 }
@@ -112,8 +110,27 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 
+//Hover icons for the social media buttons
+.hover-facebook:hover {
+    background-color: #3b5998;
+}
 
-//Hover switch colour changes (def a better way to so this but its chill)
+.hover-twitter:hover {
+    background-color: #3b5998;
+}
+
+.hover-instagram:hover {
+    background-color: #d93175;
+}
+
+.hover-linkedin:hover {
+    background-color: #0077b5;
+}
+
+
+
+
+//Hover switch colour changes (def a better way to do this but its chill)
 .hover-switch-icons-hoki:hover {
     @include tile-hover-switch;
     .dot #tile-icon {
