@@ -15,18 +15,38 @@
 .row {
     display: flex;
     flex-direction: row;
-    width: 750px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 
 
     .acred-item {
         flex-grow: 1;
         padding: 0 20px;
-        flex-grow: 1;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        .pop-up-box {
+            display: none;
+            position: relative;
+
+            h3 {
+
+            }
+
+            p {
+
+            }
+
+
+            
+        }
+
+
 
         img {
             height: auto;
-            width: 100%;
+            vertical-align: middle;
         }
     }
 }
@@ -34,7 +54,7 @@
 
 
 //The colour switcher for the logos
-.acred-switcher {
+.acred-switcher > {
     :last-child {
         display: none;
     }

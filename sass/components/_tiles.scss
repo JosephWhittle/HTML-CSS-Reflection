@@ -67,22 +67,60 @@
     p {
         font-size: .8125rem;
         font-weight: 400;
-        margin: 13px;
       }
-      .user {
+      
+    .user {
         border-top: 1px solid #ccc;
-        margin-top: 30px;
         padding-top: 30px;
+        margin-top: 30px;
+        font-size: 0.875rem;
+        letter-spacing: 0.4px;
+
+        img {
+            display: inline-block;
+        }
 
         .post-details {
             display:inline-block;
+            position: absolute;
+            padding-left: 20px;
+            padding-top: 3px;
+            line-height: 1.375rem;
         }
 
         }
         .user-title {
             font-weight: bold;
+            color: #333645;
         }
-    }
+
+        .user-date {
+            color: #666;
+        }
+
+
+        //COmment to split to stop me getting confused
+        .text-container-news-tiles {
+            padding: 30px;
+
+            > h3 {
+                line-height: 1.5rem;
+                margin: 0 0 15px;
+                min-height: 3rem;
+
+                a {
+                    color:$Wisteria;
+                }
+            }
+            > p {
+                line-height: 1.375rem;
+                font-size: .8125rem;
+                min-height: 66px;
+                margin-bottom: 25px;
+                color: #666;
+            }
+        }
+}
 
 
 

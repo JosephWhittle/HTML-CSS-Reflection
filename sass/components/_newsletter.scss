@@ -2,28 +2,10 @@
 
 //newsletter section
 .newsletter-signup-container {
+    
 
-    margin-right: auto;
-    margin-left: auto;
-
-
-
-    //Move on for now, ASK IN THE DISCORD TOMORROW< THIS CAN WAIT, YOU NEED TO GET TO JUMPING FROM TASK TO TASK AND THEN ASKING FOR HELP
-    // WHEN YOU CANT MOVE FORWARD
     form {
         padding: 50px 30px 50px 30px;
-
-
-        @media screen and (min-width:768px) {
-            width: 750px;
-            margin: 0 auto;
-            box-sizing: border-box;
-        }
-
-        @media screen and (min-width:992px) {
-            width: 970px;
-
-        }
     }
 
     a {

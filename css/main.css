@@ -72,7 +72,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1259px) {
   .hide-desktop {
     display: none;
   }
@@ -96,6 +96,14 @@ everything font related, literally like line height, font size, ect ect ect*/
   height: 3px;
   background-color: black;
   margin: 6px auto;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 86.6px 50px 0 50px;
+  border-color: #033464 transparent transparent transparent;
 }
 
 .text-small {
@@ -416,9 +424,10 @@ everything font related, literally like line height, font size, ect ect ect*/
   text-transform: uppercase;
   font-size: 1.063rem;
   border-radius: 3px;
-  padding: 15px 30px 15px 30px;
+  padding: 5px 15px 5px 15px;
   font-size: 1.063rem;
   font-family: 'poppins-regular' ,sans-serif;
+  line-height: 35px;
 }
 
 .btn-big {
@@ -706,21 +715,57 @@ everything font related, literally like line height, font size, ect ect ect*/
 .content-item-2 p {
   font-size: .8125rem;
   font-weight: 400;
-  margin: 13px;
 }
 
 .content-item-2 .user {
   border-top: 1px solid #ccc;
-  margin-top: 30px;
   padding-top: 30px;
+  margin-top: 30px;
+  font-size: 0.875rem;
+  letter-spacing: 0.4px;
+}
+
+.content-item-2 .user img {
+  display: inline-block;
 }
 
 .content-item-2 .user .post-details {
   display: inline-block;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 3px;
+  line-height: 1.375rem;
 }
 
 .content-item-2 .user-title {
   font-weight: bold;
+  color: #333645;
+}
+
+.content-item-2 .user-date {
+  color: #666;
+}
+
+.content-item-2 .text-container-news-tiles {
+  padding: 30px;
+}
+
+.content-item-2 .text-container-news-tiles > h3 {
+  line-height: 1.5rem;
+  margin: 0 0 15px;
+  min-height: 3rem;
+}
+
+.content-item-2 .text-container-news-tiles > h3 a {
+  color: #926fb1;
+}
+
+.content-item-2 .text-container-news-tiles > p {
+  line-height: 1.375rem;
+  font-size: .8125rem;
+  min-height: 66px;
+  margin-bottom: 25px;
+  color: #666;
 }
 
 @media screen and (min-width: 768px) {
@@ -836,27 +881,8 @@ everything font related, literally like line height, font size, ect ect ect*/
   margin-left: 10px;
 }
 
-.newsletter-signup-container {
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .newsletter-signup-container form {
   padding: 50px 30px 50px 30px;
-}
-
-@media screen and (min-width: 768px) {
-  .newsletter-signup-container form {
-    width: 750px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .newsletter-signup-container form {
-    width: 970px;
-  }
 }
 
 .newsletter-signup-container a {
@@ -901,30 +927,37 @@ everything font related, literally like line height, font size, ect ect ect*/
 .row {
   display: flex;
   flex-direction: row;
-  width: 750px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .row .acred-item {
   flex-grow: 1;
   padding: 0 20px;
-  flex-grow: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.row .acred-item .pop-up-box {
+  display: none;
+  position: relative;
 }
 
 .row .acred-item img {
   height: auto;
-  width: 100%;
+  vertical-align: middle;
 }
 
-.acred-switcher :last-child {
+.acred-switcher > :last-child {
   display: none;
 }
 
-.acred-switcher:hover :last-child {
+.acred-switcher:hover > :last-child {
   display: inline-block;
 }
 
-.acred-switcher:hover :first-child {
+.acred-switcher:hover > :first-child {
   display: none;
 }
 
@@ -958,10 +991,6 @@ everything font related, literally like line height, font size, ect ect ect*/
 .small-padder {
   margin-left: 15px;
   margin-right: 15px;
-}
-
-.text-container-news-tiles {
-  padding: 30px;
 }
 
 .main-content {
@@ -1401,13 +1430,8 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 .accredidations {
-  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 12px 20px rgba(0, 0, 0, 0.1);
   padding: 50px 0;
-}
-
-.accredidations .container {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .header-vertical-padder {
