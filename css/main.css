@@ -102,8 +102,13 @@ everything font related, literally like line height, font size, ect ect ect*/
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 86.6px 50px 0 50px;
-  border-color: #033464 transparent transparent transparent;
+  border-width: 86.6px 100px 0 100px;
+  border-color: #333645 transparent transparent transparent;
+  position: absolute;
+  left: 30%;
+  transform: translateY(-30px);
+  z-index: -1;
+  left: 28px;
 }
 
 .text-small {
@@ -881,6 +886,13 @@ everything font related, literally like line height, font size, ect ect ect*/
   margin-left: 10px;
 }
 
+.newsletter-signup-container .form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
 .newsletter-signup-container form {
   padding: 50px 30px 50px 30px;
 }
@@ -893,10 +905,28 @@ everything font related, literally like line height, font size, ect ect ect*/
 .newsletter-signup-container h2 {
   font-size: 2rem;
   font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 15px;
 }
 
 .newsletter-signup-container label {
   font-weight: 600;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333645;
+}
+
+.newsletter-signup-container label::after {
+  color: #d24d57;
+  content: " *";
+}
+
+.newsletter-signup-container .form-area {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 
 .newsletter-signup-container input[type=text] {
@@ -904,18 +934,63 @@ everything font related, literally like line height, font size, ect ect ect*/
   height: 47px;
   width: 100%;
   padding: 5px 15px;
+  border-color: #ccc;
+}
+
+.newsletter-signup-container .checkbox-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.newsletter-signup-container .label-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333645;
+  font-size: 1rem;
+  letter-spacing: .4px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .newsletter-signup-container .label-wrapper {
+    max-width: 608px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .newsletter-signup-container .label-wrapper {
+    max-width: 828px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .newsletter-signup-container .label-wrapper {
+    max-width: 1058px;
+  }
+}
+
+.newsletter-signup-container input[type=checkbox] {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.newsletter-signup-container input[type=checkbox]:checked {
+  background-color: #333645;
 }
 
 .newsletter-signup-container button {
   display: block;
-  margin-top: 30px;
+  background-color: #333645;
+  border-color: #333645;
 }
 
-.newsletter-signup-container input[type=checkbox] {
-  border-radius: 3px;
-  border: 3px solid #333645;
-  height: 32px;
-  width: 32px;
+.newsletter-signup-container .hello {
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -937,11 +1012,77 @@ everything font related, literally like line height, font size, ect ect ect*/
   padding: 0 20px;
   margin-top: auto;
   margin-bottom: auto;
+  z-index: 1;
 }
 
-.row .acred-item .pop-up-box {
-  display: none;
-  position: relative;
+.row .acred-item .pop-up-box-bussey {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(-35px, -180px);
+}
+
+.row .acred-item .pop-up-box-crane {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(15px, -224px);
+}
+
+.row .acred-item .pop-up-box-beat {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(-90px, -180px);
+}
+
+.row .acred-item .pop-up-box-northerndriver {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(35px, -224px);
+}
+
+.row .acred-item h3 {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0 0 14px;
+}
+
+.row .acred-item .single-divider > div {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+.row .acred-item p {
+  color: #fff;
+  font-size: .8125rem;
+  line-height: 1.375rem;
 }
 
 .row .acred-item img {
@@ -959,6 +1100,14 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .acred-switcher:hover > :first-child {
   display: none;
+}
+
+.pop-up-switcher > div {
+  display: none;
+}
+
+.pop-up-switcher:hover > div {
+  display: inline-block;
 }
 
 .google-partners-badge {
@@ -1388,12 +1537,12 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 .newsletter-signup-container .form-area {
-  display: inline;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {
   .newsletter-signup-container .form-area {
-    width: 48%;
+    width: 50%;
     display: inline-block;
   }
 }

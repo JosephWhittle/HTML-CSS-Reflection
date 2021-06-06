@@ -379,13 +379,18 @@
 //Newsletter sign up section
 .newsletter-signup-container {
     background: #ddd;
+
     .form-area {
-        display: inline;
-        @media screen and (min-width:992px) {
-            width: 48%;
-            display: inline-block;
-        }   
+        width:100%;
     }
+
+    @media screen and (min-width:992px) {
+        .form-area {
+            width:50%;
+            display: inline-block; 
+        }   
+    }   
+
 }
 
 .footer-container {

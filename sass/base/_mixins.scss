@@ -9,6 +9,17 @@
     z-index: -1;
 }
 
+@mixin pop-up-box-template {
+    position: absolute;
+    background-color: #333645;
+    font-size: .875rem;
+    text-align: center;
+    padding: 20px;
+    max-width: 260px;
+    box-sizing: border-box;
+    z-index: auto;
+}
+
 
 @mixin tile-hover-switch {
         //The icon

@@ -3,6 +3,12 @@
 //newsletter section
 .newsletter-signup-container {
     
+    .form-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 
     form {
         padding: 50px 30px 50px 30px;
@@ -16,9 +22,29 @@
      h2 {
          font-size: 2rem;
          font-weight: 400;
+         line-height: 1.1;
+         margin-bottom: 15px;
      }
+
      label {
          font-weight: 600;
+         margin-bottom: 5px;
+         display: inline-block;
+         color: #333645;
+
+         &::after {
+             color: #d24d57;
+             content: " *";
+         }
+     }
+
+     .form-area {
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+        display: inline-block;
+        
      }
 
      input[type=text] {
@@ -26,22 +52,59 @@
         height: 47px;
         width: 100%;
         padding: 5px 15px;
+        border-color: #ccc;
      }
 
-     button {
-         display: block;
-         margin-top: 30px;
+     .checkbox-wrapper {
+         display: inline-block;
+         vertical-align: top;
      }
 
+     .label-wrapper {
+         display: inline-block;
+         vertical-align: middle;
+         line-height: 32px;
+         cursor: pointer;
+         font-weight: 600;
+         color: #333645;
+         font-size: 1rem;
+         letter-spacing: .4px;
+         margin-bottom: 15px;
+
+         @media screen and (min-width:768px) {
+            max-width: 608px;
+         }
+
+         @media screen and (min-width:992px) {
+            max-width: 828px;
+         }
+
+         @media screen and (min-width:1260px) {
+            max-width: 1058px;
+         }
+     }
 
      input[type=checkbox] { 
-        border-radius: 3px;
-        border: 3px solid #333645;
         height: 32px;
         width: 32px;
-
+        cursor: pointer;
+        margin-right: 20px;
      }
 
+     input[type=checkbox]:checked {
+        background-color: #333645;
+    }
+    
+    button {
+        display: block;
+        background-color: #333645;
+        border-color: #333645;
+
+    }
+
+    .hello {
+        margin-bottom: 15px;
+    }
  }
 
 
