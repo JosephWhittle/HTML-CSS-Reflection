@@ -397,6 +397,11 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
+    > div {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media screen and (min-width:768px) {
