@@ -30,7 +30,7 @@
   <header>
     <div class="header-vertical-padder">
       <div class="horizontal-padder">
-        <div class="flex-container-head">
+        <div class="flex-container-head hover-button-switch">
           <!---The main logo-->
           <div class="logo-container">
             <div class="flex-container-logo">
@@ -42,7 +42,7 @@
           <!--desktop support and contact button-->
 
 
-          <div class="desktop-header-container">
+          <div class="desktop-header-container hider-from-switch">
             <button type="button" class="btn-desktop bckgrnd-havelockblue">
               <i class="fas fa-mouse"></i>
               Support
@@ -50,7 +50,7 @@
           </div>
 
 
-          <div class="desktop-header-container">
+          <div class="desktop-header-container hider-from-switch">
             <button type="button" class="btn-desktop bckgrnd-grey">
               <i class="far fa-paper-plane"></i>
               Contact
@@ -59,14 +59,16 @@
 
 
           <!--The search for medium viewport-->
-          <div class="search-bar-container-md">
-            <form class="search-bar-md">
-              <input type="text" placeholder="Search.." name="search">
-              <button type="submit" class="submit-button-md">
+          <div class="search-bar-container-md container-size-setter">
+            <form class="search-bar-md set-width-auto ">
+              <input type="text" class="shower-from-switch" placeholder="Search.." name="search">
+              <button type="button" class="hover-button-switch submit-button-md">
                 <i class="material-icons md-36">search</i>
               </button>
             </form>
           </div>
+          
+          
           <!---The call button-->
           <div class="mobile-phone-icon-container">
             <i class="material-icons md-36">phone_in_talk</i>
@@ -670,24 +672,25 @@
     <div class="accredidations">
       <div class="horizontal-padder">
         <div class="row">
-          <div class="acred-item acred-switcher pop-up-switcher">
+          <div class="acred-item acred-img-first acred-switcher pop-up-switcher">
             <img src="/images/accreditations/companies/busseys-bw.jpg" alt="Google">
-            <div class="pop-up-box-bussey">
-              <h3>
-                Busseys
-              </h3>
-              <div class="single-divider">
-                <div></div>
-              </div>
-              <p>
-                One of the UK's leading Ford dealerships.
-              </p>
-              <div class="arrow">
-              </div>
+              <div class="pop-up-box-bussey">
+                <h3>
+                  Busseys
+                </h3>
+                <div class="single-divider">
+                  <div></div>
+                </div>
+                <p>
+                  One of the UK's leading Ford dealerships.
+                </p>
+                <div class="arrow">
+                </div>
+
             </div>
             <img src="/images/accreditations/companies/busseys-color.png" alt="Google">
           </div>
-          <div class="acred-item acred-switcher pop-up-switcher">
+          <div class="acred-item acred-img-first acred-switcher pop-up-switcher">
             <img src="/images/accreditations/companies/crane-bw.jpg" alt="Google">
             <div class="pop-up-box-crane">
               <h3>
@@ -704,7 +707,7 @@
             </div>
             <img src="/images/accreditations/companies/crane-color.png" alt="Google">
           </div>
-          <div class="acred-item acred-switcher pop-up-switcher">
+          <div class="acred-item acred-img-first acred-switcher pop-up-switcher">
             <img src="/images/accreditations/companies/beat-bw.jpg" alt="Google">
             <div class="pop-up-box-beat">
               <h3>
@@ -721,7 +724,7 @@
             </div>
             <img src="/images/accreditations/companies/beat-color.png" alt="Google">
           </div>
-          <div class="acred-item acred-switcher pop-up-switcher">
+          <div class="acred-item acred-img-first acred-switcher pop-up-switcher">
             <img src="/images/accreditations/companies/northerndriver-normal.jpg" alt="Google">
             <div class="pop-up-box-northerndriver">
               <h3>
@@ -767,15 +770,15 @@
 
           <!--tick box-->
           <div class="hello">
-          <div class="checkbox-wrapper">
-            <input type="checkbox" id="checked">
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="checked">
+            </div>
+            <div class="label-wrapper">
+              Please tick this box if you wish to receive marketing information from us.
+              Please see our <a href="https://www.netmatters.co.uk/privacy-policy" target="_blank">Privacy Policy</a>
+              for more information on how we use your data.
+            </div>
           </div>
-          <div class="label-wrapper">
-            Please tick this box if you wish to receive marketing information from us.
-            Please see our <a href="https://www.netmatters.co.uk/privacy-policy" target="_blank">Privacy Policy</a>
-            for more information on how we use your data.
-          </div>
-        </div>
 
           <!--button-->
           <button type="submit" class="btn bckgrnd-hoki">
@@ -832,85 +835,97 @@
         </ul>
       </div>
 
-
       <!--social media icons-->
       <div class="container">
         <h4>Social Media</h4>
         <div class="container-social-extra">
           <div class="social-container-small">
             <a class="facebook" href="https://en-gb.facebook.com/netmatters/" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-facebook-f"></i>
+              <div class="padder-wrapper hover-facebook">
+                <i class="fab fa-facebook-f"></i>
+              </div>
             </a>
           </div>
           <div class="social-container-small">
-            <a class="Twitter" href="https://twitter.com/netmattersltd" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-twitter"></i>
+            <a class="twitter" href="https://twitter.com/netmattersltd" target="_blank" rel="noopener noreferrer">
+              <div class="padder-wrapper hover-twitter">
+                <i class="fab fa-twitter"></i>
+              </div>
             </a>
           </div>
           <div class="social-container-small">
-            <a class="Linkedin" href="https://www.linkedin.com/company/netmatters-ltd/" target="_blank"
+            <a class="instagram" href="https://www.linkedin.com/company/netmatters-ltd/" target="_blank"
               rel="noopener noreferrer">
-              <i class="fab fa-linkedin-in"></i>
+              <div class="padder-wrapper hover-instagram">
+                <i class="fab fa-instagram"></i>
+              </div>
+            </a>
+          </div>
+          <div class="social-container-small">
+            <a class="linkedin" href="https://www.linkedin.com/company/netmatters-ltd/" target="_blank"
+              rel="noopener noreferrer">
+              <div class="padder-wrapper hover-linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
             </a>
           </div>
         </div>
         <div>
-          <li>
-            <a href="https://www.netmatters.co.uk/sitemap.xml">
-              Sitemap
-            </a>
-            
-
-          </li>
-
+          <ul>
+            <li>
+              <a href="https://www.netmatters.co.uk/sitemap.xml">
+                Sitemap
+              </a>
+            </li>
+            <li>
+              © Copyright Netmatters Ltd. 2021
+            </li>
+            <li>
+              All rights reserved
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </footer>
 
-
   <div class="accredidations">
-    <div class="container">
+    <div class="horizontal-padder">
       <div class="row">
-        <div class="acred-item">
+        <div class="acred-item acred-img-second">
           <img class="google-partners-badge" src="/images/accreditations/google-partner-logo.png" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second">
           <img src="/images/accreditations/microsoftsilver.png" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations/future-50-bw.jpg" alt="Google">
           <img src="/images/accreditations/future-50.jpg" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations/qms-bw.jpg" alt="Google">
           <img src="/images/accreditations/qms.jpg" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations/norfolk-carbon-charter-bw.jpg" alt="Google">
           <img src="/images/accreditations/norfolk-carbon-charter.jpg" alt="Google">
         </div>
       </div>
-      <div class="row">
-        <div class="acred-item acred-switcher">
+      <div class="row single-bottom-padder">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations/investing-in-future-growth-bw.jpg" alt="Google">
           <img src="/images/accreditations/investing-in-future-growth.jpg" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations//princess-royal-training-bw.jpg" alt="Google">
           <img src="/images/accreditations//princess-royal-training.jpg" alt="Google">
         </div>
-        <div class="acred-item acred-switcher">
+        <div class="acred-item acred-img-second acred-switcher">
           <img src="/images/accreditations/skills-of-tomorrow-bw.jpg" alt="Google">
           <img src="/images/accreditations/skills-of-tomorrow.jpg" alt="Google">
         </div>
       </div>
     </div>
   </div>
-
-
-
-
 </body>
-
 </html>

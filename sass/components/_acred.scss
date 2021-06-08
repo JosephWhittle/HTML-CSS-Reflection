@@ -10,38 +10,59 @@
 
 
 
+
+
 //The below currently applies to both the acreds and the company logos,
 // this needs to be split as they will have some styling differences.
+
+//Lol you didnt split em and it bit you in the ass big time
 .row {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-
+    justify-content: space-around;
 
     .acred-item {
-        flex-grow: 1;
+        //flex-grow: 1;
         padding: 0 20px;
         margin-top: auto;
         margin-bottom: auto;
         z-index: 1;
 
+        .relative-container {
+            position: relative;
+
+        }
+
         .pop-up-box-bussey {
             @include pop-up-box-template;
-            transform: translate(-35px, -180px);
+            transform: translate(-13%, -138%);
+            @media screen and (max-width:992px) {
+                transform: translate(-28%, -138%);
+            }
         }
         .pop-up-box-crane {
             @include pop-up-box-template;
-            transform: translate(15px, -224px);
+            transform: translate(6%, -128%);
+            @media screen and (max-width:992px) {
+                transform: translate(-15%, -138%);
+            }
         }
         .pop-up-box-beat {
             @include pop-up-box-template;
-            transform: translate(-90px, -180px);
+            transform: translate(-36%, -138%);
+            @media screen and (max-width:992px) {
+                transform: translate(-40%, -138%);
+            }
         }
         .pop-up-box-northerndriver {
             @include pop-up-box-template;
-            transform: translate(35px, -224px);
+            transform: translate(13%, -128%);
+            @media screen and (max-width:992px) {
+                transform: translate(-12%, -138%);
+            }
         }
 
 
@@ -50,27 +71,42 @@
             font-size: 1.125rem;
             font-weight: 400;
             line-height: 1.1;
-            margin: 0 0 14px;
-            }
+            margin: 0 0 14px;    
+        }
 
-            .single-divider > div {
-                background-color: white;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 0;
-                margin-bottom: 11px;
-            }
+            
+        .single-divider > div {
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0;
+            margin-bottom: 11px;    
+        }
 
-            p {
-                color: #fff;
-                font-size: .8125rem;
-                line-height: 1.375rem;
-            }
+            
+        p {
+            color: #fff;
+            font-size: .8125rem;
+            line-height: 1.375rem;
+           
+        }
+    }
 
-
+    .acred-img-first {
         img {
             height: auto;
             vertical-align: middle;
+            max-width: 100%;
+    height: auto;
+        }
+    }
+
+    .acred-img-second {
+        img {
+            height: auto;
+            vertical-align: middle;
+            max-width: 100%;
+    height: auto;
         }
     }
 }
@@ -107,6 +143,15 @@
 //styling becuase the google logo on the real site
 //is inserted by some js n that n I cant find the exact one
 .google-partners-badge {
-    box-shadow: 2px 2px 5px grey;
+    box-shadow: 1px 1px 4px 0px #b6b6b659;
+    max-width: 100%;
 
+    @media screen and (min-width:1260px) {
+        height: 80px !important;
+    }
+}
+
+//Just to push the rows apart at the bottom of the page
+.single-bottom-padder {
+    margin-top: 20px;
 }
