@@ -29,7 +29,7 @@
 
 .search-bar-md input[type=text] {
   height: 100%;
-  //width: 100%;
+  width: 100%;
   background: rgba(0,0,0,.1);
   border: 1px solid rgb(204, 204, 204);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
@@ -41,7 +41,6 @@
   
   
   .submit-button-md {
-
     outline: none;
     color: #fff;
     position: absolute;
@@ -51,6 +50,18 @@
     border: none;
     padding:7px 15px 4px;
 
+    &:hover {
+      background-color:grey;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+
+    @media screen and (min-width:1260px) {
+      &:active {
+        background-color:grey;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+      }
+    }
 
     @media screen and (min-width: 992px) and (  max-width: 1260px) {
       border-radius: 3px;
@@ -59,22 +70,26 @@
 
 
   //Functionality for the search bar switcher in mid viewport
-    .hover-button-switch:focus { 
+  //The within is actually jank and broke, 
 
-        .hider-from-switch {
-          display: none;
-        }
+  @media screen and (min-width:992px) and (max-width:1260px) {
+    .hover-button-switch:focus-within { 
 
-        .shower-from-switch {
-          display: initial;
-          width: 300px;
-        }
+      .hider-from-switch {
+        display: none;
+      }
 
-        .container-size-setter {
-          width: 363px;
-        }
+      .shower-from-switch {
+        display: initial;
+        width: 300px;
+      }
 
-        .set-width-auto {
-          width: 100%;
-        }
+      .container-size-setter {
+        width: 366px;
+      }
+
+      .set-width-auto {
+        width: 100%;
+      }
+}
   }

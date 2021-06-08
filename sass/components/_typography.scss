@@ -123,6 +123,35 @@ everything font related, literally like line height, font size, ect ect ect*/
 }
 
 
+//Hover varients for darkening the buttons
+
+.hover-havelockblue-dark:hover {      
+    background-color:darken($HavelockBlue, 10%);
+}
+
+.hover-valencia-dark:hover {
+    button {
+        background-color:darken($Valencia, $amount: 10%);
+    }
+}
+
+.hover-wisteria-dark:hover {
+    background-color:darken($Wisteria, $amount: 10%);
+}
+
+.hover-grey:hover {
+    background-color:darken($grey, $amount: 10%);
+}
+
+.hover-darkblue-dark:hover {
+    background-color:darken(#333645, $amount: 10%);
+}
+
+.hover-white-dark:hover {    
+    background-color:darken(white, $amount: 30%);
+}
+
+
 //Hover icons for the social media buttons (Yeah I know :P important is only be used here cos my 
 //structure is a bit of a mess and its not rly worth the time to change my indexing around)
 .hover-facebook:hover {

@@ -3,22 +3,31 @@
 //Anything related to the carousel
 
 .carousel {
-    height: 565px;
     width: 100%;
+    height: calc(100vh - 167px) !important;
+
+    @media screen and (min-width:768px) {
+        height: calc(100vh - 110px) !important;
+    }
+
+    @media screen and (min-width:992px) {
+        height: calc(100vh - 209px) !important;
+    }
+
     
-
-
+    
     .text-area {
-        text-align: center;  
-        padding-bottom: 7%;
-        
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+
+
         @media screen and (min-width:992px) {
-            margin: auto;
-            height:auto;
-            max-width:unset;
-            text-align: left;  
+            text-align: left;
+
         }
     }
+
 
     h1 {
         color:white;
@@ -36,25 +45,18 @@
     #dot-outer
     {
         color: hsl(0, 0%, 50%);
-        font-size: 14px;
+        font-size: 21px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .carousel-button {
         border: none;      
         color: #fff;
         background-color: #f62459;
+        margin:0;
+        margin-top: 30px;
     }
-
-
-    @media screen and (min-width: 768px) {
-        height: 625px;
-    }
-
-    @media screen and (min-width:992px) {
-        height: 870px;
-        
-    }
-
 
 }
 

@@ -56,12 +56,24 @@
     height: fit-content;
     box-sizing: border-box;
     margin-top: 30px;
+    
 
     .image-container-latest {
+
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            position: relative;
+            object-position: 50% 50%;
+            transition: transform .25s;
+        }
+
+        img:hover {
+            -ms-transform: scale(1.1);
+            -webkit-transform: scale(1.1); 
+            transform: scale(1.1);
+            opacity: .5;
         }
     }
     p {

@@ -88,21 +88,22 @@
         
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        //justify-content: space-evenly;    THIS WAS COMMENTED OUT ON A WYM
         flex-direction: row;
-        border-left: 1px solid hsla(0,0%,100%,.1);
-        border-right: 1px solid rgba(0,0,0,.25);
         height: 100%;
 
-
+        //more borders
+        border-right: 1px solid hsla(0,0%,100%,.1);
+        border-left: 1px solid rgba(0,0,0,.25);
+        
         //The list elements of the nav bar
         > li {
             text-align: center;
             flex: 1;
 
-            //**************FIX THE BORDERS BELOW****************
-            border-right: 1px solid hsla(0,0%,100%,.1);
-            border-left: 1px solid rgba(0,0,0,.25); 
+            //Borders
+            border-left: 1px solid hsla(0,0%,100%,.1);
+            border-right: 1px solid rgba(0,0,0,.25);
 
             //this is bad nesting, lazyyy
             > span {
@@ -306,6 +307,7 @@
     height: 100%;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 
