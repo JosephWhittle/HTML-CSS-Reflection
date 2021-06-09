@@ -373,9 +373,14 @@
 //flex properties for the latest content
 .latest-content-flex {
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+
+    @media screen and (max-width:768px) {
+        flex-wrap: wrap;
+    }
+
+
 }
 
 //Newsletter sign up section

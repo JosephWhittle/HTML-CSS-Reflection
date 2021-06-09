@@ -45,7 +45,7 @@
             @include pop-up-box-template;
             transform: translate(6%, -128%);
             @media screen and (max-width:992px) {
-                transform: translate(-15%, -138%);
+                transform: translate(-15%, -128%);
             }
         }
         .pop-up-box-beat {
@@ -59,7 +59,7 @@
             @include pop-up-box-template;
             transform: translate(13%, -128%);
             @media screen and (max-width:992px) {
-                transform: translate(-12%, -138%);
+                transform: translate(-12%, -128%);
             }
         }
 
