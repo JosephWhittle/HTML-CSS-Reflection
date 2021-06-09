@@ -176,7 +176,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 //Hover switch colour changes (def a better way to do this but its chill)
 .hover-switch-icons-hoki:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $hoki;
     }    
     button {
@@ -186,7 +186,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .hover-switch-icons-havelockblue:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $HavelockBlue;
     }    
     button {
@@ -196,7 +196,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .hover-switch-icons-shamrock:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $Shamrock;
     }    
     button {
@@ -206,7 +206,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .hover-switch-icons-valenia:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $Valencia;
     }    
     button {
@@ -216,7 +216,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .hover-switch-icons-wisteria:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $Wisteria;
     }    
     button {
@@ -226,7 +226,7 @@ everything font related, literally like line height, font size, ect ect ect*/
 
 .hover-switch-icons-radicalred:hover {
     @include tile-hover-switch;
-    .dot #tile-icon {
+    .dot .tile-icon {
         color: $RadicalRed;
     }    
     button {

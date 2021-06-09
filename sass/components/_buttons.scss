@@ -91,15 +91,19 @@
     outline: none;
 }
 
-.burger-button-inner > div {
+.burger-button-inner > span {
     width: 33px;
     height: 3px;
     background-color: white;
     margin: 6px auto;
+    display: block;
 }
 
-.burger-button p {
+.burger-button .text {
     margin: auto;
     color: white;
     font-size: 0.75rem;
+    font-family: $stack-poppins;
+    text-transform: uppercase;
 }
+

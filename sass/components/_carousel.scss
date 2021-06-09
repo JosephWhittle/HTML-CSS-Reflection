@@ -21,10 +21,8 @@
         margin-top: auto;
         margin-bottom: auto;
 
-
         @media screen and (min-width:992px) {
             text-align: left;
-
         }
     }
 
@@ -42,7 +40,7 @@
         font-size:1.25rem;
     }
 
-    #dot-outer
+    .dot-outer
     {
         color: hsl(0, 0%, 50%);
         font-size: 21px;

@@ -21,13 +21,42 @@
     flex-direction: row;
     margin: 0 auto;
     justify-content: space-around;
-
+    
     .acred-item {
-        //flex-grow: 1;
         padding: 0 20px;
         margin-top: auto;
         margin-bottom: auto;
         z-index: 1;
+
+            
+    
+        //ie is dumb (IT REQUIRES MAX WIDTH TO BE SET IN PIXELS)
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+            @media screen and (min-width:768px) and (max-width:992px) {
+                flex-basis: 100%;
+                max-width: 720px;
+                max-height: 45.1px;
+                text-align: center;
+                align-self: center;
+
+                img {
+                    max-height: 45.1px;
+                }
+            }
+
+            @media screen and (min-width:992px)  {
+                max-width: 940px;
+                max-height: 62.1px;
+
+                img {
+                    max-height: 62.1px;
+                }
+            }
+        }
+        //
+
+
+        
 
         .relative-container {
             position: relative;
