@@ -38,7 +38,11 @@
     text-transform: uppercase;
     background-color: $color-text-purple;
     font-weight: 600;
+    z-index: 2;
 
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 
