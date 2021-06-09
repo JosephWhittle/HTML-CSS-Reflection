@@ -3,11 +3,16 @@
 
 //Padder (Pads left/right, and auto centers)
 .horizontal-padder {
-    //YOU NEEDED TO ADD BORDER BOX SIZING IDIOT.
     box-sizing: border-box;
 
     //The padding below might need to be added
     margin: 0 auto;
+
+    
+    @media  screen and (max-width:768px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        }
 
     @media  screen and (min-width:768px) {
     width: 750px;

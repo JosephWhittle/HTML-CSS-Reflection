@@ -40,6 +40,9 @@
   &:focus {
     outline: none;
     box-shadow: 0px 0px 6px 0px #76fffaec;
+    -webkit-box-shadow: 0px 0px 6px 0px #76fffaec;
+    -moz-box-shadow: 0px 0px 6px 0px #76fffaec;
+    box-shadow: 0px 0px 6px 0px #76fffaec;
   }
 
   }
