@@ -1,1 +1,2255 @@
-*{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}html{font-size:16px;box-sizing:border-box}a{text-decoration:none;color:white}body{width:100%;height:auto;font-family:'poppins-regular' ,sans-serif;font-weight:400;font-size:1rem}h1{text-transform:uppercase;font-size:3rem;color:#fff}h2{font-size:1.125rem;color:#333645}h3{font-size:1rem;color:#926fb1}h4{color:#fff;text-transform:uppercase;font-size:1rem;margin-bottom:26px;font-weight:400}footer{background-color:#333645;color:#fff;padding:47px 0 43px}@media screen and (max-width: 768px){.hide-mobile{display:none}}@media screen and (min-width: 768px) and (max-width: 992px){.hide-tablet{display:none}}@media screen and (min-width: 992px) and (max-width: 1259px){.hide-desktop{display:none}}@media screen and (min-width: 1260px){.hide-desktop-lg{display:none}}@font-face{font-family:"poppins-regular";src:url("/fonts/Poppins-Regular.ttf")}.single-divider>div{width:33px;height:3px;background-color:black;margin:6px auto}.arrow{width:0;height:0;border-style:solid;border-width:86.6px 100px 0 100px;border-color:#333645 transparent transparent transparent;position:absolute;left:30%;transform:translateY(-30px);z-index:-1;left:28px}.text-small{font-size:x-small}.color-hoki{color:#67809f}.color-havelockblue{color:#4183d7}.color-shamrock{color:#2ecc71}.color-valenia{color:#d64541}.color-wisteria{color:#926fb1}.color-radicalred{color:#f62459}.bckgrnd-hoki{background-color:#67809f}.bckgrnd-havelockblue{background-color:#4183d7}.bckgrnd-shamrock{background-color:#2ecc71}.bckgrnd-valenia{background-color:#d64541}.bckgrnd-wisteria{background-color:#926fb1}.bckgrnd-radicalred{background-color:#f62459}.bckgrnd-grey{background-color:#999aa2}.hover-hoki:hover{background-color:#67809f}.hover-hoki:hover i{color:white}.hover-havelockblue:hover{background-color:#4183d7}.hover-havelockblue:hover i{color:white}.hover-shamrock:hover{background-color:#2ecc71}.hover-shamrock:hover i{color:white}.hover-valencia:hover{background-color:#d64541}.hover-valencia:hover i{color:white}.hover-wisteria:hover{background-color:#926fb1}.hover-wisteria:hover i{color:white}.hover-radicalred:hover{background-color:#f62459}.hover-radicalred:hover i{color:white}.hover-havelockblue-dark:hover{background-color:#286abd}.hover-valencia-dark:hover button{background-color:#bc2c28}.hover-wisteria-dark:hover{background-color:#79539a}.hover-grey:hover{background-color:#7e808a}.hover-darkblue-dark:hover{background-color:#1d1f28}.hover-white-dark:hover{background-color:#b3b3b3}.hover-facebook:hover{background-color:#3b5998 !important}.hover-twitter:hover{background-color:#808ba1 !important}.hover-instagram:hover{background-color:#d93175 !important}.hover-linkedin:hover{background-color:#0077b5 !important}.hover-switch-icons-hoki:hover .dot{background-color:white}.hover-switch-icons-hoki:hover .dot i{color:purple}.hover-switch-icons-hoki:hover h2{color:white}.hover-switch-icons-hoki:hover p{color:white}.hover-switch-icons-hoki:hover .single-divider div{background-color:white}.hover-switch-icons-hoki:hover button{background-color:white}.hover-switch-icons-hoki:hover .dot .tile-icon{color:#67809f}.hover-switch-icons-hoki:hover button{color:#67809f}.hover-switch-icons-havelockblue:hover .dot{background-color:white}.hover-switch-icons-havelockblue:hover .dot i{color:purple}.hover-switch-icons-havelockblue:hover h2{color:white}.hover-switch-icons-havelockblue:hover p{color:white}.hover-switch-icons-havelockblue:hover .single-divider div{background-color:white}.hover-switch-icons-havelockblue:hover button{background-color:white}.hover-switch-icons-havelockblue:hover .dot .tile-icon{color:#4183d7}.hover-switch-icons-havelockblue:hover button{color:#4183d7}.hover-switch-icons-shamrock:hover .dot{background-color:white}.hover-switch-icons-shamrock:hover .dot i{color:purple}.hover-switch-icons-shamrock:hover h2{color:white}.hover-switch-icons-shamrock:hover p{color:white}.hover-switch-icons-shamrock:hover .single-divider div{background-color:white}.hover-switch-icons-shamrock:hover button{background-color:white}.hover-switch-icons-shamrock:hover .dot .tile-icon{color:#2ecc71}.hover-switch-icons-shamrock:hover button{color:#2ecc71}.hover-switch-icons-valenia:hover .dot{background-color:white}.hover-switch-icons-valenia:hover .dot i{color:purple}.hover-switch-icons-valenia:hover h2{color:white}.hover-switch-icons-valenia:hover p{color:white}.hover-switch-icons-valenia:hover .single-divider div{background-color:white}.hover-switch-icons-valenia:hover button{background-color:white}.hover-switch-icons-valenia:hover .dot .tile-icon{color:#d64541}.hover-switch-icons-valenia:hover button{color:#d64541}.hover-switch-icons-wisteria:hover .dot{background-color:white}.hover-switch-icons-wisteria:hover .dot i{color:purple}.hover-switch-icons-wisteria:hover h2{color:white}.hover-switch-icons-wisteria:hover p{color:white}.hover-switch-icons-wisteria:hover .single-divider div{background-color:white}.hover-switch-icons-wisteria:hover button{background-color:white}.hover-switch-icons-wisteria:hover .dot .tile-icon{color:#926fb1}.hover-switch-icons-wisteria:hover button{color:#926fb1}.hover-switch-icons-radicalred:hover .dot{background-color:white}.hover-switch-icons-radicalred:hover .dot i{color:purple}.hover-switch-icons-radicalred:hover h2{color:white}.hover-switch-icons-radicalred:hover p{color:white}.hover-switch-icons-radicalred:hover .single-divider div{background-color:white}.hover-switch-icons-radicalred:hover button{background-color:white}.hover-switch-icons-radicalred:hover .dot .tile-icon{color:#f62459}.hover-switch-icons-radicalred:hover button{color:#f62459}.btn{color:#fff;border:none;text-transform:uppercase;font-size:1.063rem;border-radius:3px;padding:5px 15px 5px 15px;font-size:1.063rem;font-family:'poppins-regular' ,sans-serif;line-height:35px}.btn-big{margin-top:50px;padding:5px 15px;height:auto;text-transform:uppercase;font-size:1.063rem;border-radius:3px;white-space:normal;color:#fff;line-height:50px;border:none}.btn-tooltip{position:absolute;right:0;top:10px;font-size:.75rem;padding:0 10px;line-height:1.438rem;text-transform:uppercase;background-color:#926fb1;font-weight:600;z-index:2}.btn-tooltip:hover{text-decoration:underline}.btn-wide{height:56px;line-height:46px;font-size:1.125rem;float:left;color:#fff;background-color:#4183d7;border-color:#4183d7;padding:5px 15px;text-transform:uppercase;border-radius:3px;white-space:normal}.btn-desktop{height:100%;width:100%;text-transform:uppercase;font-size:1.125rem;border-radius:3px;white-space:normal;color:#fff;line-height:50px;border:none;font-family:'poppins-regular' ,sans-serif}.burger-button{height:100%;width:100%;background-color:#333645;border:none;border-radius:4px;text-decoration:none}.burger-button:focus{border:none;outline:none}.burger-button-inner>span{width:33px;height:3px;background-color:white;margin:6px auto;display:block}.burger-button .text{margin:auto;color:white;font-size:0.75rem;font-family:"poppins-regular",sans-serif;text-transform:uppercase}.material-icons.md-18{font-size:18px}.material-icons.md-24{font-size:24px}.material-icons.md-36{font-size:36px}.material-icons.md-48{font-size:48px}.arrow{font-size:36px;text-align:center;vertical-align:middle;padding-bottom:5px}.social-media-icon{margin-top:30px;display:block;background-color:rgba(0,0,0,0.25);font-size:1.75rem;line-height:3.438rem;color:#fff;text-align:center;text-decoration:none}.search-bar input[type=text]{width:100%;height:100%;background:rgba(0,0,0,0.1);border:2px solid rgba(0,0,0,0.1);outline:1px solid rgba(255,255,255,0.2);box-sizing:border-box;padding:5px 40px 5px 15px}.submit-button{background:none;border:none;color:#333645;outline:none;float:right;position:absolute;right:25px;padding-top:6px}.search-bar-md input[type=text]{height:100%;width:100%;background:rgba(0,0,0,0.1);border:1px solid #ccc;box-shadow:0 1px 1px rgba(0,0,0,0.08);box-sizing:border-box;padding:5px 40px 5px 15px;background-color:white}.search-bar-md input[type=text]:focus{outline:none;box-shadow:0px 0px 6px 0px #76fffaec;-webkit-box-shadow:0px 0px 6px 0px #76fffaec;-moz-box-shadow:0px 0px 6px 0px #76fffaec;box-shadow:0px 0px 6px 0px #76fffaec}.submit-button-md{outline:none;color:#fff;position:absolute;height:56px;background-color:#999aa2;border-radius:0 3px 3px 0;border:none;padding:7px 15px 4px}.submit-button-md:hover{background-color:grey;transition:cubic-bezier(0.075, 0.82, 0.165, 1)}@media screen and (min-width: 1260px){.submit-button-md:active{background-color:grey;transition:cubic-bezier(0.075, 0.82, 0.165, 1)}}@media screen and (min-width: 992px) and (max-width: 1260px){.submit-button-md{border-radius:3px}}@media screen and (min-width: 992px) and (max-width: 1260px){.hover-button-switch:focus-within .hider-from-switch{display:none}.hover-button-switch:focus-within .shower-from-switch{display:initial;width:300px}.hover-button-switch:focus-within .container-size-setter{width:366px}.hover-button-switch:focus-within .set-width-auto{width:100%}}.carousel{width:100%;height:calc(100vh - 167px) !important}@media screen and (min-width: 768px){.carousel{height:calc(100vh - 110px) !important}}@media screen and (min-width: 992px){.carousel{height:calc(100vh - 209px) !important}}.carousel .text-area{text-align:center;margin-top:auto;margin-bottom:auto}@media screen and (min-width: 992px){.carousel .text-area{text-align:left}}.carousel h1{color:white;font-size:3rem;text-transform:uppercase;font-weight:400;margin-bottom:25px}.carousel p{color:#fff;font-size:1.25rem}.carousel .dot-outer{color:gray;font-size:21px;margin-left:5px;margin-right:5px}.carousel .carousel-button{border:none;color:#fff;background-color:#f62459;margin:0;margin-top:30px}.carousel img{max-height:100%;width:auto}.content-item-1{border:1px solid #ccc;width:100%;height:fit-content;text-align:center;border-radius:3px;box-shadow:0 3px 35px rgba(0,0,0,0.1);box-sizing:border-box;padding:30px;margin-top:30px}.content-item-1 .dot{height:60px;width:60px;border-radius:50%;display:inline-block;margin-bottom:17px}.content-item-1 .dot .card-icon{line-height:60px;color:white}.content-item-1 h2{font-weight:250;line-height:1.1}.content-item-1 .single-divider div{margin-bottom:11px;margin-top:14px}.content-item-1 p{font-size:.8125rem;font-weight:400;margin-bottom:13px;line-height:1.375rem;letter-spacing:.4px}.content-item-1 br{display:none}@media screen and (min-width: 769px) and (max-width: 992px){.content-item-1 br{display:initial}}.content-item-2{border:1px solid #ccc;width:100%;height:fit-content;box-sizing:border-box;margin-top:30px}.content-item-2 .image-container-latest img{width:100%;height:100%;object-fit:cover;position:relative;object-position:50% 50%;transition:transform .25s;z-index:1}.content-item-2 .image-container-latest img:hover{-ms-transform:scale(1.1);-webkit-transform:scale(1.1);transform:scale(1.1);opacity:.5}.content-item-2 p{font-size:.8125rem;font-weight:400}.content-item-2 .user{border-top:1px solid #ccc;padding-top:30px;margin-top:30px;font-size:0.875rem;letter-spacing:0.4px}.content-item-2 .user img{display:inline-block}.content-item-2 .user .post-details{display:inline-block;position:absolute;padding-left:20px;padding-top:3px;line-height:1.375rem}.content-item-2 .user-title{font-weight:bold;color:#333645}.content-item-2 .user-date{color:#666}.content-item-2 .text-container-news-tiles{padding:30px}.content-item-2 .text-container-news-tiles>h3{line-height:1.5rem;margin:0 0 15px;min-height:3rem}.content-item-2 .text-container-news-tiles>h3:hover{text-decoration:underline}.content-item-2 .text-container-news-tiles>h3 a{color:#926fb1}.content-item-2 .text-container-news-tiles>p{line-height:1.375rem;font-size:.8125rem;min-height:66px;margin-bottom:25px;color:#666}@media screen and (min-width: 768px){.tile-small-full-width{width:720px}.tile-small-half-width{width:345px}}@media screen and (min-width: 992px){.tile-medium-thirds{width:293px}.tile-medium-halfs{width:455px}}@media screen and (min-width: 1260px){.tile-large-quarters{width:270px}.tile-large-thirds{width:370px}}@media screen and (min-width: 768px){.line-fill-small br{display:initial}}@media screen and (min-width: 992px){.line-fill-medium br{display:initial}}@media screen and (min-width: 1260px){.line-fill-large br{display:initial}}.latest-title h2{padding-top:40px;padding-bottom:40px;color:#333645;text-transform:uppercase;font-size:1.25rem;font-weight:600;margin-bottom:-6px;line-height:1.5rem}@media screen and (min-width: 768px){.latest-title h2{padding-left:15px;padding-right:15px}}.single-divider-large{width:72px;height:5px;background-color:#333645}@media screen and (min-width: 768px){.single-divider-large{margin-left:15px;margin-right:15px}}@media screen and (min-width: 768px){.culture-container .text-block{padding-left:15px;padding-right:15px}}@media screen and (min-width: 1260px){.culture-container .text-block{width:50%}}.culture-container h1{font-size:2.25rem;line-height:2.25rem;font-weight:400;margin-bottom:25px}.culture-container p{line-height:1.875rem;margin-bottom:25px;color:#fff;letter-spacing:.4px}.culture-container button{color:#333645;padding:5px 15px;line-height:35px}.culture-container i{margin-left:10px}.newsletter-signup-container .form-wrapper{display:flex;flex-wrap:wrap;margin-left:-15px;margin-right:-15px}.newsletter-signup-container form{padding:50px 45px 50px 45px}.newsletter-signup-container a{color:#333645;text-decoration:underline}.newsletter-signup-container h2{font-size:2rem;font-weight:400;line-height:1.1;margin-bottom:15px}.newsletter-signup-container label{font-weight:600;margin-bottom:5px;display:inline-block;color:#333645}.newsletter-signup-container label::after{color:#d24d57;content:" *"}.newsletter-signup-container .form-area{margin-bottom:15px;padding-left:15px;padding-right:15px;box-sizing:border-box;display:inline-block}.newsletter-signup-container input[type=text]{box-sizing:border-box;height:47px;width:100%;padding:5px 15px;border-color:#ccc;outline:none}.newsletter-signup-container input[type=text]:focus{outline:none;box-shadow:0px 0px 6px 0px #76fffaec}.newsletter-signup-container .checkbox-wrapper{display:inline-block;vertical-align:top}.newsletter-signup-container .label-wrapper{display:inline-block;vertical-align:middle;line-height:32px;cursor:pointer;font-weight:600;color:#333645;font-size:1rem;letter-spacing:.4px;margin-bottom:15px;max-width:80%}@media screen and (min-width: 768px){.newsletter-signup-container .label-wrapper{max-width:602px}}@media screen and (min-width: 992px){.newsletter-signup-container .label-wrapper{max-width:822px}}@media screen and (min-width: 1260px){.newsletter-signup-container .label-wrapper{max-width:1052px}}.newsletter-signup-container input[type=checkbox]{height:32px;width:32px;cursor:pointer;margin-right:20px}.newsletter-signup-container input[type=checkbox]:checked{background-color:#333645}.newsletter-signup-container button{display:block;background-color:#333645;border-color:#333645}.newsletter-signup-container .hello{margin-bottom:15px}@media screen and (max-width: 768px){.accredidations{display:none}}.row{display:flex;flex-direction:row;margin:0 auto;justify-content:space-around}.row .acred-item{padding:0 20px;margin-top:auto;margin-bottom:auto;z-index:1}@media screen and (-ms-high-contrast: active) and (min-width: 768px) and (max-width: 992px), screen and (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 992px){.row .acred-item{flex-basis:100%;max-width:720px;max-height:45.1px;text-align:center;align-self:center}.row .acred-item img{max-height:45.1px}}@media screen and (-ms-high-contrast: active) and (min-width: 992px), screen and (-ms-high-contrast: none) and (min-width: 992px){.row .acred-item{max-width:940px;max-height:62.1px}.row .acred-item img{max-height:62.1px}}.row .acred-item .relative-container{position:relative}.row .acred-item .pop-up-box-bussey{position:absolute;background-color:#333645;font-size:.875rem;text-align:center;padding:20px;max-width:260px;box-sizing:border-box;z-index:auto;transform:translate(-13%, -138%)}@media screen and (max-width: 992px){.row .acred-item .pop-up-box-bussey{transform:translate(-28%, -138%)}}.row .acred-item .pop-up-box-crane{position:absolute;background-color:#333645;font-size:.875rem;text-align:center;padding:20px;max-width:260px;box-sizing:border-box;z-index:auto;transform:translate(6%, -128%)}@media screen and (max-width: 992px){.row .acred-item .pop-up-box-crane{transform:translate(-15%, -128%)}}.row .acred-item .pop-up-box-beat{position:absolute;background-color:#333645;font-size:.875rem;text-align:center;padding:20px;max-width:260px;box-sizing:border-box;z-index:auto;transform:translate(-36%, -138%)}@media screen and (max-width: 992px){.row .acred-item .pop-up-box-beat{transform:translate(-40%, -138%)}}.row .acred-item .pop-up-box-northerndriver{position:absolute;background-color:#333645;font-size:.875rem;text-align:center;padding:20px;max-width:260px;box-sizing:border-box;z-index:auto;transform:translate(13%, -128%)}@media screen and (max-width: 992px){.row .acred-item .pop-up-box-northerndriver{transform:translate(-12%, -128%)}}.row .acred-item h3{color:#fff;font-size:1.125rem;font-weight:400;line-height:1.1;margin:0 0 14px}.row .acred-item .single-divider>div{background-color:white;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:11px}.row .acred-item p{color:#fff;font-size:.8125rem;line-height:1.375rem}.row .acred-img-first img{height:auto;vertical-align:middle;max-width:100%;height:auto}.row .acred-img-second img{height:auto;vertical-align:middle;max-width:100%;height:auto}.acred-switcher>:last-child{display:none}.acred-switcher:hover>:last-child{display:inline-block}.acred-switcher:hover>:first-child{display:none}.pop-up-switcher>div{display:none}.pop-up-switcher:hover>div{display:inline-block}.google-partners-badge{box-shadow:1px 1px 4px 0px #b6b6b659;max-width:100%}@media screen and (min-width: 1260px){.google-partners-badge{height:80px !important}}.single-bottom-padder{margin-top:20px}.horizontal-padder{box-sizing:border-box;margin:0 auto}@media screen and (max-width: 768px){.horizontal-padder{padding-left:15px;padding-right:15px}}@media screen and (min-width: 768px){.horizontal-padder{width:750px}}@media screen and (min-width: 992px){.horizontal-padder{width:970px}}@media screen and (min-width: 1260px){.horizontal-padder{width:1200px !important}}.small-margin-padder{margin-left:15px;margin-right:15px}.small-padder-padder{padding-left:15px;padding-right:15px}.main-content{width:100%;height:auto}@media screen and (min-width: 768px){.search-bar-container{display:none}}.search-bar-container{width:100%;height:47px;padding-top:10px}.search-bar-container-md{height:56px;width:237px;padding-left:20px}@media screen and (max-width: 768px){.search-bar-container-md{display:none}}@media screen and (min-width: 992px) and (max-width: 1260px){.search-bar-container-md{width:auto}.search-bar-container-md input[type=text]{display:none}}@media screen and (min-width: 1260px){.search-bar-container-md{width:306px}}.search-bar-md{height:100%;width:174px}@media screen and (min-width: 992px){.search-bar-md{width:66px}}@media screen and (min-width: 1260px){.search-bar-md{width:240px}}.main-navigation{width:100%;height:99px;background-color:#333645}@media screen and (max-width: 992px){.main-navigation{display:none}}.nav-container{height:100%;margin:0 auto}.nav-container .main-nav-list{list-style:none;display:flex;flex-direction:row;height:100%;border-right:1px solid rgba(255,255,255,0.1);border-left:1px solid rgba(0,0,0,0.25)}.nav-container .main-nav-list>li{text-align:center;flex:1;border-left:1px solid rgba(255,255,255,0.1);border-right:1px solid rgba(0,0,0,0.25)}.nav-container .main-nav-list>li>span{display:block;height:100%}.nav-container .main-nav-list>li>span span{display:block;text-transform:uppercase}.nav-container .main-nav-list>li>span span:first-of-type{padding-top:19px;padding-bottom:2px}.nav-container .main-nav-list>li>span span:last-of-type{font-size:1.125rem;line-height:1.125rem}.nav-container .main-nav-list>li>span .text-small{font-size:0.625rem;line-height:0.625rem}.nav-container .main-nav-list>a{position:relative;display:block;color:#fff;text-transform:uppercase;font-size:1.125rem;text-decoration:none;line-height:1}.nav-container .main-nav-list .pop-up-nav{position:absolute;width:100%;left:0;right:0;max-width:max-content;margin-right:auto;margin-left:auto;z-index:2;display:none}@media screen and (min-width: 992px) and (-ms-high-contrast: active), (-ms-high-contrast: none){.nav-container .main-nav-list .pop-up-nav{margin-left:20%;margin-right:20%}}@media screen and (min-width: 1260px) and (-ms-high-contrast: active), (-ms-high-contrast: none){.nav-container .main-nav-list .pop-up-nav{margin-left:20%;margin-right:20%}}.nav-container .main-nav-list .pop-up-nav>li{list-style:none;float:left;z-index:2}.nav-container .main-nav-list .pop-up-nav>li:not(:last-child) a:after{content:"-";padding-left:20px;padding-right:20px;color:white}.nav-container .main-nav-list .pop-up-nav>li a{line-height:2.813rem;color:white;font-size:1rem;text-transform:uppercase}@media screen and (max-width: 1260px){.nav-container .main-nav-list .pop-up-nav>li a{font-size:.8125rem}}.nav-container .pop-up-nav-switcher:hover .pop-up-nav{display:block}.nav-side-fill-web .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#79539a}.nav-side-fill-web .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#79539a}.nav-side-fill-it .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#286abd}.nav-side-fill-it .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#286abd}.nav-side-fill-telecoms .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#bc2c28}.nav-side-fill-telecoms .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#bc2c28}.nav-side-fill-bespoke .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#526781}.nav-side-fill-bespoke .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#526781}.nav-side-fill-digital .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#25a25a}.nav-side-fill-digital .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#25a25a}.nav-side-fill-cyber .pop-up-nav::after{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;background-color:#de093f}.nav-side-fill-cyber .pop-up-nav::before{content:"";display:block;position:absolute;top:0;bottom:0;width:10000px;z-index:-1;right:100%;background-color:#de093f}.image-container{height:100%;width:100%;background-image:linear-gradient(to right, #000, rgba(0,0,0,0.171)),url("/images/carousel/home-lQs1.jpg");background-repeat:no-repeat;background-size:cover;background-position:center;z-index:0;display:flex;flex-direction:column}.icon-container{display:block;align-self:center;padding-bottom:20px}.image-container-latest{height:100%;width:100%;position:relative;overflow:hidden}.middle-wrapper{padding-bottom:30px}.middle-flex-container{height:auto;display:flex;flex-wrap:wrap;justify-content:center;padding-top:20px;padding-bottom:20px}@media screen and (min-width: 768px){.tile-wrapper{padding-left:15px;padding-right:15px}}@media screen and (max-width: 768px){.tile-wrapper{width:100%}}.culture-container{height:auto;background:#333645;padding-top:50px;padding-bottom:50px}@media screen and (min-width: 992px){.culture-container{background-image:url("/images/NetmattersLogos/brandedNMlogo.png");background-repeat:no-repeat;background-size:auto 100%;background-position:100%}}.latest-container{width:100%;background:white;box-shadow:0 3px 35px rgba(0,0,0,0.1)}.latest-content-container{padding-top:20px;padding-bottom:50px;padding-left:15px;padding-right:15px}.latest-content-flex{display:flex;width:100%;justify-content:center}@media screen and (max-width: 768px){.latest-content-flex{flex-wrap:wrap}}.newsletter-signup-container{background:#ddd}.newsletter-signup-container .form-area{width:100%}@media screen and (min-width: 992px){.newsletter-signup-container .form-area{width:50%;display:inline-block}}.footer-container{display:flex;flex-direction:column;flex-wrap:wrap}@media screen and (min-width: 768px){.footer-container{flex-direction:row}.footer-container .container{width:50%;box-sizing:border-box;float:left}}@media screen and (min-width: 1260px){.footer-container{width:1200px;flex-direction:row;margin-left:auto;margin-right:auto}.footer-container .container{width:25%;box-sizing:border-box;float:left;padding-left:15px;padding-right:15px}}.accredidations{box-shadow:inset 0px 12px 20px rgba(0,0,0,0.1);padding:50px 0}.header-vertical-padder{padding:20px 0}.logo-container{height:100%;width:auto;flex-grow:1;flex-shrink:1;min-width:0;min-height:0;overflow:hidden;padding-right:15px}.flex-container-head{display:flex;flex-direction:row;align-items:center;height:70px;width:100%}.flex-container-head a{width:100%;height:100%}.flex-container-logo{height:100%;width:100%;display:flex;flex-direction:column;justify-content:center}.logo-container img{max-width:100%;align-self:baseline}.search-bar{width:100%;height:100%}.mobile-phone-icon-container{height:32px;width:32.41px;padding-right:45px;display:inline;margin-left:20px}@media screen and (min-width: 768px){.mobile-phone-icon-container{display:none}}.burger-icon-container{height:56px;width:63.03px;min-width:63.03px;min-height:56px;padding-left:20px;padding-right:15px}.desktop-header-container{width:136px;height:56px;padding-left:20px}@media screen and (max-width: 992px){.desktop-header-container{display:none}}.footer-container{padding-right:15px;padding-left:15px}.footer-container ul{list-style:none;padding:0;margin:0}.footer-container ul li{font-size:.8125rem;line-height:1.375rem}.footer-container ul li a:hover:hover{text-decoration:underline;cursor:pointer}.footer-container .container-social-extra{display:flex;flex-wrap:wrap;margin-bottom:20px}@media screen and (min-width: 768px){.footer-container .container-social-extra{margin-left:-15px;margin-right:-15px}}.footer-container .social-container-small{text-align:center;box-sizing:border-box;width:50%;height:55px;margin-top:30px;padding-left:15px;padding-right:15px}.footer-container .social-container-small .padder-wrapper{background-color:rgba(0,0,0,0.25);width:100%;height:100%}.footer-container .social-container-small a i{font-size:28px;width:28px;padding-top:13px}@media screen and (min-width: 768px){.subtraction-padder{margin-bottom:0}}
+/*
+Main: it should ONLY contain the imports for the above files.
+*/
+/* resets */
+/* line 4, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 12, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* line 17, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* base styles  */
+/* line 24, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+body {
+  width: 100%;
+  height: auto;
+  font-family: 'poppins-regular' ,sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+/* line 32, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #fff;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+h2 {
+  font-size: 1.125rem;
+  color: #333645;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+h3 {
+  font-size: 1rem;
+  color: #926fb1;
+}
+
+/* line 48, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 26px;
+  font-weight: 400;
+}
+
+/* line 56, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+footer {
+  background-color: #333645;
+  color: #fff;
+  padding: 47px 0 43px;
+}
+
+/* utility */
+@media screen and (max-width: 768px) {
+  /* line 74, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 80, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+  .hide-tablet {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1259px) {
+  /* line 86, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+  .hide-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 92, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_base.scss */
+  .hide-desktop-lg {
+    display: none;
+  }
+}
+
+/* Web Fonts -------------------- 
+everything font related, literally like line height, font size, ect ect ect*/
+@font-face {
+  font-family: "poppins-regular";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+/* line 12, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.single-divider > div {
+  width: 33px;
+  height: 3px;
+  background-color: black;
+  margin: 6px auto;
+}
+
+/* line 19, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 86.6px 100px 0 100px;
+  border-color: #333645 transparent transparent transparent;
+  position: absolute;
+  left: 30%;
+  transform: translateY(-30px);
+  z-index: -1;
+  left: 28px;
+}
+
+/* line 33, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.text-small {
+  font-size: x-small;
+}
+
+/* line 40, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-hoki {
+  color: #67809f;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-havelockblue {
+  color: #4183d7;
+}
+
+/* line 46, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-shamrock {
+  color: #2ecc71;
+}
+
+/* line 49, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-valenia {
+  color: #d64541;
+}
+
+/* line 52, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-wisteria {
+  color: #926fb1;
+}
+
+/* line 55, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.color-radicalred {
+  color: #f62459;
+}
+
+/* line 62, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-hoki {
+  background-color: #67809f;
+}
+
+/* line 65, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-havelockblue {
+  background-color: #4183d7;
+}
+
+/* line 68, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-shamrock {
+  background-color: #2ecc71;
+}
+
+/* line 71, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-valenia {
+  background-color: #d64541;
+}
+
+/* line 74, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-wisteria {
+  background-color: #926fb1;
+}
+
+/* line 77, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-radicalred {
+  background-color: #f62459;
+}
+
+/* line 80, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.bckgrnd-grey {
+  background-color: #999aa2;
+}
+
+/* line 88, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-hoki:hover {
+  background-color: #67809f;
+}
+
+/* line 90, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-hoki:hover i {
+  color: white;
+}
+
+/* line 94, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-havelockblue:hover {
+  background-color: #4183d7;
+}
+
+/* line 96, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-havelockblue:hover i {
+  color: white;
+}
+
+/* line 100, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-shamrock:hover {
+  background-color: #2ecc71;
+}
+
+/* line 102, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-shamrock:hover i {
+  color: white;
+}
+
+/* line 106, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-valencia:hover {
+  background-color: #d64541;
+}
+
+/* line 108, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-valencia:hover i {
+  color: white;
+}
+
+/* line 112, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-wisteria:hover {
+  background-color: #926fb1;
+}
+
+/* line 114, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-wisteria:hover i {
+  color: white;
+}
+
+/* line 118, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-radicalred:hover {
+  background-color: #f62459;
+}
+
+/* line 120, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-radicalred:hover i {
+  color: white;
+}
+
+/* line 128, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-havelockblue-dark:hover {
+  background-color: #286abd;
+}
+
+/* line 133, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-valencia-dark:hover button {
+  background-color: #bc2c28;
+}
+
+/* line 138, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-wisteria-dark:hover {
+  background-color: #79539a;
+}
+
+/* line 142, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-grey:hover {
+  background-color: #7e808a;
+}
+
+/* line 146, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-darkblue-dark:hover {
+  background-color: #1d1f28;
+}
+
+/* line 150, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-white-dark:hover {
+  background-color: #b3b3b3;
+}
+
+/* line 157, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-facebook:hover {
+  background-color: #3b5998 !important;
+}
+
+/* line 161, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-twitter:hover {
+  background-color: #808ba1 !important;
+}
+
+/* line 165, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-instagram:hover {
+  background-color: #d93175 !important;
+}
+
+/* line 169, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-linkedin:hover {
+  background-color: #0077b5 !important;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-hoki:hover button {
+  background-color: white;
+}
+
+/* line 179, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-hoki:hover .dot .tile-icon {
+  color: #67809f;
+}
+
+/* line 182, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-hoki:hover button {
+  color: #67809f;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-havelockblue:hover button {
+  background-color: white;
+}
+
+/* line 189, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-havelockblue:hover .dot .tile-icon {
+  color: #4183d7;
+}
+
+/* line 192, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-havelockblue:hover button {
+  color: #4183d7;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-shamrock:hover button {
+  background-color: white;
+}
+
+/* line 199, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-shamrock:hover .dot .tile-icon {
+  color: #2ecc71;
+}
+
+/* line 202, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-shamrock:hover button {
+  color: #2ecc71;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-valenia:hover button {
+  background-color: white;
+}
+
+/* line 209, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-valenia:hover .dot .tile-icon {
+  color: #d64541;
+}
+
+/* line 212, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-valenia:hover button {
+  color: #d64541;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-wisteria:hover button {
+  background-color: white;
+}
+
+/* line 219, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-wisteria:hover .dot .tile-icon {
+  color: #926fb1;
+}
+
+/* line 222, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-wisteria:hover button {
+  color: #926fb1;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover .dot {
+  background-color: white;
+}
+
+/* line 28, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover .dot i {
+  color: purple;
+}
+
+/* line 34, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover h2 {
+  color: white;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover p {
+  color: white;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover .single-divider div {
+  background-color: white;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/base/_mixins.scss */
+.hover-switch-icons-radicalred:hover button {
+  background-color: white;
+}
+
+/* line 229, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-radicalred:hover .dot .tile-icon {
+  color: #f62459;
+}
+
+/* line 232, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_typography.scss */
+.hover-switch-icons-radicalred:hover button {
+  color: #f62459;
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn {
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  padding: 5px 15px 5px 15px;
+  font-size: 1.063rem;
+  font-family: 'poppins-regular' ,sans-serif;
+  line-height: 35px;
+}
+
+/* line 17, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn-big {
+  margin-top: 50px;
+  padding: 5px 15px;
+  height: auto;
+  text-transform: uppercase;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  white-space: normal;
+  color: #fff;
+  line-height: 50px;
+  border: none;
+}
+
+/* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn-tooltip {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: .75rem;
+  padding: 0 10px;
+  line-height: 1.438rem;
+  text-transform: uppercase;
+  background-color: #926fb1;
+  font-weight: 600;
+  z-index: 2;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn-tooltip:hover {
+  text-decoration: underline;
+}
+
+/* line 49, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn-wide {
+  height: 56px;
+  line-height: 46px;
+  font-size: 1.125rem;
+  float: left;
+  color: #fff;
+  background-color: #4183d7;
+  border-color: #4183d7;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: normal;
+}
+
+/* line 64, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.btn-desktop {
+  height: 100%;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  border-radius: 3px;
+  white-space: normal;
+  color: #fff;
+  line-height: 50px;
+  border: none;
+  font-family: 'poppins-regular' ,sans-serif;
+}
+
+/* line 80, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.burger-button {
+  height: 100%;
+  width: 100%;
+  background-color: #333645;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* line 89, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.burger-button:focus {
+  border: none;
+  outline: none;
+}
+
+/* line 94, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.burger-button-inner > span {
+  width: 33px;
+  height: 3px;
+  background-color: white;
+  margin: 6px auto;
+  display: block;
+}
+
+/* line 102, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_buttons.scss */
+.burger-button .text {
+  margin: auto;
+  color: white;
+  font-size: 0.75rem;
+  font-family: "poppins-regular", sans-serif;
+  text-transform: uppercase;
+}
+
+/*Icon stylings sizes*/
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+/* line 4, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+/* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+/* line 6, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+/* line 14, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.arrow {
+  font-size: 36px;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+/* line 22, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_icons.scss */
+.social-media-icon {
+  margin-top: 30px;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.25);
+  font-size: 1.75rem;
+  line-height: 3.438rem;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.search-bar input[type=text] {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  padding: 5px 40px 5px 15px;
+}
+
+/* line 14, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.submit-button {
+  background: none;
+  border: none;
+  color: #333645;
+  outline: none;
+  float: right;
+  position: absolute;
+  right: 25px;
+  padding-top: 6px;
+}
+
+/* line 30, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.search-bar-md input[type=text] {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #cccccc;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  padding: 5px 40px 5px 15px;
+  background-color: white;
+}
+
+/* line 40, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.search-bar-md input[type=text]:focus {
+  outline: none;
+  box-shadow: 0px 0px 6px 0px #76fffaec;
+  -webkit-box-shadow: 0px 0px 6px 0px #76fffaec;
+  -moz-box-shadow: 0px 0px 6px 0px #76fffaec;
+  box-shadow: 0px 0px 6px 0px #76fffaec;
+}
+
+/* line 51, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.submit-button-md {
+  outline: none;
+  color: #fff;
+  position: absolute;
+  height: 56px;
+  background-color: #999aa2;
+  border-radius: 0 3px 3px 0;
+  border: none;
+  padding: 7px 15px 4px;
+}
+
+/* line 61, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+.submit-button-md:hover {
+  background-color: grey;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 68, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .submit-button-md:active {
+    background-color: grey;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  /* line 51, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .submit-button-md {
+    border-radius: 3px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  /* line 86, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .hover-button-switch:focus-within .hider-from-switch {
+    display: none;
+  }
+  /* line 90, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .hover-button-switch:focus-within .shower-from-switch {
+    display: initial;
+    width: 300px;
+  }
+  /* line 95, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .hover-button-switch:focus-within .container-size-setter {
+    width: 366px;
+  }
+  /* line 99, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_searchbars.scss */
+  .hover-button-switch:focus-within .set-width-auto {
+    width: 100%;
+  }
+}
+
+/* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel {
+  width: 100%;
+  height: calc(100vh - 167px) !important;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+  .carousel {
+    height: calc(100vh - 110px) !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+  .carousel {
+    height: calc(100vh - 209px) !important;
+  }
+}
+
+/* line 19, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel .text-area {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 19, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+  .carousel .text-area {
+    text-align: left;
+  }
+}
+
+/* line 30, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel h1 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel p {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+/* line 43, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel .dot-outer {
+  color: gray;
+  font-size: 21px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 51, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel .carousel-button {
+  border: none;
+  color: #fff;
+  background-color: #f62459;
+  margin: 0;
+  margin-top: 30px;
+}
+
+/* line 61, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_carousel.scss */
+.carousel img {
+  max-height: 100%;
+  width: auto;
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+/* line 14, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 .dot {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+/* line 21, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 .dot .card-icon {
+  line-height: 60px;
+  color: white;
+}
+
+/* line 27, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 h2 {
+  font-weight: 200;
+  line-height: 1.1;
+}
+
+/* line 33, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 .single-divider div {
+  margin-bottom: 11px;
+  margin-top: 14px;
+}
+
+/* line 39, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 p {
+  font-size: .8125rem;
+  font-weight: 400;
+  margin-bottom: 13px;
+  line-height: 1.375rem;
+  letter-spacing: .4px;
+}
+
+/* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-1 br {
+  display: none;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* line 47, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .content-item-1 br {
+    display: initial;
+  }
+}
+
+/* line 58, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+/* line 68, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .image-container-latest img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  object-position: 50% 50%;
+  transition: transform .25s;
+  z-index: 1;
+}
+
+/* line 78, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .image-container-latest img:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: .5;
+}
+
+/* line 85, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 p {
+  font-size: .8125rem;
+  font-weight: 400;
+}
+
+/* line 90, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .user {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+  margin-top: 30px;
+  font-size: 0.875rem;
+  letter-spacing: 0.4px;
+}
+
+/* line 97, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .user img {
+  display: inline-block;
+}
+
+/* line 101, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .user .post-details {
+  display: inline-block;
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 3px;
+  line-height: 1.375rem;
+}
+
+/* line 110, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .user-title {
+  font-weight: bold;
+  color: #333645;
+}
+
+/* line 115, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .user-date {
+  color: #666;
+}
+
+/* line 121, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .text-container-news-tiles {
+  padding: 30px;
+}
+
+/* line 124, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .text-container-news-tiles > h3 {
+  line-height: 1.5rem;
+  margin: 0 0 15px;
+  min-height: 3rem;
+}
+
+/* line 129, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .text-container-news-tiles > h3:hover {
+  text-decoration: underline;
+}
+
+/* line 133, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .text-container-news-tiles > h3 a {
+  color: #926fb1;
+}
+
+/* line 138, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+.content-item-2 .text-container-news-tiles > p {
+  line-height: 1.375rem;
+  font-size: .8125rem;
+  min-height: 66px;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 158, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-small-full-width {
+    width: 720px;
+  }
+  /* line 162, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-small-half-width {
+    width: 345px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 169, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-medium-thirds {
+    width: 293px;
+  }
+  /* line 173, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-medium-halfs {
+    width: 455px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 180, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-large-quarters {
+    width: 270px;
+  }
+  /* line 185, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .tile-large-thirds {
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 197, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .line-fill-small br {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 206, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .line-fill-medium br {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 214, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .line-fill-large br {
+    display: initial;
+  }
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_latest.scss */
+.latest-title h2 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #333645;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: -6px;
+  line-height: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_latest.scss */
+  .latest-title h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 16, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_latest.scss */
+.single-divider-large {
+  width: 72px;
+  height: 5px;
+  background-color: #333645;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 16, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_latest.scss */
+  .single-divider-large {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 6, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+  .culture-container .text-block {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 6, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+  .culture-container .text-block {
+    width: 50%;
+  }
+}
+
+/* line 14, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+.culture-container h1 {
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+/* line 21, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+.culture-container p {
+  line-height: 1.875rem;
+  margin-bottom: 25px;
+  color: #fff;
+  letter-spacing: .4px;
+}
+
+/* line 29, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+.culture-container button {
+  color: #333645;
+  padding: 5px 15px;
+  line-height: 35px;
+}
+
+/* line 36, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_culture.scss */
+.culture-container i {
+  margin-left: 10px;
+}
+
+/* line 6, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container .form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 13, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container form {
+  padding: 50px 45px 50px 45px;
+}
+
+/* line 17, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container a {
+  color: #333645;
+  text-decoration: underline;
+}
+
+/* line 22, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+/* line 29, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #333645;
+}
+
+/* line 35, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container label::after {
+  color: #d24d57;
+  content: " *";
+}
+
+/* line 41, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container .form-area {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* line 50, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container input[type=text] {
+  box-sizing: border-box;
+  height: 47px;
+  width: 100%;
+  padding: 5px 15px;
+  border-color: #ccc;
+  outline: none;
+}
+
+/* line 58, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container input[type=text]:focus {
+  outline: none;
+  box-shadow: 0px 0px 6px 0px #76fffaec;
+}
+
+/* line 65, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container .checkbox-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 71, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container .label-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 32px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #333645;
+  font-size: 1rem;
+  letter-spacing: .4px;
+  margin-bottom: 15px;
+  max-width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 71, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+  .newsletter-signup-container .label-wrapper {
+    max-width: 602px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 71, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+  .newsletter-signup-container .label-wrapper {
+    max-width: 822px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 71, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+  .newsletter-signup-container .label-wrapper {
+    max-width: 1052px;
+  }
+}
+
+/* line 96, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container input[type=checkbox] {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+/* line 103, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container input[type=checkbox]:checked {
+  background-color: #333645;
+}
+
+/* line 107, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container button {
+  display: block;
+  background-color: #333645;
+  border-color: #333645;
+}
+
+/* line 114, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_newsletter.scss */
+.newsletter-signup-container .hello {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 6, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .accredidations {
+    display: none;
+  }
+}
+
+/* line 19, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+/* line 25, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item {
+  padding: 0 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 1;
+}
+
+@media screen and (-ms-high-contrast: active) and (min-width: 768px) and (max-width: 992px), screen and (-ms-high-contrast: none) and (min-width: 768px) and (max-width: 992px) {
+  /* line 25, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item {
+    flex-basis: 100%;
+    max-width: 720px;
+    max-height: 45.1px;
+    text-align: center;
+    align-self: center;
+  }
+  /* line 42, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item img {
+    max-height: 45.1px;
+  }
+}
+
+@media screen and (-ms-high-contrast: active) and (min-width: 992px), screen and (-ms-high-contrast: none) and (min-width: 992px) {
+  /* line 25, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item {
+    max-width: 940px;
+    max-height: 62.1px;
+  }
+  /* line 51, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item img {
+    max-height: 62.1px;
+  }
+}
+
+/* line 61, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .relative-container {
+  position: relative;
+}
+
+/* line 66, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .pop-up-box-bussey {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(-13%, -138%);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 66, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item .pop-up-box-bussey {
+    transform: translate(-28%, -138%);
+  }
+}
+
+/* line 73, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .pop-up-box-crane {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(6%, -128%);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 73, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item .pop-up-box-crane {
+    transform: translate(-15%, -128%);
+  }
+}
+
+/* line 80, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .pop-up-box-beat {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(-36%, -138%);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 80, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item .pop-up-box-beat {
+    transform: translate(-40%, -138%);
+  }
+}
+
+/* line 87, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .pop-up-box-northerndriver {
+  position: absolute;
+  background-color: #333645;
+  font-size: .875rem;
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  box-sizing: border-box;
+  z-index: auto;
+  transform: translate(13%, -128%);
+}
+
+@media screen and (max-width: 992px) {
+  /* line 87, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .row .acred-item .pop-up-box-northerndriver {
+    transform: translate(-12%, -128%);
+  }
+}
+
+/* line 96, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item h3 {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0 0 14px;
+}
+
+/* line 105, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item .single-divider > div {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 11px;
+}
+
+/* line 114, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-item p {
+  color: #fff;
+  font-size: .8125rem;
+  line-height: 1.375rem;
+}
+
+/* line 123, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-img-first img {
+  height: auto;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 132, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.row .acred-img-second img {
+  height: auto;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 145, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.acred-switcher > :last-child {
+  display: none;
+}
+
+/* line 149, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.acred-switcher:hover > :last-child {
+  display: inline-block;
+}
+
+/* line 153, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.acred-switcher:hover > :first-child {
+  display: none;
+}
+
+/* line 160, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.pop-up-switcher > div {
+  display: none;
+}
+
+/* line 164, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.pop-up-switcher:hover > div {
+  display: inline-block;
+}
+
+/* line 172, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.google-partners-badge {
+  box-shadow: 1px 1px 4px 0px #b6b6b659;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 172, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+  .google-partners-badge {
+    height: 80px !important;
+  }
+}
+
+/* line 182, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_acred.scss */
+.single-bottom-padder {
+  margin-top: 20px;
+}
+
+/* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+.horizontal-padder {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+  .horizontal-padder {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+  .horizontal-padder {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+  .horizontal-padder {
+    width: 970px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 5, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+  .horizontal-padder {
+    width: 1200px !important;
+  }
+}
+
+/* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+.small-margin-padder {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* line 36, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_main.scss */
+.small-padder-padder {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 9, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.main-content {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 16, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-container {
+    display: none;
+  }
+}
+
+/* line 21, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.search-bar-container {
+  width: 100%;
+  height: 47px;
+  padding-top: 10px;
+}
+
+/* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.search-bar-container-md {
+  height: 56px;
+  width: 237px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-container-md {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1260px) {
+  /* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-container-md {
+    width: auto;
+  }
+  /* line 45, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-container-md input[type=text] {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-container-md {
+    width: 306px;
+  }
+}
+
+/* line 56, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.search-bar-md {
+  height: 100%;
+  width: 174px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 56, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-md {
+    width: 66px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 56, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .search-bar-md {
+    width: 240px;
+  }
+}
+
+/* line 72, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.main-navigation {
+  width: 100%;
+  height: 99px;
+  background-color: #333645;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 72, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .main-navigation {
+    display: none;
+  }
+}
+
+/* line 83, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 87, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+/* line 101, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li {
+  text-align: center;
+  flex: 1;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+/* line 110, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li > span {
+  display: block;
+  height: 100%;
+}
+
+/* line 114, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li > span span {
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 119, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li > span span:first-of-type {
+  padding-top: 19px;
+  padding-bottom: 2px;
+}
+
+/* line 123, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li > span span:last-of-type {
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+}
+
+/* line 127, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > li > span .text-small {
+  font-size: 0.625rem;
+  line-height: 0.625rem;
+}
+
+/* line 135, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list > a {
+  position: relative;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1;
+}
+
+/* line 147, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list .pop-up-nav {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  max-width: max-content;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
+  display: none;
+}
+
+@media screen and (min-width: 992px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 147, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .nav-container .main-nav-list .pop-up-nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1260px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 147, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .nav-container .main-nav-list .pop-up-nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+/* line 176, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list .pop-up-nav > li {
+  list-style: none;
+  float: left;
+  z-index: 2;
+}
+
+/* line 183, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list .pop-up-nav > li:not(:last-child) a:after {
+  content: "-";
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+/* line 190, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .main-nav-list .pop-up-nav > li a {
+  line-height: 2.813rem;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1260px) {
+  /* line 190, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .nav-container .main-nav-list .pop-up-nav > li a {
+    font-size: .8125rem;
+  }
+}
+
+/* line 207, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-container .pop-up-nav-switcher:hover .pop-up-nav {
+  display: block;
+}
+
+/* line 225, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-web .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #79539a;
+}
+
+/* line 229, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-web .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #79539a;
+}
+
+/* line 237, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-it .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #286abd;
+}
+
+/* line 241, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-it .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #286abd;
+}
+
+/* line 249, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-telecoms .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #bc2c28;
+}
+
+/* line 253, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-telecoms .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #bc2c28;
+}
+
+/* line 261, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-bespoke .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #526781;
+}
+
+/* line 265, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-bespoke .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #526781;
+}
+
+/* line 273, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-digital .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #25a25a;
+}
+
+/* line 277, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-digital .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #25a25a;
+}
+
+/* line 286, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-cyber .pop-up-nav::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  background-color: #de093f;
+}
+
+/* line 290, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.nav-side-fill-cyber .pop-up-nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10000px;
+  z-index: -1;
+  right: 100%;
+  background-color: #de093f;
+}
+
+/* line 303, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.image-container {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, black, rgba(0, 0, 0, 0.171)), url("/images/carousel/home-lQs1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 316, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.icon-container {
+  display: block;
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+/* line 323, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.image-container-latest {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 335, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.middle-wrapper {
+  padding-bottom: 30px;
+}
+
+/* line 340, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.middle-flex-container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 350, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .tile-wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 350, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .tile-wrapper {
+    width: 100%;
+  }
+}
+
+/* line 358, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.culture-container {
+  height: auto;
+  background: #333645;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 358, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .culture-container {
+    background-image: url("/images/NetmattersLogos/brandedNMlogo.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100%;
+  }
+}
+
+/* line 375, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.latest-container {
+  width: 100%;
+  background: white;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* line 383, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.latest-content-container {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 392, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.latest-content-flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 392, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .latest-content-flex {
+    flex-wrap: wrap;
+  }
+}
+
+/* line 405, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.newsletter-signup-container {
+  background: #ddd;
+}
+
+/* line 408, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.newsletter-signup-container .form-area {
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 413, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .newsletter-signup-container .form-area {
+    width: 50%;
+    display: inline-block;
+  }
+}
+
+/* line 421, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 428, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .footer-container {
+    flex-direction: row;
+  }
+  /* line 431, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .footer-container .container {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 440, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .footer-container {
+    width: 1200px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 447, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+  .footer-container .container {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* line 461, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_containers.scss */
+.accredidations {
+  box-shadow: inset 0px 12px 20px rgba(0, 0, 0, 0.1);
+  padding: 50px 0;
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.header-vertical-padder {
+  padding: 20px 0;
+}
+
+/* line 9, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.logo-container {
+  height: 100%;
+  width: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+  padding-right: 15px;
+}
+
+/* line 24, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.flex-container-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
+
+/* line 31, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.flex-container-head a {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 38, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.flex-container-logo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 48, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.logo-container img {
+  max-width: 100%;
+  align-self: baseline;
+}
+
+/* line 54, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.search-bar {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 60, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.mobile-phone-icon-container {
+  height: 32px;
+  width: 32.41px;
+  padding-right: 45px;
+  display: inline;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 60, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+  .mobile-phone-icon-container {
+    display: none;
+  }
+}
+
+/* line 73, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.burger-icon-container {
+  height: 56px;
+  width: 63.03px;
+  min-width: 63.03px;
+  min-height: 56px;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+/* line 82, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+.desktop-header-container {
+  width: 136px;
+  height: 56px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  /* line 82, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_header.scss */
+  .desktop-header-container {
+    display: none;
+  }
+}
+
+/* line 3, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 7, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 12, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container ul li {
+  font-size: .8125rem;
+  line-height: 1.375rem;
+}
+
+/* line 16, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container ul li a:hover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container .container-social-extra {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 26, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+  .footer-container .container-social-extra {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+/* line 39, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container .social-container-small {
+  text-align: center;
+  box-sizing: border-box;
+  width: 50%;
+  height: 55px;
+  margin-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 49, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container .social-container-small .padder-wrapper {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 56, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+.footer-container .social-container-small a i {
+  font-size: 28px;
+  width: 28px;
+  padding-top: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 67, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/layout/_footer.scss */
+  .subtraction-padder {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
