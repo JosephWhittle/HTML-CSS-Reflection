@@ -1077,8 +1077,15 @@ everything font related, literally like line height, font size, ect ect ect*/
   }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 992px) and (max-width: 1260px) {
   /* line 214, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
+  .line-fill-medium-to-large br {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  /* line 222, ../../Users/Joewh/Documents/GitHub/HTML-CSS-Reflection/sass/components/_tiles.scss */
   .line-fill-large br {
     display: initial;
   }

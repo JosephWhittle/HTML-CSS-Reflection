@@ -209,6 +209,14 @@
     }
 }
 
+.line-fill-medium-to-large { 
+    @media screen and (min-width:992px) and (max-width:1260px) {   
+        br {
+            display: initial;
+        }   
+    }
+}
+
 .line-fill-large {
     @media screen and (min-width:1260px) {   
         br {
