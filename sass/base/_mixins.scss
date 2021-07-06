@@ -5,8 +5,9 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 10000px;
+    width: 5000px;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 @mixin pop-up-box-template {

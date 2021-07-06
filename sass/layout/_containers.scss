@@ -39,6 +39,10 @@
         display: none;
     }
 
+    @media screen and (min-width:768px) and (max-width:992px) {
+        min-width: 237px;
+    }
+
     @media screen and (min-width: 992px) and (max-width: 1260px) {
         width: auto;
 
@@ -146,27 +150,22 @@
         //the sub list that shows when the highlighted button is highlighted
         .pop-up-nav {
             position: absolute;
-            width: 100%;
             left:0;
             right:0;
-
-            max-width:max-content;
-            margin-right: auto;
-            margin-left: auto;
             z-index: 2;
-
+            margin-left: auto;
+            margin-right: auto;
             
-            //ie is dumb
-            @media screen and (min-width:992px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-                margin-left: 20%;
-                margin-right: 20%;
-                
+
+            //The below method works on both IE,Chrome and Firefox which is so blessed
+            @media screen and (min-width:940px) {
+                max-width: 940px;
             }
-            @media screen and (min-width:1260px) and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-                margin-left: 20%;
-                margin-right: 20%;
-                
+
+            @media screen and (min-width:1170px) {
+                max-width: 1170px;
             }
+
 
 
 
@@ -179,12 +178,24 @@
                 z-index: 2;
                 
 
-            
+                //inserts the margin before 
+                &:not(:first-child) a {
+                    margin-left: 30px;
+
+                    @media screen and (max-width:1260px) {
+                        margin-left: 20px;
+                    }
+                }
+
+                //Inserts the - afterwards
                 &:not(:last-child) a:after {
                     content: "-";
-                    padding-left: 20px;
-                    padding-right: 20px;
                     color: white;
+                    padding-left: 30px;
+
+                    @media screen and (max-width:1260px) {
+                        padding-left: 20px;
+                    }
                 }
 
                 a {
@@ -210,15 +221,20 @@
     }
 
 
+    .sub-nav-wrapper {
+        position: absolute;
+        height: 45px;
+
+        overflow-x: hidden;
+        left: 0;
+        right: 0;
+    }
 
 
-
-    //instead of attaching it to the main class, add 6 seperate
-    //classes to each one, adding 6 individual afters/befores,
-    //then put the afters n befores to each class kinda like below
-
-
-    //The following adds the coloured sections to each side of the pop up nav bar
+    //Add the following or something like the following to all the list elements, except the first and last?
+    .right-side-margin {
+        margin-left: 30px;
+    }
 }
 
 .nav-side-fill-web .pop-up-nav {
